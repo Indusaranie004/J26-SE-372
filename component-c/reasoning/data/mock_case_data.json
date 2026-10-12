@@ -1,0 +1,155 @@
+
+{
+  "query": "Based on the supplied authorities, is prior notice and an opportunity to respond required before a public authority revokes a business permit?",
+
+  "reference_date": "2026-10-12",
+
+  "case_facts": [
+    "A business held a valid operating permit.",
+    "A public authority revoked the permit before its expiry.",
+    "The business received no prior notice.",
+    "The business was not given an opportunity to respond.",
+    "No immediate public safety emergency was identified."
+  ],
+
+  "precedents": [
+    {
+      "case_id": "MOCK_SC_001",
+      "case_name": "Mock Business Association v. Public Authority",
+      "case_number": "MOCK/SC/001/2022",
+      "court": "Supreme Court",
+      "judgment_date": "2022-05-10",
+      "relevance_score": 0.95,
+
+      "passages": [
+        {
+          "passage_id": "P1",
+          "section": "body",
+          "page": 12,
+          "text": "A public authority must ordinarily provide reasonable notice and an opportunity to respond before revoking an existing permit, unless a legally justified emergency exception applies."
+        }
+      ],
+
+      "legislation": [
+        {
+          "act_id": "MOCK_ACT_001",
+          "name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "text": "Before revoking a permit, the authority shall provide the affected party with a reasonable opportunity to be heard, except where immediate action is necessary to prevent serious public danger."
+        }
+      ],
+
+      "judicial_treatments": [
+        {
+          "source_case_id": "MOCK_SC_004",
+          "target_case_id": "MOCK_SC_001",
+          "status": "followed",
+          "effective_date": "2025-01-15",
+          "scope": "General procedural fairness in permit revocation",
+          "evidence": "The later mock judgment followed the principle requiring prior notice."
+        }
+      ],
+
+      "validity": {
+        "status": "good_law",
+        "safe_to_cite": true,
+        "summary": "The supplied mock metadata identifies this precedent as good law.",
+        "as_of": "2026-10-12"
+      },
+
+      "litigation_history": []
+    },
+
+    {
+      "case_id": "MOCK_CA_002",
+      "case_name": "Mock Emergency Authority v. Permit Holder",
+      "case_number": "MOCK/CA/002/2018",
+      "court": "Court of Appeal",
+      "judgment_date": "2018-08-20",
+      "relevance_score": 0.83,
+
+      "passages": [
+        {
+          "passage_id": "P2",
+          "section": "body",
+          "page": 8,
+          "text": "Immediate suspension of a permit may be justified without a prior hearing where credible evidence establishes an imminent and serious danger to public safety."
+        }
+      ],
+
+      "legislation": [
+        {
+          "act_id": "MOCK_ACT_001",
+          "name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10"
+        }
+      ],
+
+      "judicial_treatments": [
+        {
+          "source_case_id": "MOCK_SC_005",
+          "target_case_id": "MOCK_CA_002",
+          "status": "distinguished",
+          "effective_date": "2023-02-10",
+          "scope": "Non-emergency permit revocations",
+          "evidence": "The later mock judgment distinguished emergency action from ordinary administrative decisions."
+        }
+      ],
+
+      "validity": {
+        "status": "partially_invalidated",
+        "safe_to_cite": true,
+        "summary": "The emergency exception remains potentially relevant, but the precedent was distinguished for non-emergency situations.",
+        "as_of": "2026-10-12"
+      },
+
+      "litigation_history": []
+    },
+
+    {
+      "case_id": "MOCK_SC_003",
+      "case_name": "Mock Traders Union v. Licensing Board",
+      "case_number": "MOCK/SC/003/2010",
+      "court": "Supreme Court",
+      "judgment_date": "2010-03-15",
+      "relevance_score": 0.76,
+
+      "passages": [
+        {
+          "passage_id": "P3",
+          "section": "body",
+          "page": 15,
+          "text": "The licensing authority may revoke a business permit without a prior hearing whenever it considers revocation administratively appropriate."
+        }
+      ],
+
+      "legislation": [
+        {
+          "act_id": "MOCK_ACT_001",
+          "name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10"
+        }
+      ],
+
+      "judicial_treatments": [
+        {
+          "source_case_id": "MOCK_SC_006",
+          "target_case_id": "MOCK_SC_003",
+          "status": "overruled",
+          "effective_date": "2024-06-01",
+          "scope": "Permit revocation without procedural safeguards",
+          "evidence": "The later mock Supreme Court decision expressly overruled the earlier approach."
+        }
+      ],
+
+      "validity": {
+        "status": "no_longer_good_law",
+        "safe_to_cite": false,
+        "summary": "The supplied metadata identifies this precedent as overruled.",
+        "as_of": "2026-10-12"
+      },
+
+      "litigation_history": []
+    }
+  ]
+}
