@@ -2,8 +2,7 @@
 """
 Gemini LLM provider for Component C.
 
-Connects Google's Gemini API to the common
-LLMProvider interface used by the reasoning pipeline.
+Connects Gemini to the common LLMProvider interface.
 """
 
 import os
@@ -16,6 +15,37 @@ from reasoning.llm_provider import LLMProvider
 from reasoning.output_models import ReasoningResponse
 
 
+def make_gemini_compatible_schema(value):
+    """
+    Remove JSON Schema keywords that may not be supported
+    by Gemini's structured-output configuration.
+
+    Pydantic still validates the final response locally.
+    """
+
+    unsupported_keys = {
+        "additionalProperties",
+        "default",
+        "minLength",
+        "maxLength"
+    }
+
+    if isinstance(value, dict):
+        return {
+            key: make_gemini_compatible_schema(item)
+            for key, item in value.items()
+            if key not in unsupported_keys
+        }
+
+    if isinstance(value, list):
+        return [
+            make_gemini_compatible_schema(item)
+            for item in value
+        ]
+
+    return value
+
+
 class GeminiProvider(LLMProvider):
     """Generate structured legal reasoning using Gemini."""
 
@@ -26,7 +56,6 @@ class GeminiProvider(LLMProvider):
     ):
         load_dotenv()
 
-        # Credentials and model configuration
         key = api_key or os.getenv("GEMINI_API_KEY")
 
         if not key:
@@ -39,7 +68,6 @@ class GeminiProvider(LLMProvider):
             "gemini-3.8-flash"
         )
 
-        # Initialize the Gemini API client
         self.client = genai.Client(api_key=key)
 
     def generate(
@@ -48,15 +76,16 @@ class GeminiProvider(LLMProvider):
         user_prompt: str
     ) -> str:
         """
-        Send prompts to Gemini and request structured JSON.
-
-        Args:
-            system_prompt: Instructions for legal reasoning.
-            user_prompt: Context and evidence to analyze.
-
-        Returns:
-            JSON string matching the reasoning output schema.
+        Generate structured legal reasoning as JSON.
         """
+
+        # Convert our Pydantic model into JSON Schema
+        json_schema = ReasoningResponse.model_json_schema()
+
+        # Prepare a Gemini-compatible version
+        compatible_schema = make_gemini_compatible_schema(
+            json_schema
+        )
 
         response = self.client.models.generate_content(
             model=self.model,
@@ -64,7 +93,7 @@ class GeminiProvider(LLMProvider):
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
                 response_mime_type="application/json",
-                response_schema=ReasoningResponse
+                response_json_schema=compatible_schema
             )
         )
 
