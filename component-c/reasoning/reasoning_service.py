@@ -17,6 +17,7 @@ from reasoning.llm_provider import (
     LLMProvider,
     parse_reasoning_output
 )
+from reasoning.grounding_validator import validate_grounding
 
 
 LEGAL_REASONING_SYSTEM_PROMPT = """
@@ -103,9 +104,29 @@ def run_cross_case_reasoning(
         user_prompt=context
     )
 
+    
     # 3. Validate the generated JSON structure
     reasoning_result = parse_reasoning_output(
         raw_response
     )
 
+    # 4. Verify references against supplied evidence
+    grounding_errors = validate_grounding(
+        request,
+        reasoning_result
+    )
+
+    # 5. Reject responses with grounding errors
+    if grounding_errors:
+        error_details = "\n".join(
+            f"- {error}" for error in grounding_errors
+        )
+
+        raise ValueError(
+            "Grounding validation failed:\n"
+            + error_details
+        )
+
+    # 6: Return the validated reasoning output
     return reasoning_result
+
