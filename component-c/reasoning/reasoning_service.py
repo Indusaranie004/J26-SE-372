@@ -225,6 +225,51 @@ Analyze every supplied precedent, preserving its
 case ID and supplied validity status.
 Include supporting passage references where available.
 
+authority_comparison:
+For multiple supplied precedents, explicitly populate
+all four comparison fields using the available evidence.
+
+hierarchy_considerations:
+- Compare the supplied court levels.
+- Explain whether hierarchy is relevant to the issue.
+- Do not invent jurisdiction-specific binding rules.
+- Identify relevant case IDs.
+
+chronology_considerations:
+- Compare relevant judgment dates.
+- Consider judicial-treatment effective dates.
+- Evaluate treatment against the reference date.
+- Do not assume later decisions automatically overrule
+  earlier decisions.
+
+judicial_treatment_considerations:
+- Explain how supplied FOLLOWED, DISTINGUISHED,
+  OVERRULED, CRITICIZED or DOUBTED relationships
+  affect the relevant legal propositions.
+- Respect relationship direction, effective dates
+  and scope.
+- Distinguish overall validity from judicial treatment.
+
+conflicts_or_distinctions:
+- Identify conflicting legal propositions.
+- Explain important factual or legal distinctions.
+- State whether the supplied evidence resolves
+  the conflict or leaves uncertainty.
+
+Each comparison field must contain a concise,
+evidence-supported assessment where multiple
+authorities are supplied.
+
+If a consideration cannot be determined from the
+supplied evidence, explicitly explain what information
+is missing. Do not invent an answer.
+
+If only one authority is supplied, explain that
+a cross-authority comparison is not possible.
+
+Do not copy the same generic paragraph into all
+four comparison fields.
+
 cross_case_analysis:
 Provide a consolidated synthesis addressing hierarchy,
 chronology, judicial treatment, conflicting principles

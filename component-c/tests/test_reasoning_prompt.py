@@ -143,3 +143,27 @@ def test_service_sends_correct_prompt_to_provider():
     assert "MOCK_SC_001" in provider.received_user_prompt
 
     assert result.authorities[0].case_id == "MOCK_SC_001"
+
+
+def test_prompt_requests_structured_authority_comparison():
+    """
+    Verify that the prompt explicitly requests all
+    four authority comparison fields.
+    """
+
+    prompt = LEGAL_REASONING_SYSTEM_PROMPT
+
+    assert "authority_comparison:" in prompt
+
+    assert "hierarchy_considerations:" in prompt
+
+    assert "chronology_considerations:" in prompt
+
+    assert "judicial_treatment_considerations:" in prompt
+
+    assert "conflicts_or_distinctions:" in prompt
+
+    assert (
+        "Do not copy the same generic paragraph"
+        in prompt
+    )
