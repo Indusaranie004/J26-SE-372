@@ -124,7 +124,7 @@ def main():
         encoding="utf-8"
     )
 
-    # compare the authority assessments
+    # compare the authority assessments 
     baseline_authority = find_authority(
         baseline, "MOCK_SC_003"
     )

@@ -2,7 +2,7 @@
 """
 Tests for the complete reasoning service.
 
-Uses a fake LLM provider to avoid API costs.
+Uses a fake LLM provider to avoid API costs
 """
 
 import json
