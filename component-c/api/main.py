@@ -22,6 +22,7 @@ from reasoning.gemini_provider import GeminiProvider
 from reasoning.reasoning_service import (
     run_cross_case_reasoning
 )
+from api.recorded_demo import router as recorded_demo_router
 
 
 # ---------------------------------------------
@@ -39,6 +40,9 @@ app = FastAPI(
     ),
     version="0.1.0"
 )
+
+# Register the recorded demonstration endpoint
+app.include_router(recorded_demo_router)
 
 
 # ---------------------------------------------
