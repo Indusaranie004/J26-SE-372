@@ -23,6 +23,7 @@ from reasoning.reasoning_service import (
     run_cross_case_reasoning
 )
 from api.recorded_demo import router as recorded_demo_router
+from api.readable_demo import router as readable_demo_router
 
 
 # ---------------------------------------------
@@ -43,6 +44,9 @@ app = FastAPI(
 
 # Register the recorded demonstration endpoint
 app.include_router(recorded_demo_router)
+
+# Human-readable recorded demonstration
+app.include_router(readable_demo_router)
 
 
 # ---------------------------------------------
