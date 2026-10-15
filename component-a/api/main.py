@@ -135,6 +135,54 @@ def get_manifest():
             "mock_mode": True,
             "doc_ids": list(mock_data.CASES.keys())
         }
+    
+    import os
+    # Debug — show what paths Render can see
+    cwd = os.getcwd()
+    db_exists = os.path.exists(DB_PATH)
+    cases_exists = os.path.exists(CASES_DIR)
+    
+    try:
+        json_files = os.listdir(CASES_DIR) if cases_exists else []
+    except Exception as e:
+        json_files = [str(e)]
+    
+    try:
+        con = sqlite3.connect(DB_PATH)
+        count = con.execute("SELECT count(*) FROM cases WHERE in_corpus=1").fetchone()[0]
+        doc_ids = [r[0] for r in con.execute(
+            "SELECT doc_id FROM cases WHERE in_corpus=1"
+        ).fetchall()]
+        con.close()
+    except Exception as e:
+        count = 0
+        doc_ids = []
+        db_error = str(e)
+    else:
+        db_error = None
+
+    return {
+        "corpus_version": "2026.10",
+        "sc_documents": count,
+        "mock_mode": False,
+        "doc_ids": doc_ids,
+        "debug": {
+            "cwd": cwd,
+            "db_path": DB_PATH,
+            "db_exists": db_exists,
+            "cases_dir": CASES_DIR,
+            "cases_dir_exists": cases_exists,
+            "json_files_count": len(json_files),
+            "db_error": db_error
+        }
+    }
+    if MOCK_MODE:
+        return {
+            "corpus_version": "2026.10-mock",
+            "sc_documents": 3,
+            "mock_mode": True,
+            "doc_ids": list(mock_data.CASES.keys())
+        }
     try:
         con = sqlite3.connect(DB_PATH)
         count = con.execute("SELECT count(*) FROM cases WHERE in_corpus=1").fetchone()[0]
