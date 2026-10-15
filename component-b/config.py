@@ -11,3 +11,5 @@ CORPUS_PATH                    = os.getenv("CORPUS_PATH",                       
 GT1_PATH                       = os.getenv("GT1_PATH",                            "component-b/data/mock_gt1.json")
 ANGLEBERT_CKPT                 = os.getenv("ANGLEBERT_CKPT",                      "")
 BGE_FT_CKPT                    = os.getenv("BGE_FT_CKPT",                         "")
+
+NEO4J_USE_MOCK = os.getenv("NEO4J_USE_MOCK", "true").lower() != "false"
