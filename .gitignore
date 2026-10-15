@@ -4,7 +4,7 @@
 !.env.example
 
 # Corpus (too large; regenerated)
-component-a/corpus/cases/*.json
+# component-a/corpus/cases/*.json
 
 # Databases
 *.db
