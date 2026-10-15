@@ -31,3 +31,6 @@ Thumbs.db
 
 # Generated Data
 training_data.csv
+
+# XGBoost
+*.pkl

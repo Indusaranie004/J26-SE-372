@@ -103,7 +103,8 @@ def main():
             "doc_id",                       # Unique identifier for the case
             "court_level",                  # Feature 1: Court hierarchy score (1-3)
             "recency_score",                # Feature 2: Age of the case (1-3)
-            "validity_score",               # Feature 3: Current legal validity (0-3)
+            "validity_score",
+            "outgoing_citations",                              # Feature 3: Number of citations from this case
             "incoming_citation_density",    # Feature 4: How many times THIS case is cited
             "target_strength_score"         # Target (y): The predicted citation strength (0-100)
         ])
@@ -158,17 +159,22 @@ def main():
                 # Write the row to the CSV
                 writer.writerow([
                     doc_id, court_score, recency_score, validity_score, 
-                    incoming_citation_density, target_score
+                    outgoing_citations,incoming_citation_density, target_score
                 ])
                 
-                # OPTIONAL: Print a sample to show how the translation works
-                if doc_id == json_files[0].split("\\")[-1].replace(".json", ""):
-                    print(f"\n--- EXAMPLE TRANSLATION FOR UI ---")
+                # Print example to console to prove it works
+                if "198-2014" in doc_id:
+                    print(f"\n--- HEAVY CASE EXAMPLE ---")
                     print(f"Case: {doc_id}")
-                    print(f"Raw Number for AI: {incoming_citation_density}")
-                    print(f"Label shown on UI: {get_citation_density_label(incoming_citation_density)}")
-                    print(f"----------------------------------\n")
-                
+                    print(f"Outgoing Citations: {outgoing_citations}")
+                    print(f"Final Strength Score: {target_score}%")
+                elif "28-2008" in doc_id:
+                    print(f"\n--- LIGHT CASE EXAMPLE ---")
+                    print(f"Case: {doc_id}")
+                    print(f"Outgoing Citations: {outgoing_citations}")
+                    print(f"Final Strength Score: {target_score}%")
+                    print(f"----------------------------\n")
+
     print(f"\nSUCCESS! Generated '{csv_path}' with {len(json_files)} rows.")
     print("This dataset is now ready to train the XGBoost SCSPM model.")
 
