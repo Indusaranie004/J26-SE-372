@@ -28,3 +28,6 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# Generated Data
+training_data.csv
