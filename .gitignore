@@ -28,3 +28,9 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# Componant B / Mocks
+component-b/data/
+component-b/tests/fixtures/
+*.jsonl
+.env
