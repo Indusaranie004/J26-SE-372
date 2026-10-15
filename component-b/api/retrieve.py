@@ -1,3 +1,4 @@
+import dataclasses
 import json
 import sys
 import os
@@ -13,10 +14,10 @@ from config import TOP_K, CORPUS_PATH, COLLECTION_GENERIC
 from retrieval.seed.bm25_retriever import BM25Retriever
 from retrieval.seed.dense_retriever import DenseRetriever
 from retrieval.seed.hybrid import retrieve_concurrent, rrf_merge
+from retrieval.expand.traversal import expand
 
 bm25: BM25Retriever = None
 dense: DenseRetriever = None
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -30,21 +31,27 @@ async def lifespan(app: FastAPI):
     )
     yield
 
-
 app = FastAPI(title="Component B — Retrieval", version="0.1.0", lifespan=lifespan)
-
 
 class RetrieveRequest(BaseModel):
     query: str
-
+    top_k: int = TOP_K
 
 @app.post("/retrieve")
 def retrieve(req: RetrieveRequest):
-    b, d = retrieve_concurrent(req.query, bm25, dense, TOP_K)
+    #Retrieval
+    b, d = retrieve_concurrent(req.query, bm25, dense, req.top_k)
     h = rrf_merge(b, d)
+    #Graph Expansion
+    seed_ids = [item[0] for item in h[:req.top_k]]
+    clusters = expand(seed_ids)
+    for cluster, (_, score) in zip(clusters, h[:req.top_k]):
+        cluster.rrf_score = score
     return {
-        "hybrid": [{"id": i, "score": s} for i, s in h],
+        "bm25":    [{"id": i, "score": s} for i, s in b], #Debugging Only
+        "dense":   [{"id": i, "score": s} for i, s in d], #Debugging Only
+        "hybrid":  [{"id": i, "score": s} for i, s in h], #Debugging Only
+        "clusters": [dataclasses.asdict(c) for c in clusters], #To be consumed by downstream RAG (C)
     }
-
 
 # uvicorn component_b.api.retrieve:app --port 8001 --reload
