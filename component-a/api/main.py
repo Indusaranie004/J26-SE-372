@@ -135,6 +135,31 @@ def get_manifest():
             "mock_mode": True,
             "doc_ids": list(mock_data.CASES.keys())
         }
+    try:
+        con = sqlite3.connect(DB_PATH)
+        count = con.execute(
+            "SELECT count(*) FROM cases WHERE in_corpus=1"
+        ).fetchone()[0]
+        doc_ids = [r[0] for r in con.execute(
+            "SELECT doc_id FROM cases WHERE in_corpus=1"
+        ).fetchall()]
+        con.close()
+    except Exception:
+        count = 0
+        doc_ids = []
+    return {
+        "corpus_version": "2026.10",
+        "sc_documents": count,
+        "mock_mode": False,
+        "doc_ids": doc_ids
+    }
+    if MOCK_MODE:
+        return {
+            "corpus_version": "2026.10-mock",
+            "sc_documents": 3,
+            "mock_mode": True,
+            "doc_ids": list(mock_data.CASES.keys())
+        }
     
     import os
     # Debug — show what paths Render can see
