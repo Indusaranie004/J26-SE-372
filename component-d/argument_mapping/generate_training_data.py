@@ -18,6 +18,7 @@ import os
 import json
 import csv
 import glob
+import random
 from datetime import datetime
 
 # Path to Component A's ingested case data
@@ -118,6 +119,11 @@ def main():
                 validity = data.get("validity_status", "good_law")
                 
                 # Convert raw metadata into numerical ML features
+                # --- CRITICAL: Count actual citations in this specific JSON ---
+                entities = data.get("entities", {})
+                citations_list = entities.get("citations", [])
+                outgoing_citations = len(citations_list) 
+
                 court_score = get_court_score(court)
                 recency_score = get_recency_score(date)
                 validity_score = get_validity_score(validity)
@@ -134,9 +140,19 @@ def main():
                 # Heuristic: Older SC cases naturally accumulate more incoming citations.
                 incoming_citation_density = (court_score * 3) + max(0, int(10 - (age_years / 2)))
                 
-                # --- HEURISTIC TARGET SCORE CALCULATION (0-100) ---
-                # Formula: Base 30 + Court(20) + Recency(15) + Validity(20) + Citation Density(15)
-                target_score = 30 + (court_score * 6) + (recency_score * 5) + (validity_score * 6) + (incoming_citation_density * 1.5)
+                # Base density (older SC cases get cited more) + Complexity bonus (citing many cases means it's a heavy precedent)
+                base_density = (court_score * 3) + max(0, int(10 - (age_years / 2)))
+                complexity_bonus = outgoing_citations * 0.4 # 0.4 multiplier ensures a nice spread
+                random_variance = random.uniform(-2, 2) 
+
+                incoming_citation_density = max(0, int(base_density + complexity_bonus + random_variance))
+                
+                # --- TARGET SCORE CALCULATION (0-100) ---
+                # Base 40 + Court(15) + Recency(15) + Validity(15) + Citation Density(15 max)
+                target_score = 40 + (court_score * 5) + (recency_score * 5) + (validity_score * 5) + (incoming_citation_density * 0.4)
+                
+                # Add slight random variance to the final score
+                target_score = target_score + random.uniform(-3, 3)
                 target_score = min(100, max(0, int(target_score))) 
                 
                 # Write the row to the CSV
