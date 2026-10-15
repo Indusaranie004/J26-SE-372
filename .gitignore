@@ -7,9 +7,9 @@
 # component-a/corpus/cases/*.json
 
 # Databases
-*.db
-*.sqlite
-*.sqlite3
+# *.db
+# *.sqlite
+# *.sqlite3
 
 # Model weights
 *.bin
