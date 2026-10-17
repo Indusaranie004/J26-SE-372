@@ -10,11 +10,12 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 # TODO : add COLLECTION_BGE_M3_FINETUNED, CHECKPOINT_PATH to config imports
-from config import TOP_K, CORPUS_PATH, COLLECTION_GENERIC
+from config import TOP_K, CORPUS_PATH, COLLECTION_GENERIC, NEO4J_USE_MOCK
 from retrieval.seed.bm25_retriever import BM25Retriever
 from retrieval.seed.dense_retriever import DenseRetriever
 from retrieval.seed.hybrid import retrieve_concurrent, rrf_merge
 from retrieval.expand.traversal import expand
+from api.corpus_loader import fetch_corpus_from_api
 
 bm25: BM25Retriever = None
 dense: DenseRetriever = None
@@ -22,7 +23,10 @@ dense: DenseRetriever = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global bm25, dense
-    corpus = json.load(open(CORPUS_PATH))
+    if NEO4J_USE_MOCK:
+        corpus = json.load(open(CORPUS_PATH))
+    else:
+        corpus = fetch_corpus_from_api()
     bm25 = BM25Retriever(corpus)
     # TODO : replace with mode="finetuned", collection_name=COLLECTION_BGE_M3_FINETUNED, checkpoint_path=CHECKPOINT_PATH
     dense = DenseRetriever(
@@ -36,6 +40,7 @@ app = FastAPI(title="Component B — Retrieval", version="0.1.0", lifespan=lifes
 class RetrieveRequest(BaseModel):
     query: str
     top_k: int = TOP_K
+    debug: bool = False
 
 @app.post("/retrieve")
 def retrieve(req: RetrieveRequest):
@@ -47,11 +52,15 @@ def retrieve(req: RetrieveRequest):
     clusters = expand(seed_ids)
     for cluster, (_, score) in zip(clusters, h[:req.top_k]):
         cluster.rrf_score = score
-    return {
-        "bm25":    [{"id": i, "score": s} for i, s in b], #Debugging Only
-        "dense":   [{"id": i, "score": s} for i, s in d], #Debugging Only
-        "hybrid":  [{"id": i, "score": s} for i, s in h], #Debugging Only
-        "clusters": [dataclasses.asdict(c) for c in clusters], #To be consumed by downstream RAG (C)
-    }
+
+    if req.debug:
+        return {
+            "bm25":    [{"id": i, "score": s} for i, s in b], #Debugging Only
+            "dense":   [{"id": i, "score": s} for i, s in d], #Debugging Only
+            "hybrid":  [{"id": i, "score": s} for i, s in h], #Debugging Only
+            "clusters": [dataclasses.asdict(c) for c in clusters], #To be consumed by downstream RAG (C)
+        }
+
+    return {"clusters": [dataclasses.asdict(c) for c in clusters]}
 
 # uvicorn component_b.api.retrieve:app --port 8001 --reload

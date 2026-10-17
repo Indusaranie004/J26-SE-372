@@ -58,7 +58,7 @@ def expand(seed_ids: List[str]) -> List[PrecedentCluster]:
                         citation_type  = r["citation_type"],
                         direction      = "cases_cited",
                         evidence       = r.get("evidence"),
-                        scope          = r.get("scope"),
+                        scope          = r.get("scope") or "full scope",
                         effective_date = r.get("effective_date"),
                     )
                     for r in _cites_outgoing(sid)
@@ -68,7 +68,7 @@ def expand(seed_ids: List[str]) -> List[PrecedentCluster]:
                         citation_type  = r["citation_type"],
                         direction      = "cited_by",
                         evidence       = r.get("evidence"),
-                        scope          = r.get("scope"),
+                        scope          = r.get("scope") or "full scope",
                         effective_date = r.get("effective_date"),
                     )
                     for r in _cites_incoming(sid)
@@ -78,7 +78,7 @@ def expand(seed_ids: List[str]) -> List[PrecedentCluster]:
                     LegislationEdge(
                         act_id  = r["act_id"],
                         name    = r["name"],
-                        section = r.get("section"),
+                        section = r.get("section") or "Not specified in citation",
                     )
                     for r in _legislation(sid)
                 ],
