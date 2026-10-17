@@ -162,6 +162,44 @@ def health():
 
 # ── CASES ─────────────────────────────────────────────────────────
 
+@app.get("/cases")
+def list_cases(
+    limit: int = Query(190, description="Max cases to return"),
+    court: Optional[str] = Query(None, description="Filter by court: SC|CA|DC"),
+    in_corpus: bool = Query(True, description="Only return corpus cases")
+):
+    """Returns all case records for batch processing and embedding generation."""
+    if MOCK_MODE:
+        cases = list(mock_data.CASES.values())
+        return {
+            "count": len(cases),
+            "cases": cases
+        }
+
+    try:
+        con = sqlite3.connect(DB_PATH)
+        query = "SELECT doc_id FROM cases WHERE in_corpus=?"
+        params = [1 if in_corpus else 0]
+        if court:
+            query += " AND court=?"
+            params.append(court)
+        query += f" LIMIT {limit}"
+        doc_ids = [r[0] for r in con.execute(query, params).fetchall()]
+        con.close()
+
+        cases = []
+        for doc_id in doc_ids:
+            record = get_case_from_db(doc_id)
+            if record:
+                cases.append(record)
+
+        return {
+            "count": len(cases),
+            "cases": cases
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"error": str(e)})
+
 @app.get("/cases/{doc_id}")
 def get_case(doc_id: str):
     if MOCK_MODE:
