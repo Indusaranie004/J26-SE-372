@@ -8,6 +8,7 @@ from extraction.neo4j_writer import (
     init_constraints, write_case_node, write_judge_edge,
     write_act_edge, write_treatment_edge, write_chain_edges
 )
+from extraction.chain_parser import parse_chain_from_caption
 
 def main():
     init_constraints()
@@ -47,8 +48,9 @@ def main():
             )
             total_act_edges += 1
 
-        # Write litigation chain edges
-        chain = rec.get("chain", [])
+        # Parse chain from caption and write to Neo4j
+        caption_text = rec["sections"].get("caption", {}).get("text", "")
+        chain = parse_chain_from_caption(caption_text)
         if chain:
             write_chain_edges(doc_id, chain)
             total_chain_edges += len(
