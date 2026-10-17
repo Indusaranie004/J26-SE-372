@@ -7,3 +7,4 @@ xgboost
 pandas
 scikit-learn
 joblib
+shap
