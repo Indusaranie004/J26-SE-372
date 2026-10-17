@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an Application for Special Leave to Appeal\n\nHon. Attorney General, Attorney General’s Department, Colombo 12. Complainant Vs. Sabrudeen Kamrudeen, 1249/C, Ananda Mawatha, Hunupitiya, Wattala.\n\nAccused SC. Appeal No. 90/2013\n\nSC (SPL) LA 69/2013 And between CA Appeal 211/2006 HC Negombo 55/2002 Sabrudeen Kamrudeen, 1249/C, Ananda Mawatha, Hunupitiya, Wattala.\n\nAccused-Appellant\n\nVs.\n\nHon. Attorney General, Attorney General’s Department, Colombo 12.\n\nComplainant-Respondent\n\nAnd now between\n\nSabrudeen Kamrudeen, 1249/C, Ananda Mawatha, Hunupitiya, Wattala.\n\nAccused-Appellant- Appellant\n\n2\n\nVs. Hon. Attorney General, Attorney General’s Department, Colombo 12.\n\nComplainant-Respondent-Respondent",
@@ -97,6 +99,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.306158"
+    "extracted_at": "2026-10-17T16:44:28.418112"
   }
 }

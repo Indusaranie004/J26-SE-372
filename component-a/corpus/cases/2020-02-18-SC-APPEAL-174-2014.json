@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nBulathsinhalage Edwin Cooray, No. 08, Mahinda Place, Kirulapona, Colombo 06.\n\nPlaintiff\n\n-Vs- Bulathsinhalage Harschandra Wasantha Cooray, No. 11/3, Vihara Mawatha, Narangoda Paluwa, Ambalama Junction, Ragama.\n\nDefendant AND SC Appeal No. 174/2014 Bulathsinhalage Harschandra Wasantha SC Application No: SC (SPL) 66/2014 Cooray, Court of Appeal No. CA 549/98 (F) No. 11/3, Vihara Mawatha, Narangoda District Court of Mt. Lavinia No. 605/96/L Paluwa, Ambalama Junction, Ragama. Defendant-Appellant\n\nVs\n\nBulathsinhalage Edwin Cooray No. 08, Mahinda Place, Kirulapona, Colombo 06. Plaintiff-Respondent (Deceased) Tamara Indrani Cooray, No. 08, Mahinda Place, Kirulapona, Colombo 06.\n\nSubstituted Plaintiff–Respondent\n\n2\n\nAND NOW BETWEEN Bulathsinhalage Harschandra Wasantha Cooray, No. 11/3, Vihara Mawatha, Narangoda Paluwa, Ambalama Junction, Ragama. Defendant-Appellant-Appellant\n\nVs. Tamara Indrani Cooray, No. 08, Mahinda Place, Kirulapona, Colombo 06.\n\nSubstituted Plaintiff – Respondent - Respondent",
@@ -105,6 +107,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.985971"
+    "extracted_at": "2026-10-17T16:44:30.385911"
   }
 }

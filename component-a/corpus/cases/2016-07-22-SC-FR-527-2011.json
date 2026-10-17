@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nSC.FR.527-2011\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under\n\nand in terms of Article 126 read with\n\nArticle 17 of the Constitution of the\n\nDemocratic Socialist Republic of Sri\n\nLanka.\n\nPuwakketiyage Sajith Suranga\n\nBogahawatta, Lellkada, Ginimalgaha.\n\nPetitioner\n\nSC (FR) Application No. 527/2011\n\nVs\n\n1.Prasad\n\nSub-Inspector of Police Station,\n\nThelikada.\n\n2.Sunil\n\nSergeant\n\nThelikada Police Station\n\nThelikada.\n\n3.Sugath Palitha\n\n2\n\nSergeant\n\nThelikada Police Station,\n\nThelikada.\n\n4.Samantha\n\nCivil Defence Officer,\n\nThelikada Police Station,\n\nThelikada.\n\n5.Inspector of Police Nalaka\n\nOfficer-in-Charge,\n\nThelikada Police Station,\n\nThelikada.\n\n6.N.K.Illangakoon,\n\nInspector General of Police\n\nPolice Head Quarters,\n\nColombo 1.\n\n7.Hon.Attorney General\n\nAttorney General’s Department,\n\nColombo 12.\n\nRespondents\n\n3",
@@ -121,6 +123,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.322129"
+    "extracted_at": "2026-10-17T16:44:23.729101"
   }
 }

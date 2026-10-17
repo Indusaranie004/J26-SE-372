@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for Leave to Appeal in terms of Section 37(2) of the Arbitration Act No. 11 of 1995.\n\nColombo Business School Limited,\n\nNo. 282, Galle Road, Colombo 03.\n\nClaimant\n\n-VS-\n\nSC/HC/LA No. 69/2018 Sri Lanka Tea Board,\n\nHC/ARB/87/2013 No. 574, Galle Road, Colombo 03.\n\nRespondent\n\nAND\n\nColombo Business School Limited,\n\nNo. 282, Galle Road, Colombo 03.\n\nClaimant – Petitioner\n\n-VS-\n\n2\n\nSri Lanka Tea Board,\n\nNo. 574, Galle Road, Colombo 03.\n\nRespondent – Respondent\n\nAND NOW BETWEEN\n\nColombo Business School Limited,\n\nNo. 282, Galle Road, Colombo 03.\n\nClaimant – Petitioner – Petitioner\n\n-VS-\n\nSri Lanka Tea Board,\n\nNo. 574, Galle Road, Colombo 03.\n\nRespondent – Respondent – Respondent\n\nHon. Attorney General,\n\nAttorney Generals’ Department,\n\nColombo 12.\n\n2nd Respondent",
@@ -148,6 +150,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.069496"
+    "extracted_at": "2026-10-17T16:44:32.220488"
   }
 }

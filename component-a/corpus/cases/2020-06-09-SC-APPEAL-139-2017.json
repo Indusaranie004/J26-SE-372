@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC Appeal 139/2017 JUDGMENT Page 1 of 11\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for\n\nLeave to Appeal to the Supreme\n\nCourt from an Order of the\n\nProvincial High Court under and in\n\nterms of section 31DD of the\n\nIndustrial Disputes Act (as\n\namended)\n\nW.K.S. Jayasundara, 309 A, Nedagamuwa (West), Katugoda. APPLICANT -VS-\n\nNext Manufacturing (Pvt) Ltd., Ring Road, Phase I, Investment Promotion Zone, Katunayake.\n\nEMPLOYER- RESPONDENT\n\nAND BETWEEN\n\nNext Manufacturing (Pvt) Ltd., Ring Road, Phase I, Investment Promotion Zone, Katunayake. EMPLOYER-RESPONDENT-\n\nAPPELLANT\n\nSC Appeal No: 139/2017 SC/HC/LA No. 92/2016 HC Appeal No. 428/2012 Negombo LT No: 21/2596/2009\n\nSC Appeal 139/2017 JUDGMENT Page 2 of 11\n\n-VS-\n\nW.K.S. Jayasundara, 309 A, Nedagamuwa (West), Katugoda. APPLICANT-RESPONDENT\n\nAND NOW BETWEEN\n\nNext Manufacturing (Pvt) Ltd., Ring Road, Phase I, Investment Promotion Zone, Katunayake. EMPLOYER-RESPONDENT-APPELLANT-APPELLANT -VS-\n\nW.K.S. Jayasundara, 309 A, Nedagamuwa (West), Katugoda. APPLICANT-RESPONDENT RESPONDENT",
@@ -66,6 +68,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.086306"
+    "extracted_at": "2026-10-17T16:44:30.682633"
   }
 }

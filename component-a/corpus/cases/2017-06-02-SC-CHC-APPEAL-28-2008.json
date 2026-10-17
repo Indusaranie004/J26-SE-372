@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nSC (CHC) Appeal No. 28/2008 HC (Civil) No. 261/2005(1)\n\nIn the matter of an Appeal from the Judgment of the High Court of Colombo (Exercising Civil Jurisdiction) dated 29.2.2008 Papeteries De Maudit No. 07, Avenue Ingres, 76016, Paris, France.\n\nPLAINTIFF Vs. Tylos Tea (Private) Limited Serendib Park, Indolamulla Dompe. DEFENDANT AND NOW Tylos Tea (Private) Limited Serendib Park, Indolamulla Dompe. DEFENDANT-APPELLANT Vs.\n\n2\n\nPapeteries De Maudit No. 07, Avenue Ingres, 76016, Paris, France. PLAINTIFF-RESPONDENT",
@@ -112,6 +114,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.782675"
+    "extracted_at": "2026-10-17T16:44:24.245134"
   }
 }

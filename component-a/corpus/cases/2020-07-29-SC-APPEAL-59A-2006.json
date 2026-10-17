@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA.\n\nIn an application for special leave to appeal under Article 128 of the constitution of the Democratic Socialist Republic of Sri Lanka. SC/Appeal No. 59A/2006 SC/SLA/115/2006 CALA/71/2004 DC Colombo 29769/MR\n\nRavindra Sandresh Karunanayake of No. 1291/6, Rajamalwatta Road, Battaramulla. Plaintiff Vs. Wimal Weerawansa of No. 198/19, Panchikawatta Road, Colombo 10.\n\nDefendant AND BETWEEN Wimal Weerawansa of No. 198/19, Panchikawatta Road,\n\n2\n\nColombo 10.\n\nDefendant – Petitioner Vs. Ravindra Sandresh Karunanayake of No. 1291/6, Rajamalwatta Road, Battaramulla.\n\nPlaintiff – Respondent AND BETWEEN Ravindra Sandresh Karunanayake of No. 1291/6, Rajamalwatta Road, Battaramulla.\n\nPlaintiff – Respondent – Petitioner Vs. Wimal Weerawansa of No. 198/19, Panchikawatta Road, Colombo 10.\n\nDefendant – Petitioner – Respondent\n\n3\n\nAND NOW BETWEEN Wimal Weerawansa of No. 198/19, Panchikawatta Road, Colombo 10.\n\nDefendant – Petitioner – Respondent – Petitioner Vs. Ravindra Sandresh Karunanayake of No. 1291/6, Rajamalwatta Road, Battaramulla.\n\nPlaintiff – Respondent – Petitioner – Respondent",
@@ -426,6 +428,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.444454"
+    "extracted_at": "2026-10-17T16:44:31.435870"
   }
 }

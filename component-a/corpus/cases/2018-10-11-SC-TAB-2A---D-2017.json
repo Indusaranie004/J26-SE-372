@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC/TAB/2A-D/2017\n\n1\n\nIN THE SUPREME COURT OF THE DEMOCATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an Appeal under and in terms of section 451 of the Code of Criminal Procedure Act No. 15 of 1979, Act No.21 of 1988, against the judgment dated 08.09.2016 in the Trial-at-Bar bearing No. 7781/201\n\nVithanalage Anura Thushara De Mel\n\n1st Accused - Appellant\n\nSrinayaka Pathiranalage Chaminda Ravi Jayanath\n\n2nd Accused – Appellant\n\nKowile Gedara Dissanayaka Mudiyanselage Sarath Bandara\n\n3rd Accused - Appellant\n\nArumadura Lawrence Romelo Duminda\n\nSilva\n\n4th Accused -Appellant\n\nVs.\n\nHon. Attorney General Attorney General’s Department, Colombo 12.\n\nComplainant-Respondent\n\nSupreme Court Case No: SC/TAB/2A – D/2017 High Court Trial-at-Bar Case No: 7781/2015\n\nSC/TAB/2A-D/2017\n\n2",
@@ -214,6 +216,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.268025"
+    "extracted_at": "2026-10-17T16:44:25.831176"
   }
 }

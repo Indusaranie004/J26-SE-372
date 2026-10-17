@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an Application for Special Leave to Appeal against the Judgment of the High Court of Civil Appeal dated 25th August 2010.\n\nSamuel Vivendra Eliyatambi No 248, Whitehorse Road, Corydon CRO 2 LB, Surrey United Kingdom\n\nAppearing by his Attorney Reginald Perera Wickramarachchi Saman Mawatha, Nugegoda\n\nSC/Appeal No. 120/2014 Plaintiff HCCA Case No. WP/HCCA/Mt/22/02/F\n\nDC Mt Lavinia Case No. 347/94/L VS\n\n1. John Cyril Fernando (Now Deceased)\n\nNo. 83, Gregory’s Road, Colombo 07 2. Selwyn Danaraj Eliyatambi\n\nNo. 1 & 1/1, Elibank Road, Colombo 05\n\n3. Surangani Jayasekera No. 4 & 4 1/1, Elibank Road, Colombo 05\n\n4. Marinie Samantha Jayasekera\n\nNo. 4 & 4 1/1, Elibank Road, Colombo 05\n\n2\n\nDefendants\n\nAND\n\n1. John Cyril Fernando (Now Deceased)\n\nNo. 83, Gregory’s Road, Colombo 07 3. Surangani Jayasekera No. 4 & 4 1/1, Elibank Road, Colombo 05\n\n4. Marinie Samantha Jayasekera\n\nNo. 4 & 4 1/1, Elibank Road, Colombo 05\n\n1st ,3rd and 4th Defendants – Appellants\n\nVS\n\nSamuel Vivendra Eliyatambi No 248, Whitehorse Road, Corydon CRO 2 LB, Surrey United Kingdom\n\nAppearing by his Attorney Reginald Perera Wickhramarachchi Saman Mawatha, Nugegoda\n\nPlaintiff – Respondent\n\n2. Selwyn Danaraj Eliyatambi\n\nNo. 1 & 1/1, Elibank Road, Colombo 05\n\n3\n\n2nd Defendant – Respondent\n\nAND NOW BETWEEN\n\n1. John Cyril Fernando (Now Deceased)\n\nNo. 83, Gregory’s Road, Colombo 07\n\n1A. Surangani Jayasekera No. 4 & 4 1/1 Elibank Road, Colombo 05\n\n1st Defendant – Appellant – Appellant\n\nVS\n\nSamuel Vivendra Eliyatambi No 248, Whitehorse Road, Corydon CRO 2 LB, Surrey United Kingdom\n\nAppearing by his Attorney Reginald Perera Wickramarachchi Saman Mawatha, Nugegoda\n\nPlaintiff – Respondent – Respondent\n\n2. Selwyn Danaraj Eliyatambi\n\nNo. 1 & 1/1, Elibank Road, Colombo 05 2nd Defendant – Respondent – Respondent\n\n4\n\n3. Surangani Jayasekera No. 4 & 4 1/1, Elibank Road, Colombo 05 4. Marinie Samantha Jayasekera\n\nNo. 4 & 4 1/1, Elibank Road, Colombo 05\n\n3rd and 4th Defendant – Appellant – Respondents",
@@ -256,6 +258,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.608539"
+    "extracted_at": "2026-10-17T16:44:32.855095"
   }
 }

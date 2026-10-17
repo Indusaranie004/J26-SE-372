@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA In the matter of an application for Special Leave to appeal Ponnadura Shantha Silva Ridee Mawatha, Kalamula Kalutara. Accused-Appellant SC Appeal 163/2014 SC (Spl) LA.143/2014 High Court Kalutara Appeal No.546/2011 Magistrate’s Court Kalutara Case No.97938 Vs. 1. Officer-In-Charge, Police Station, Kalutara South. 2. The Attorney General Attorney General’s Department, Colombo 12. Complainant-Respondents And Now Between Ponnadura Shantha Silva Ridee Mawatha, Kalamulla Kalutara. (Presently in Kalutara Prison) Accused-Appellant-Petitioner Vs.\n\n2\n\n1. Officer-In-Charge, Police Station, Kalutara South. 2. The Attorney General Attorney General’s Department, Colombo 12. Complainant-Respondent- Respondents",
@@ -132,6 +134,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.728845"
+    "extracted_at": "2026-10-17T16:44:25.133085"
   }
 }

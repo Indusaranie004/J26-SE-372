@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\n1. Union Bank of Colombo Ltd,\n\nNo. 15A, Alfred Place, Colombo 03.\n\nPlaintiff\n\n-Vs-\n\n1. Emm Chem (Pvt) Ltd\n\nNo. 16, Flower Terrace, Colombo 07.\n\n2. Kodduru Arachchige Don Adrin\n\nLakshman Perera, No. 25/4A, Jayapura Mawatha, Baddegana, Kotte South, Pitakotte.\n\n3. Mailwaganam Surendran,\n\nNo. 53A, Maradana Road, Hendala, Wattala.\n\nDefendants\n\nAND NOW\n\nIn the matter of an Appeal to the Supreme Court from the judgment\n\nSC Appeal No. CHC 22/11\n\ncase no: HC (Civil) 36/2007/MR\n\n2\n\nof the High Court of the Western Province Holden in Colombo (exercising Civil/Commercial Jurisdiction dated 01/06/2011) in terms of the provisions of the High Court of Provinces (Special Provisions) Act No.10 of 1996\n\n1. Kodduru Arachchige Don Adrin\n\nLakshman Perera, No. 25/4A, Jayapura Mawatha, Baddegana, Kotte South, Pitakotte.\n\n(2nd Defendant-Appellant)\n\n-Vs-\n\n1. Union Bank of Colombo Ltd,\n\nNo. 15A, Alfred Palce, Colombo 03.\n\n(Plaintiff-Respondent)\n\n2. Emm Chem (Pvt) Ltd\n\nNo. 16, Flower Terrace, Colombo 07. 3. Mailwaganam Surendran,\n\nNo. 53A, Maradana Road, Hendala, Wattala. (Defendant – Respondents)\n\n3",
@@ -119,6 +121,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.813687"
+    "extracted_at": "2026-10-17T16:44:26.962938"
   }
 }

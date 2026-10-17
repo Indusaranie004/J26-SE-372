@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nS.C (FR) Application 136/2014\n\nIn the matter of an Application under and in terms of Articles 17 & 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka\n\nNaomi Michelle Cokeman, 8, Waveley Road, Coventry England CV 13 AH, United Kingdom. PETITIONER Vs.\n\n1. The Hon. Attorney General Attorney General’s Department, Colombo 12. 2. Police Sergeant Upasena (22143) 3. Police Inspector Suraweera,\n\nActing Officer-In-Charge THE 2ND AND 3RD RESPONDENTS OF POLICE STATION, KATUNAYAKE 4. Officer-In-Charge\n\nNegombo Prison, Negombo. 5. N.K. Illangakoon\n\nInspector General of Police, Police Headquarters, Colombo 1.\n\n2\n\n6. Chulananda De Silva\n\nController General of Immigration and Emigration, Ananda Rajakaruna Mawatha, Colombo 10. RESPONDENTS",
@@ -121,6 +123,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.082816"
+    "extracted_at": "2026-10-17T16:44:24.550283"
   }
 }

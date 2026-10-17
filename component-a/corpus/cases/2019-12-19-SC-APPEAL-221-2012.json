@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA.\n\nIn the matter of an application for Special Leave to appeal against Judgment dated 30.05.2012 delivered by the Court of Appeal of the Democratic Socialist Republic of Sri Lanka Case bearing number C.A. 541/1998(F) D.C. Kuliyapitiya Case No. P/10428.\n\nIN THE DISTRICT COURT.\n\nR.M. Siriwardena of Ihalagama, Alahenegama. Plaintiff. S.C. Appeal No. 221/2012 SC (Special) LA No. 121/2012 Vs. C.A. Appeal No. 541/98(F) D.C. Kuliyapitiya Case No. 10428/P Rathnayake Mudiyanselage Jayathilaka\n\nof Thalahenegama, Alahenegama. Defendant.\n\nAND BETWEEN IN THE COURT OF APPEAL.\n\nRathnayake Mudiyanselage Jayathilaka of Thalahenegama, Alahenegama. Defendant – Appellant. Vs\n\nR.M. Siriwardena of Ihalagama, Alahenegame. Plaintiff- Respondent.\n\n2\n\nAND NOW BETWEEN IN THE SUPREME COURT. Rathnayake Mudiyanselage Jayathilaka of Thalahenegama, Alahenegama. Defendant – Appellant – Petitioner.\n\nVs. R.M. Siriwardena of Ihalagama, Alahenegama. Plaintiff – Respondent – Respondent.",
@@ -216,6 +218,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.885736"
+    "extracted_at": "2026-10-17T16:44:30.102105"
   }
 }

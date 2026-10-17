@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for Leave to Appeal against the Judgment of the Provincial High Court of Central Province dated 11/02/2015 in Case No. CP/HCCA/Kandy/67/2012 (F) D.C. Kandy Case No. 12245 X\n\nSC/APPEAL/177/17 SC/HCCA/LA/118/15 In the District Court of Kandy CP/HCCA/Kandy/67/2012(F) 1. W. H. Wilson Perera, D.C. Kandy Case No. 12245 X 2. K. A. Wimalawathie,\n\nBoth of at;\n\nNo. 4/6, Uduwela Road, Ampitiya\n\nPlaintiffs\n\nVs.\n\n1. Jayawardena Thambulage Kamalawathie, 2. G. V. M. M. Gunesekere,\n\nBoth of at;\n\nNo. 3/6, Uduwela Road, Ampitiya\n\nDefendants\n\nAnd Between in the Provincial High Court of Central Province\n\n1. W. H. Wilson Perera, 2. K. A. Wimalawathie,\n\nBoth of at;\n\nNo. 4/6, Uduwela Road, Ampitiya\n\n2\n\nPlaintiff - Appellants\n\nVs.\n\n1. Jayawardena Thambulage Kamalawathie, 2. G. V. M. M. Gunesekere,\n\nBoth of at;\n\nNo. 3/6, Uduwela Road, Ampitiya\n\nDefendant – Respondents\n\nAnd Now Between in the Supreme Court\n\n1. W. H. Wilson Perera, 2. K. A. Wimalawathie,\n\nBoth of at;\n\nNo. 4/6, Uduwela Road, Ampitiya\n\nPlaintiff – Appellant – Petitioners\n\nVs.\n\n1. Jayawardena Thambulage Kamalawathie, 2. G. V. M. M. Gunesekere,\n\nBoth of at;\n\nNo. 3/6, Uduwela Road, Ampitiya\n\nDefendant – Respondent – Respondents",
@@ -82,6 +84,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.741691"
+    "extracted_at": "2026-10-17T16:44:32.962929"
   }
 }

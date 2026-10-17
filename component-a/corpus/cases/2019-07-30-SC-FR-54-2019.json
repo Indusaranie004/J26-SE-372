@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE\n\nDEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an application in terms\n\nof Article 126 read with Article17 of the\n\nConstitution of the Democratic Socialist\n\nRepublic of Sri Lanka.\n\nSC FR Application\n\nNo. 54 / 2019\n\n01 S M Halpe,\n\nNo 117/10,\n\nHendala Road,\n\nHendala,\n\nWattala.\n\n02 D T Panduwawela,\n\nNo 4,\n\nChitra Lane,\n\nGampaha.\n\n03 K P K Marapana,\n\nNo. 75/17,\n\n2\n\nSirinanda Jotikarama Road,\n\nKalalgoda,\n\nPannipitiya.\n\nPETITIONERS\n\n-Vs-\n\n01 Dr. Anil Jayasinghe,\n\nDirector General of Health Services,\n\nMinistry of Health, Nutrition and\n\nIndigenous Medicine,\n\nSuwasiripaya,\n\nNo. 385,\n\nRev. Baddegama Wimalawansa Thero\n\nMawatha,\n\nColombo 10.\n\n02 Director General of Health Services\n\n(acting),\n\nMinistry of Health, Nutrition and\n\nIndigenous Medicine,\n\nSuwasiripaya,\n\nNo. 385,\n\n3\n\nRev. Baddegama Wimalawansa Thero Mawatha, Colombo 10.\n\n03 Hon. Dr. Rajitha Senarathne,\n\nMinister of Health, Nutrition and\n\nIndigenous Medicine,\n\nMinistry of Health, Nutrition and\n\nIndigenous Medicine,\n\nSuwasiripaya, No. 385, Rev. Baddegama Wimalawansa Thero\n\nMawatha,\n\nColombo 10. 04 Secretary to the Ministry of Health,\n\nNutrition and Indigenous Medicine,\n\nMinistry of Health, Nutrition and\n\nIndigenous Medicine,\n\nSuwasiripaya, No. 385, Rev. Baddegama Wimalawansa Thero\n\nMawatha,\n\nColombo 10. 05 Sri Lanka Medical Council,\n\nNo. 31,\n\nNorris Canal Road,\n\n4\n\nColombo 10.\n\n06 Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nRESPONDENTS\n\nTen others who intervened as\n\nrespondents,\n\n1ST TO 10TH ADDED RESPONDENTS\n\nFifty Seven others who intervened as\n\nrespondents,\n\n11TH TO 68TH ADDED RESPONDENTS\n\nNine others who intervened as\n\nrespondents,\n\n69TH TO 78TH ADDED RESPONDENTS\n\n5",
@@ -109,6 +111,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.426358"
+    "extracted_at": "2026-10-17T16:44:28.753114"
   }
 }

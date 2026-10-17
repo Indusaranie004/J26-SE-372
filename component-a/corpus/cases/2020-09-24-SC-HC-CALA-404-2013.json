@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application for leave to appeal in terms of Section 5C of the High Court of the Provinces (Special Provisions) Act No. 19 of 1990 as amended by Act No.54 of 2006.\n\nPattiyage Leelawathie Gomes, No. 60/10 J, Templers Road, Mt. Lavinia\n\nPlaintiff\n\nVs.\n\n1. Preethi Reeta Bastian, 2. Wajirapani Bastian, 3. Luwis Vidanalage Manel Bridget Bastian\n\nAll of No. 53/3, Sri Gunaratne Mawatha, Mt. Lavinia.\n\nDefendants AND 1. Preethi Reeta Bastian, 2. Wajirapani Bastian, 3. Luwis Vidanalage Manel Bridget Bastian\n\nAll of No. 53/3, Sri Gunaratne Mawatha, Mt. Lavinia.\n\nDefendants-Appellants Vs.\n\nPattiyage Leelawathie Gomes, No. 60/10 J, Templers Road, Mt. Lavinia (deceased) Plaintiff-Respondent\n\nSC/HCCA/LA/404/2013\n\nWP/HCCA/MT/90/09/F\n\nDC (Mt. Lavinia): 1638/02/L\n\n2\n\nAND NOW BETWEEN\n\n1. Preethi Reeta Bastian, 2. Wajirapani Bastian,\n\nAll of No. 53/3, Sri Gunaratne Mawatha, Mt. Lavinia.\n\nDefendants-Appellants-Petitioners Vs. 1. Sriya Sepalika Suludagoda, 2. Lal Kumara Suludagoda, 3. Neetha Kamini Suludagoda, 4. Geetha Chandani Suludagoda, All of No. 60/10 J, Templers Road, Mt. Lavania\n\nSUBSTITUTED Plaintiffs-Respondents-Respondents",
@@ -126,6 +128,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.677169"
+    "extracted_at": "2026-10-17T16:44:31.646343"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA.\n\nIn the matter of an Appeal under and in terms of Section 5(1) of the High Court of provinces (Special Provisions) Act No. 10 of 1996 read with Article 154H of the Constitution of the Democratic Socialist Republic of Sri Lanka and Chapter L VIII of the Code of Civil Procedure.\n\nKekul Kotuwage Don Aruna Chaminda, No. 17/, Ethgala, Kochchikade. PLAINTIFF. SC/ Appeal No: 134/2018 CHC/ 275/13 MR. Vs\n\nJanashakthi General Insurance Limited, No. 46, Muththaiya Road, Colombo. 2. And No. 55/72, Vaxhaul Street, Colombo 2. DEFENDANT AND NOW BETWEEN Kekul Kotuwage Don Aruna Chaminda, No. 17/, Ethgala, Kochchikade. PLAINTIFF – APPELLANT.\n\n2\n\nVs. Janashakthi General Insurance Limited, No. 46, Muththaiya Road, Colombo 2. And, No. 55/72, Vaxhaul Street, Colombo. 2.\n\nDEFENDANT – RESPONDENT.",
@@ -214,6 +216,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.522853"
+    "extracted_at": "2026-10-17T16:44:29.025675"
   }
 }

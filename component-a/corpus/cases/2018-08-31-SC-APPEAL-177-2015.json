@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an Application for Special Leave to Appeal under and in terms of the provisions of Article 128 of the Constitution of the Democratic Socialist Republic of Sri Lanka from the Judgment of the Court of Appeal dated 30th September 2014.\n\nRajeswari Nadaraja, 6/1, Frankfurt Place, Colombo 4.\n\nPetitioner-Petitioner\n\n-Vs- 1 (a) Hon. M. Najeeb Abdul\n\nMajeed\n\n1 (b) Hon. Johnston Fernando 1c) Hon. Bandula Gunawardena 1(d)Hon.Gamini Jayawickrema\n\nPerera\n\n1 (e) Hon. Rishard Badurdeen\n\nMinister of Industry and Commerce and Co-operatives Development, No. 73/1, Galle Road, Colombo 03.\n\nSC Appeal No. 177/2015 SC (Spl) No. 213/14 CA (Writ) Application No. 403/2008\n\n2\n\nPresent Commissioner Substituted 03rd Respondent\n\nPresent Commissioner Substituted 04th Respondent\n\n2. Hon. Mahipala Herath\n\nProvincial Chief Minister, Provincial Minister of Law & Peace, Finance & Planning, Local Government, Education & Technology, Estate Welfare, Public Transport Co-Operative Development, Housing, Sports, Electricity, Cultural and Youth Affairs Sabaragamuwa Provincial Council, Secretaries Complex, New Town, Ratnapura. 3 (a) Mr. A.P.G. Kitsiri 3 (b) Mr. D.D. Upul Shantha de Alwis 3 (c) Mr. Dhammika Rajapaksa 3 (d) Mr. D. Jeewanadan\n\nCommissioner of Cooperative Development/ Registrar of Cooperative Societies No. 330, Union Place, Colombo 02. 4. Mr. Kapila Perera 4 (a) Palitha Nanayakkara\n\nCommissioner of Cooperative Development/Registrar of Cooperative Societies of Sabaragamuwa Province New Town, Ratnapura.\n\n3\n\n5.Yatiyanthota Multipurpose\n\nCooperative Societies Limited, Main street, Yatiyanthota.",
@@ -238,6 +240,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.789248"
+    "extracted_at": "2026-10-17T16:44:25.183273"
   }
 }

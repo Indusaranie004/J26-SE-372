@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nTHE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI ANKA\n\nIn the matter of an application under article 17 and 126 of the constitution of the democratic socialist republic of Sri Lanka.\n\nS.C.F.R.No: 21/2015\n\n1. D.K.Karandawela No.211/1Ihalakaragahamuuna, Genemulla Road, Kadawatha\n\n2. U.S.Kariyawasam\n\nNo.43, Foster Cross Lane, Colombo.10\n\n3. H.A.S.Perera C21, Matha Road, Colombo.08\n\n4. S.S.Wasanthasena No. 64, Ketakalapitiya, Debahera, Nittambuwa\n\n5. A.T.D.De Silva No.59, Koswatte Road, Nawala, Rajagiriya\n\n6. J.A.S.Rajapakse\n\nNo.83/29/C/01 St’ Katherine Waththa Road, Hokandara East, Hokandara\n\n7. C.D.K.Weeraman\n\n2\n\nNo.385 1/1, Rajagiriya Road, Rajagiriya\n\n8. R.P.Rajika No.160/1/B, Dewala Road, Makola North, Makola\n\n9. K.S.J.Shantha No.16/3A,Chetnoll Road, Thumbagoda, Balangoda\n\nPETITIONERS\n\nVs\n\n1. Justice Sathya Hettige PC, Chairman 1A. Dharmasena Dissanayake, Chairman\n\n2. S.C.Mannapperuma, Member 2A. A.Salam Abdul Waid, Member\n\n3. Ananda Seneviratne, Member 3A. D.Shirantha Wijayatilaka, Member\n\n4. N.H.Pathirana, Member 4A. Prathap Ramanujam, Member 5. Kanthi Wijetunge, Member 5A. V.Jegarasasingam, Member\n\n6. Sunil S. Sirisena, Member 6A. Santi Nihal Seneviratne, Member\n\n3\n\n7. S.Thillanadarajah, Member 7A. S.Ranugge, Member\n\n8. A. Mohamed Nahiya, Member 8A. D.L.Mendis, Member\n\n9. I.M.Zoysa Gunasekara, Member 9A. Sarath Jayathilaka, Member\n\n1st to 9th All of public service commission, No.177, Nawala Road, Narahenpita, Colombo.05\n\n10. T.M.L.C.Senaratne\n\nSecretary, Public Service Commission, No.177, Nawala Road, Narahenpita, Colombo.05\n\n10A. H.M.G.Senevirathne\n\nSecretary, Public Service Commission, No.177, Nawala Road, Narahenpita, Colombo.05\n\n11. U.Marasinghe\n\nSecretary, Minsitry of Education, Isurupaya, Battaramulla\n\n12. Hon. Attorney General\n\n4\n\nAttorney General’s Department, Colombo.12\n\nRESPONDENTS",
@@ -57,6 +59,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.712875"
+    "extracted_at": "2026-10-17T16:44:26.708845"
   }
 }

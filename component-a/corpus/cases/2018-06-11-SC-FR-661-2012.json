@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for clarification/variation of a Judgment already delivered by this Court.\n\n1. A.A.Sarath, 83/15,\n\nWijithapura Mawatha, Mahakandara Madapatha. And 23 Others Petitioners SC FR 661/2012\n\nVs\n\n1. Commissioner General of Excise,\n\nDepartment of Excise, No. 34, W.A.D.Ramanayake Mawatha, Colombo 2. And 82 Others Respondents AND NOW BETWEEN 31. W.A.P.W.K. Wickramarachchi, And 45 Others 31st to 62nd and 67th to 82nd Respondents – Petitioners, All, C/O The Department of Excise, No. 34, W.A.D.Ramanayake\n\n2\n\nMawatha, Colombo 02. Respondent Petitioners Vs A.A. Sarath, 83/15, Wijithapura Mawatha, Mahakandara, Madapatha And 23 Others Petitioner Respondents\n\n1. Commissioner General of\n\nExcise,Department of Excise, No. 34, W.A.D.Ramanayake Mawatha, Colombo 02. And 34 Others 17 th to 30th and 63rd to 66th Respondent Respondents C/o The Department of Excise, No. 34, W.A.D. Ramanayake Mawatha, Colombo 02. 83. The Attorney General, Attorney General’s Department, Hulftsdorp Street, Colombo 12. Respondent Respondents\n\n3",
@@ -79,6 +81,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.494321"
+    "extracted_at": "2026-10-17T16:44:24.965151"
   }
 }

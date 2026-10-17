@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under and in terms of Article 126 reads with Article 17 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\nS.C.F.R Application No: SC FR/185/18\n\n1. Attanayake Mudiyansela Thimeth Senuja Bandara Attanayake\n\n2. Attanayake Mudiyansela Indika Umesh Bandara Attanayake\n\n3. Mapa Herath Mudiyanselage Sudarshani Mapa Herath\n\nAll of;\n\nNo: 284/A/2, Randipola Watta, Ambilmeegama, Pilimathalawa\n\nPetitioners\n\nVs.\n\n1. R.D.M.P. Weerathunga,\n\nThe Principal and Chairman of the interview board to admit students to Grade 1, Kingswood College, Kandy.\n\n2\n\n2. B.M.H.A. Bandara,\n\nThe Vice Principal, Kingswood College, Kandy. 3. S.A. Wijekoon,\n\nSecretary of the Interview Board to admit students to Grade 1, Kingswood College, Kandy. 4. P.G.M. Herath,\n\nMember of the Interview Board to admit students to Grade 1, Kingswood College, Kandy. 5. R.M. Inoka Lasanthi,\n\nMember of the Interview Board to admit students to Grade 1, Kingswood College, Kandy. 6. M. Abegunasekara,\n\nPresident of the Appeals and Objections Board to admit students to Grade 1, Kingswood College, Kandy And Principal, Girl’s High School, Kandy. 7. S.P. Vidanagamge,\n\nSecretary of the Appeals and Objections Board to admit students to Grade 1, Kingswood College, Kandy.\n\n3\n\n8. Subashini Hemalatha,\n\nMember of the Appeals and Objections Board to admit students to Grade 1, Kingswood College, Kandy And Deputy Principal, Pushpadana Girl’s College, Kandy. 9. Kodithuwakku,\n\nMember of the Appeals and Objections Board to admit students to Grade 1, Kingswood College, Kandy. 10. Director of National Schools\n\nMinistry of Education, Isurupaya, Baththaramulla. 11. Sunil Hettiarachchi,\n\nSecretary, Ministry of Education, Isurupaya, Baththaramulla. 12. G.G.S.B. Alahakoon,\n\nNo: 134/1, Heennarandeniya, Gampola. 13. G.G.C.B. Alahakoon,\n\nNo: 134/1, Heennarandeniya, Gampola.\n\n4\n\n14. S.D. Kolambage,\n\nNo: 71/165, 2nd Lane, Heerassagala Road, Kandy. 15. N.N. Kolambage,\n\nNo: 71/165, 2nd Lane, Heerassagala Road, Kandy. 16. I.K.D.S.B. Siriwardana,\n\nNo: 08, Mulgampala Road, Kandy. 17. I.K.D.M. Siriwardana,\n\nNo: 08, Mulgampala Road, Kandy. 18. Hon. Attorney General,\n\nAttorney General’s Department, Colombo 12. Respondents",
@@ -40,6 +42,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.566242"
+    "extracted_at": "2026-10-17T16:44:32.815446"
   }
 }

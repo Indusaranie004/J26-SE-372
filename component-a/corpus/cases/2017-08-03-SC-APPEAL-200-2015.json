@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA\n\nIn the matter of an Appeal from the Judgment of the Civil Appellate High Court of Colombo dated 03.11.2014.\n\n1. Barbara Iranganie De Silva,\n\nNo. 125/A, Weliamuna Road, Hekitta, Wattala. 2. Malagalage Dona Chanithrie\n\nKanchana Perera, No. 125/A, Weliamuna Road, Hekitta , Wattala. Plaintiffs SC APPEAL No. 200/2015 SC/HC/CALA/192/2015 Vs WP/HCCA/COL/83/2014 DC COLOMBO DLM/93/2013\n\nHewa Waduge Indralatha, No. 22, Peiris Mawatha, Colombo 15. Defendant AND THEN BETWEEN Hewa Waduge Indralatha, No. 22, Peiris Mawatha, Colombo 15. Defendant Petitioner Vs\n\n2\n\n1.Barbara Iranganie De Silva, No. 125/A, Weliamuna Road,\n\nHekitta, Wattala. 2.Malagalage Dona Chanithrie Kanchana Perera, No. 125/A, Weliamuna Road, Hekitta , Wattala.\n\nPlaintiffs Respondents AND THEREAFTER BETWEEN Hewa Waduge Indralatha, No. 22, Peiris Mawatha, Colombo 15. DEFENDANT PETITIONER APPELLANT Vs 1. Barbara Iranganie De Silva,\n\nNo. 125/A, Weliamuna Road, Hekitta, Wattala 2. Malagalage Dona Chanithrie\n\nKanchana Perera, No. 125/A, Weliamuna Road, Hekitta, Wattala. PLAINTIFFS RESPONDENTS RESPONDENTS AND NOW BETWEEN 1.Barbara Iranganie De Silva,\n\nNo. 125/A, Weliamuna Road, Hekitta, Wattala\n\n3\n\n2. Malagalage Dona Chanithrie\n\nKanchana Perera, No. 125/A, Weliamuna Road, Hekitta, Wattala. PLAINTIFFS RESPONDENTS RESPONDENTS APPELLANTS Vs Hewa Waduge Indralatha, No. 22, Peiris Mawatha, Colombo 15. DEFENDANT PETITIONER APPELLANT RESPONDENT",
@@ -181,6 +183,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.932384"
+    "extracted_at": "2026-10-17T16:44:24.397302"
   }
 }

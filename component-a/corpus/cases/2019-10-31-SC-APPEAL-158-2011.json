@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nKusum Shanthi Iddagoda, Divisional Secretary, Divisional Secretariat, Dodangoda. Plaintiff -Vs- 1. Land Reform Commission, No. C 82, Gregory’s Avenue, Colombo 07.\n\n2. Agalawatte Plantations Ltd,\n\nNo.10, Gnanartha Pradeepa Mawatha, Colombo 08. Defendants AND BETWEEN SC Appeal No. 158/2011 1. Land Reform Commission, SC/HC/CA/LA No. 91/2011 No. C 82, Gregory’s Avenue, WP/HCCA/ Kalutara No: 25/2010 Colombo 07. D.C. Kalutara Case No. 82/2006\n\n1st Defendant-Petitioner\n\nVs 1. Kusum Shanthi Iddagoda,\n\nDivisional Secretary, Divisional Secretariat, Dodangoda. Plaintiff-Respondent\n\n2\n\n2. Agalawatte Plantations Ltd,\n\nNo.10, Gnanartha Pradeepa Mawatha, Colombo 08.\n\n2nd Defendant-Respondent\n\nAND NOW BETWEEN 1. Land Reform Commission,\n\nNo. C 82, Gregory’s Avenue, Colombo 07.\n\n1stDefendant-Petitioner-Petitioner\n\nVs\n\nKusum Shanthi Iddagoda, Divisional Secretary, Divisional Secretariat, Dodangoda. Plaintiff-Respondent-Respondent Agalawatte Plantations Ltd, No.10, Gnanartha Pradeepa Mawatha, Colombo 08.\n\n2nd Defendant-Respondent- Respondent",
@@ -59,6 +61,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.591715"
+    "extracted_at": "2026-10-17T16:44:29.254198"
   }
 }

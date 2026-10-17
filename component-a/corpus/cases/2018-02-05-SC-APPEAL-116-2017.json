@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nSC. Appeal No. 116/2017 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA In the matter of an application for Leave to Appeal under and in terms of the Provisions of Section 5(c) of the High Court of the Provinces (Special Provisions) (Amendment) Act No. 54 of 2006 read together with the Provisions of Article 128 of the Constitution of the Democratic Socialist Republic of Sri Lanka against the Judgment of their Lordship of the Civil Appellate High Court Central Province holden at Kandy delivered on 15.12.2015. SC. Appeal No. 116/2017 SC.HC.CALA. Application No. 43/2016 Appeal No. CP/HCCA/Kandy/ 78/13(FA) DC. Matale Case No. L/ 6019 Enasalmada Aluth Gedara Ariyasinghe, Malgammana, Gangeyaya, Maraka. Defendant-Respondent-Petitioner -Vs- Enasalmada Aluth Gedara Wijesinghe, No.17, Malgammana, Maraka. Plaintiff-Appellant-Respondent\n\n2",
@@ -50,6 +52,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.179590"
+    "extracted_at": "2026-10-17T16:44:24.653546"
   }
 }

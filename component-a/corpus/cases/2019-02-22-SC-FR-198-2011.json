@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA In the matter of an Application under and in terms of Article 17 and 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka. Tuduge Achalanka Srilal Perera, ‘Isura’, Wellarawa, Wellarawa. S.C. (F/R) Application No: 198/2011 Petitioner Vs. (1) Police Sergeant Ananda, Police Station, Madampe. (2) Inspector of Police Indrajith, Officer-in-Charge, Police Station, Madampe. (3) Inspector-General of Police, Police Headquarters, Colombo 01. (4) Hon. Attorney-General, Attorney-General’s Department, Colombo 12. Respondents\n\n2",
@@ -64,6 +66,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.735813"
+    "extracted_at": "2026-10-17T16:44:26.777714"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for\n\nLeave to Appeal in terms of\n\nSection 5C of the High Court of\n\nthe Provinces (Special Provisions)\n\nAct No. 54 of 2006 as amended\n\n1. Nawinna Kottage Dona Lalitha\n\nPadmini\n\n2. Wellalagodage Ganga Geeth\n\nKumara\n\nBoth of No. F41,\n\nBandaranaikapura,\n\nRajagiriya.\n\nPlaintiffs\n\n-Vs-\n\n1. N.K.D. Pradeepa Nishanthi\n\nKumari\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\n2. Dammika Weerakoon,\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\n3. National Housing Development\n\nAuthority\n\nChittampalam A. Gardiner\n\nMawatha,\n\nColombo 02.\n\nDefendants\n\nBetween\n\nSC/HC/CA/LA No. 134/2016\n\nWP/HCCA/COL/97/2010(F)\n\nDC Colombo Case No. 19673/L\n\n2\n\n1. N.K.D. Pradeepa Nishanthi\n\nKumari\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\n2. Dammika Weerakoon,\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\nDefendant – Appellants\n\n-Vs-\n\n1. Nawinna Kottage Dona Lalitha\n\nPadmini\n\n2. Wellalagodage Ganga Geeth\n\nKumara\n\nBoth of No. F41,\n\nBandaranaikapura,\n\nRajagiriya.\n\nPlaintiff – Respondents\n\n3. National Housing Development\n\nAuthority\n\nChittampalam A. Gardiner\n\nMawatha,\n\nColombo 02.\n\n3rd Defendant – Respondent\n\nAnd Now Between\n\n1. Nawinna Kottage Dona Lalitha\n\nPadmini\n\n2. Wellalagodage Ganga Geeth\n\nKumara\n\nBoth of No. F41,\n\nBandaranaikapura,\n\nRajagiriya.\n\n3\n\nPlaintiff – Respondent –\n\nPetitioners\n\n-Vs-\n\n1. N.K.D. Pradeepa Nishanthi\n\nKumari\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\n2. Dammika Weerakoon,\n\nNo. F43, Bandaranaikapura,\n\nRajagiriya.\n\nDefendant – Appellant –\n\nRespondents",
@@ -132,6 +134,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.013103"
+    "extracted_at": "2026-10-17T16:44:25.361384"
   }
 }

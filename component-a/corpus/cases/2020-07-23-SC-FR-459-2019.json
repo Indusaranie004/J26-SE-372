@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nTHE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an application under and in terms of Article 17 and Article 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. Denushi Vindya Kasthuriarachchi\n\nNo.109, Kingswood Park, Maya Terrace, Kiribathgoda. PETITIONER 1. Sri Lanka Medical Council,\n\nNo.31, Norris Canal Road, Colombo 10\n\n2. Hon. Attorney General,\n\nAttorney General’s Department, Colombo-12\n\nRESPONDENTS",
@@ -91,6 +93,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.417808"
+    "extracted_at": "2026-10-17T16:44:31.397954"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "IN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA\n\nChrisani Suweenetha Mariel\n\nLilian Karunaratne,\n\nNo. 4, Victoria Gardens,\n\nHokandara South,\n\nHokandara.\n\nPlaintiff\n\nSC APPEAL NO: SC/APPEAL/17/2015\n\nSC LA NO: SC/HCCA/LA/463/2013\n\nHCCA COLOMBO NO: WP/HCCA/COL/257/2008/F\n\nDC COLOMBO CASE NO: 9643/RE\n\nVs.\n\nP.R. Kotalawela,\n\nNo. 32-1/2 Castle Street,\n\n(Dudley Senanayake Mawatha),\n\nColombo 8.\n\nDefendant\n\nAND BETWEEN\n\nChrisani Suweenetha Mariel\n\nLilian Karunaratne,\n\nNo. 4, Victoria Gardens,\n\nHokandara South,\n\nHokandara.\n\nPlaintiff-Appellant\n\n2\n\nVs.\n\nP.R. Kotalawela,\n\nNo. 32-1/2 Castle Street,\n\n(Dudley Senanayake Mawatha),\n\nColombo 8.\n\nDefendant-Respondent\n\nAND NOW BETWEEN\n\nChrisani Suweenetha Mariel\n\nLilian\n\nKarunaratne,\n\nNo. 4, Victoria Gardens,\n\nHokandara South,\n\nHokandara.\n\nPlaintiff-Appellant-Appellant\n\nVs.\n\nP.R. Kotalawela,\n\nNo. 32-1/2 Castle Street,\n\n(Dudley Senanayake Mawatha),\n\nColombo 8.\n\nDefendant-Respondent-Respondent",
@@ -213,6 +215,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.493471"
+    "extracted_at": "2026-10-17T16:44:32.733260"
   }
 }

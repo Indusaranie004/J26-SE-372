@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA In the matter of an application for Special Leave to Appeal in terms of Article 128(2) of the Constitution of the Democratic Socialist Republic of Sri Lanka D D Gnanawathi Ranasinghe, 165/5,Park Road, Colombo 5 Petitioner-Appellant(Deceased) PHK Dharmasiri Ranasinghe 165/5,Park Road, Colombo 5 Substituted Petitioner-Appellant Vs SC Appeal 87A/2006\n\nSC (Spl) LA156/2006 CA Writ Application 1642/2003\n\n1. Hon. Minister of Lands, Ministry of Lands, 80/5, Govijana Mandiraya, Battaramulla. 2. Divisional Secretary of Nugegoda, “Highlevel Plaza” Gangodawila, Nugegoda\n\n3. Chairman, Urban Development Authority, 6th and 7th Floors, “Sethsiripaya” Battaramulla. 4. Urban Development Authority, 6th and 7th Floors, “Sethsiripaya” Battaramulla.\n\n2\n\n5. Chairman, Sri Lanka Land Reclamation and Development Corporation, 351,Kotte Road, Rajagiriya. 6. Hon. Attorney-General, Attorney-General's Department, Colombo-12. Respondent-Respondents",
@@ -64,6 +66,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.989351"
+    "extracted_at": "2026-10-17T16:44:24.447992"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an application under and in terms of Article 17 read with Article 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\nCAPTAIN CHANNA D.L. ABEYGUNEWARDENA No.322/55, Saraswathie Estate, Thalawathugoda. PETITIONER S.C F.R. 57/2016 VS.\n\n1. SRI LANKA PORTS AUTHORITY No.19, Chaithya Road, Colombo 01.\n\n2. DHAMMIKA RANATHUNGA Chairman, Sri Lanka Ports Authority, No.19, Chaithya Road, Colombo 01.\n\n3. SARATH KUMARA PREMACHANDRA Managing Director, Sri Lanka Ports Authority, No.19, Chaithya Road, Colombo 01.\n\n4. MAGAMPURA PORT MANAGEMENT\n\nCOMPANY (PRIVATE) LIMITED, Ports Administration Complex, Mirijjawila, Hambantota.\n\n5. DAMMIKA RANATHUNGA-CHAIRMAN 6. DR. LALITH PERERA 7. SANJEEWA WIJERATNE 8. THAMEERA MANJU 9. UDITHA GUNAWARDENA 10. SHIRANI WANNIARACHCHI 11. JAYANTHA PERERA\n\nDirectors of Magampura Port Management Company (Pvt) Limited. 12. SARATH PERERA General Manager, Magampura Port Management Co. (Pvt.) Ltd,\n\n2\n\nPort Administration Complex Mirijjawila, Hambantota. 13. HON. ATTORNEY-GENERAL Attorney-General‟s Department, Colombo 12.\n\nRESPONDENTS",
@@ -339,6 +341,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.476876"
+    "extracted_at": "2026-10-17T16:44:23.884213"
   }
 }

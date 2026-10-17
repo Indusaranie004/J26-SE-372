@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC / FR 577/10 JUDGMENT Page 1 of 15\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application\n\nunder and in terms of Articles 11,\n\n13(1) and 17 of the Constitution\n\nread together with Article 126 of\n\nthe Constitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\nRathnayake Tharanga Lakmali\n\n272/ A, Yapa 05, Moraketiya,\n\nEmbilipitiya.\n\n(In respect of the infringement of the\n\nfundamental rights of her husband\n\nRanamukage Ajith Prasanna who is\n\nnow deceased)\n\nPETITIONER\n\nVs.\n\n1. Niroshan Abeykoon\n\nInspector of Police\n\nOfficer-in-Charge\n\nCrime Branch\n\nEmbilipitiya Police Station\n\nEmbilipitiya.\n\nSC/ FR Application 577/2010\n\nSC / FR 577/10 JUDGMENT Page 2 of 15\n\n2. Suraweera Arachchige Wasantha\n\nSuraweera, Police Sergeant 32215\n\nEmbilipitiya Police Station\n\nEmbilipitiya.\n\n3. Police Constable 41953 Hewa\n\nSangappulige Chaminda\n\nEmbilipitiya Police Station\n\nEmbilipitiya.\n\n4. Police Constable 20527\n\nPushpakumara\n\nEmbilipitiya Police Station\n\nEmbilipitiya.\n\n5. Inspector of Police Peter\n\nEmbilipitiya Police Station\n\nEmbilipitiya.\n\n6. Vijitha Kumara, Chief Inspector of\n\nPolice, Embilipitiya Headquaters\n\nPolice Station, Embilipitiya.\n\n7. Ananda Samarasekera\n\nAssistant Superintendent of Police\n\nASP’s Office, Embilipitiya\n\nSC / FR 577/10 JUDGMENT Page 3 of 15\n\n8. Mahinda Balasooriya\n\nInspector General of Police\n\nPolice Headquaters, Colombo 01.\n\n8A. Mr. Pujitha Jayasundara,\n\nInspector General of Police\n\nPolice Headquaters, Colombo 01\n\n9. Dr. Uthpala Attygalle\n\nJudicial Medical Officer\n\nEmbilipitiya (Discharged from the\n\nproceedings)\n\n10. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nRESPONDENTS",
@@ -72,6 +74,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.795553"
+    "extracted_at": "2026-10-17T16:44:29.876770"
   }
 }

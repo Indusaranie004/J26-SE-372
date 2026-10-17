@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an Appeal in terms of section 5 of the High Court of the Provinces (Special Provisions) Act No. 10 of 1996 reads with Article 154P (3) of the Constitution of the Republic of Sri Lanka\n\nCommercial Bank of Ceylon Limited alias Seemasahitha Lanka Vanija Bankuwa of No. 21, Bristol Street, Colombo 01 and having branch office and/or place of business at No. 343, Galle Road, Colombo 06.\n\nPlaintiff\n\nSC/CHC /19/2007 HC (Western Province) Civil Vs Case No. 100/98 (1)\n\n1. Samarathilaka Wijesingha Ekanayaka 2. Indra Iranganie Wijesingha Ekanayaka 3. Sujeewa Wijesingha Ekanayaka\n\nCarrying on business under the name style and firm of “Sahana Printers” at Dummaladeniya, Wennappuwa.\n\nDefendants\n\nAnd Commercial Bank of Ceylon Limited alias Seemasahitha Lanka Vanija Bankuwa of No. 21, Bristol Street, Colombo 01 and having branch office and/or place of business at No. 343, Galle Road, Colombo 06.\n\nPlaintiff-Appellant\n\n2 Vs\n\n1. Samarathilaka Wijesingha Ekanayaka\n\n(Now deceased) 1A. Indra Iranganie Wijesingha Ekanayaka\n\n1st Substituted Defendant-Respondent 2. Indra Iranganie Wijesingha Ekanayaka\n\n2nd Defendant-Respondent\n\n3. Sujeewa Wijesingha Ekanayaka\n\nCarrying on business under the name style and firm of “Sahana Printers” at Dummaladeniya, Wennappuwa.\n\n3rd Defendant-Respondent",
@@ -84,6 +86,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.693097"
+    "extracted_at": "2026-10-17T16:44:29.535357"
   }
 }

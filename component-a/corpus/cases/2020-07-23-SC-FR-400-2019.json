@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nTHE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under and in terms of Article 17\n\nand Article 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. A.L.M Rushdhaan,\n\nNo.27-1/2, Alfred Place, Colombo-3 2. R.W.D.L.H.Rajasekara,\n\nNo: 23, Saparamadu Place, Weragoda, Kelaniya. 3. M.L.M. Nasly,\n\nNo.686, Rajamalwatte, Malwana. 4. Dulanjana Nishamali de Silva,\n\nNo.207, Peradeniya Road, Kandy 5. W.I Madhushani,\n\nDayani, Kondadeniya, Dickwella presently at No.173/A, Araliya Patumaga, Bellanwila, Boralesgamuwa 6. Francis Vijitharan,\n\nNo.175, Moor Street, Mannar. PETITIONERS 1. Sri Lanka Medical Council,\n\nNo.31, Norris Canal Road, Colombo 10 2. Hon.Dr.Rajitha Senarathne,\n\nMinister of Health, Nutrition and Indigenous Medicine,\n\nS.C.F.R. APPLICATION NO: 400/2019\n\n2\n\nMinistry of Health, Nutrition and Indigenous Medicine, Suwasiripaya, No.385, Rev. Baddegama, Wimalawansa Thero Mawatha, Colombo-10. 3. Dr. Anil Jayasinghe,\n\nDirector General of Health services, Ministry of Health, Nutrition and Indigenous Medicine, Suwasiripaya, No.385, Rev. Baddegama, Wimalawansa Thero Mawatha, Colombo-10. 4. Hon. Attorney General,\n\nAttorney Genreral’s Department, Colombo-12. RESPONDENTS",
@@ -85,6 +87,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.341063"
+    "extracted_at": "2026-10-17T16:44:31.294629"
   }
 }

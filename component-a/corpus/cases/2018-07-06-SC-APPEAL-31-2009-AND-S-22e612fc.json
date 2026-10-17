@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Appeal to the Supreme Court of the Democratic Socialist Republic of Sri Lanka pursuant to the grant of Special Leave to Appeal under and in terms of Section 9(a) of The High Court of the Provinces (Special Provisions) Act No. 19 of 1990.\n\nLakshman Ravendra Watawala\n\nChairman/ Director General,\n\nBoard of Investment of Sri Lanka,\n\n26th Floor,\n\nWest Tower,\n\nWorld Trade Centre,\n\nEchelon Square, Colombo 01.\n\nApplicant\n\n- Vs -\n\nChandana Karunathilake\n\nB02, Textile Factory Housing Complex,\n\nThulhiriya.\n\nRespondent\n\nAND\n\nChandana Karunathilake\n\nB02, Textile Factory Housing Complex,\n\nThulhiriya.\n\nRespondent-Appellant\n\n- Vs -\n\nSC Appeal 31/2009 and SC Appeals 35/2009 – 78/2009 SC Spl LA No. 237/2008 HC Kegalle No. 2901/Appeal MC Warakapola No. 37925\n\n2\n\nLakshman Ravendra Watawala, Chairman/Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, Echelon Square, Colombo 01.\n\nApplicant-Respondent\n\nAND NOW\n\n1. Lakshman Ravendra Watawala, Chairman/Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, Echelon Square, Colombo 01.\n\nApplicant-Respondent-Appellant\n\n1B. Kulappuarachchige Don Dhammika\n\nPerera, Chairman/Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, World Trade Centre, Echelon Square, Colombo 01.\n\n1C. Jayampathy Divale Bandaranayake,\n\nChairman/ Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, World Trade Centre, Echelon Square, Colombo 01.\n\n3\n\n1D. Mahavidanalage Munidasa Charlce Ferdinando\n\nChairman/ Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, World Trade Centre, Echelon Square, Colombo 01.\n\n1E. Vithanage Upul Priyantha de Silva\n\nJayasuriya, Chairman/ Director General, Board of Investment of Sri Lanka, 26th Floor, West Tower, World Trade Centre, Echelon Square, Colombo 01.\n\n1F. Duminda Rathnayake,\n\nChairman, Board of Investment Sri Lanka, 26th Floor, West Tower, Echelon Square, Colombo 01.\n\nAdded Applicant – Respondent –\n\nAppellants\n\n- Vs -\n\n1. Chandana Karunathilake\n\nB02, Textile Factory Housing Complex,\n\nThulhiriya.\n\nRespondent-Appellant-\n\nRespondent\n\n4\n\nArgued",
@@ -214,6 +216,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.594062"
+    "extracted_at": "2026-10-17T16:44:25.036597"
   }
 }

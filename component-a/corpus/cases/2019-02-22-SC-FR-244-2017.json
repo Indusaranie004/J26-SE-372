@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under and\n\nin terms of Article 12(1) and 14(1)(g),\n\nread with Articles 17 and 126 of the\n\nConstitution.\n\n1.Ranasinghe Arachchige Nadeesha\n\nSeuwandi Ranasinghe,\n\nNo. 130D, “Saman”\n\nWalpola Road,\n\nRagama.\n\n2.Mohamed Huwais Mohamed\n\nNaleef,\n\nNo.7,\n\nSalawatta Lane,\n\nWellampitiya.\n\nPETITIONERS\n\nSC No: SC FR 244/2017Vs\n\n1.Ceylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n2.Chairman,\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n3.Managing Director,\n\n1\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n4.P.D.P.Dharmawansa,\n\nDeputy General Manager (HR and\n\nAdmin),\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa\n\n5.W.V.S.A. Fonseka,\n\nChief Accountant,\n\nMinistry of Petroleum Resources\n\nDevelopment,\n\nNo. 80, Sir Ernest de Silva Mawatha,\n\nColombo 07.\n\n6.D.M.H.B.Dasanayake,\n\nManager (Internal Audit),\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n7.K.M.N.A.C.Perera,\n\nHuman Resource Manager,\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n8.Manoj Siriwardene,\n\n2\n\nSenior Deputy Manager (Finance),\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa\n\n9.R.M.S.K. Rathnayake (11536)\n\n10. R.M.S.M.T. Mahanama (14104)\n\n11. D.R.C.S.Thennakoon (14629)\n\n12. E.G.C.B.Ellagama (16096)\n\n9th to 12th Respondents all of and to be\n\nserved through the Manager (Internal\n\nAudit),\n\nCeylon Petroleum Storage Terminals\n\nLimited,\n\nOil Installation,\n\nKolonnawa.\n\n13. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nRESPONDENTS",
@@ -144,6 +146,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.759393"
+    "extracted_at": "2026-10-17T16:44:26.837172"
   }
 }

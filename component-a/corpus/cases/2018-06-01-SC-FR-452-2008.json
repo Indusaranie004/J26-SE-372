@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA In the matter of an Application in terms of an Article 126 of the Constitution read with Articles 12(1), 12(2), 12(3) and 14(1)e of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. Rev. Athuthudave Gunasiri Thero,\n\nChairman, Sri Wijeyashrama Vihara Sanwardana Samithiya, No. 1080, Sri Jayawardenapura Mawatha, Bandaranayakapura, Rajagiriya. 2. Wanigasuriya Arachige Priyani,\n\nSecretary, Sri Wijeyashrama Vihara Sanwardena Samithiya, No. 1080, Sri Jayawardenapura Mawatha, Bandaranayakapura, Rajagiriya. SC APPLICATION No. SC FR 452/2008 3. Jayakody Arachilage Jayalath Premawansa, Treasurer, Sri Wijeyashrama Vihara Sanwardena Samithiya, No. 1080, Sri Jayawardenapura Mawatha, Bandaranayakapura, Rajagiriya. PETITIONERS Vs\n\n2\n\n1. Muthuwelu Manimuththu,\n\nFormer Chairman, Sri Lanka Land Reclamation and Development Corporation, No. 7/2, Liberty Plaza Colombo 3. And : 10/A. 2/1, Ward Place, Colombo 7. 2. Karunasena Hettiarachchi,\n\nChairman,Sri Lanka Land Reclamation and Development Corporation, No. 3, Welikada, Rajagiriya. 3. Valance Guneratne, Former\n\nManaging Director, Sri Lanka Land Reclamation and Development Corporation, No. 12, Vandervert Place, Colombo 12. 4. Sri Lanka Land Reclamation and\n\nDevelopment Corporation, No. 3, Welikada, Rajagiriya. 5. Chandrapema Gamage,\n\nCommissioner of Buddhist Affairs, Ministry of Buddhist Affairs, No. 301, T.B.Jaya Mawatha, Colombo 10. 6. Dinesh Goonewardena, Hon. Minister of Urban Development And Sacred Area Development, Ministry of Urban Development and Sacred Area Development, 3rd Floor, Sethsiripaya, Battaramulla. 7. Depanama Sugathabandu Thero\n\n(now deceased), Sri Dharmakirthiyaramaya, Polwatte Pansala, Kollupitiya, Colombo 3.\n\n3\n\n8. Hewawasamge Padmalal Wijeratne, No. 12/1, Gregory’s Road, Colombo 7. 9. Lanka Orix Leasing Company Ltd.,\n\nNo. 100/1, 1/1, 1st Floor, Sri Jayawardenapura Mawatha, Rajagiriya.\n\n10. Vidyaranya Winayakarma Sabawa\n\nHead Office, Sri Dharmakirthi Rajakiya Pansala, Polwatta Pansala, Kollupitiya, Colombo 3. 11. Honourable Attorney General,\n\nAttorney General’s Department, Colombo 12. RESPONDENTS Ven. Omare Kassapa Thero, Ilangagoda Purana Rajamaha Viharaya, Sapugoda, Kamburupitiya. INTERVENIENT RESPONDENT",
@@ -215,6 +217,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.433927"
+    "extracted_at": "2026-10-17T16:44:24.903198"
   }
 }

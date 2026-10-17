@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nSC (FR) Application 97/2014\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an application made under\n\nand in terms of Article 17 and 126 of the\n\nconstitution of the Democratic Socialist\n\nRepublic of Sri Lanka\n\nFathima Hishana\n\n43, Buthgamuwa Road\n\nWelikada, Rajagiriya\n\nAppearing by her Next Friend\n\nMohamed hirzi Shahul Hameed\n\n43, Buthgamuwa Road\n\nWelikada, Rajagiriya\n\nPetitioner\n\n-Vs-\n\n1. Nayana Thakshila Perera\n\nPrincipal\n\nJanadhipathi Balika Vidyalaya,\n\nSchool Lane—Nawala, Rajagiriya\n\n2. Ms. Hemamali\n\nThe Vice Principal\n\nJanadhipathi Balika Vidyalaya,\n\nSchool Lane—Nawala, Rajagiriya\n\n2\n\n3. Mrs. P. De. S. Naotunna\n\nClass Teacher—Grade 7C\n\nJanadhipathi Balika Vidyalaya,\n\nSchool Lane—Nawala, Rajagiriya\n\n4. J.M.C Jayanthi Wijethunge\n\nProvincial Secretary of Education\n\nShrawasthi Mandiraya,\n\n32, Marcus Fernando Mawatha,\n\nColombo 07.\n\n4A. M.A.B. Daya Senerath\n\nProvincial Secretary of Education\n\nShrawasthi Mandiraya,\n\n32, Marcus Fernando Mawatha,\n\nColombo 07.\n\n4B. S.G. Wijebandu\n\nProvincial Secretary of Education\n\nShrawasthi Mandiraya,\n\n32, Marcus Fernando Mawatha,\n\nColombo 07.\n\n5. Mr. P.N. Ilapperuma\n\nThe Provincial Director of\n\nEducation,\n\nProvincial Department of Education\n\n76, Ananda Coomaraswamy\n\nMawatha, Colombo 7.\n\n3\n\n5A. Mr. Wiman Gunaratne,\n\nThe Provincial Director of\n\nEducation,\n\nProvincial Department of Education\n\n76, Ananda Coomaraswamy\n\nMawatha, Colombo 7.\n\n6. Anura Dissanayake\n\nSecretary to the Ministry of\n\nEducation, ―Isurupaya‖\n\nPelawatte- Battaramulla.\n\n6A. Upali Marasinghe\n\nSecretary to the Ministry of\n\nEducation, ―Isurupaya‖\n\nPelawatte-Battaramulla.\n\n6B. W.M Banduseana\n\nSecretary to the Ministry of\n\nEducation, ―Isurupaya‖\n\nPelawatte-Battaramulla.\n\n7. Alavi Moulana\n\nThe Governor of the Western\n\nProvince, 98/4 Havelock Road,\n\nColombo 5.\n\n7A. K.C. Logeswaran\n\nThe Governor of the Western\n\nProvince,\n\n4\n\n98/4 Havelock Road,\n\nColombo 5.\n\n8. The Honourable Attorney General\n\nThe Attorney General’s Department,\n\nColombo 12.\n\nRespondents",
@@ -85,6 +87,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.329178"
+    "extracted_at": "2026-10-17T16:44:24.806561"
   }
 }

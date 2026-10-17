@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application under\n\nand in terms of Article 17 and 126 of\n\nthe Constitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\nLt. Col. Samitha Manojith Hewa Imaduwage,\n\n46/4, Senanayake Avenue,\n\nNawala, Rajagiriya.\n\nS.C. (F/R) Application No. 291/2016 Petitioner\n\nVs\n\n1. Lieutenant General A. W. J. C. De Silva,\n\nCommander of the Army,\n\nArmy Headquarters,\n\nColombo 03.\n\n1A. Lieutenant General Mahesh Senanayake,\n\nCommander of the Army,\n\nArmy Headquarters,\n\nColombo 03.\n\n2. Major General N. J. Walgama,\n\nMilitary Secretary,\n\nArmy Headquarters,\n\nColombo 03.\n\n2\n\n2A. Major General C. W. B. Wijesundera,\n\nMilitary Secretary,\n\nArmy Headquarters,\n\nColombo 03.\n\n3. Brigadier K. B. R. De Abrew,\n\nAssistant Military Secretary,\n\nArmy Headquarters,\n\nColombo 03.\n\n3A. Brigadier S. K. Eshwaran,\n\nAssistant Military Secretary,\n\nArmy Headquarters,\n\nColombo 03.\n\n4. Brigadier A. L. S. K. Perera,\n\nDirector Personal Administration,\n\nPremier Pacific Building,\n\nNo. 28, R. A. De Mel Mawatha,\n\nColombo 04.\n\n5. Major General K. R. P. Rowel,\n\nColonel Commandant,\n\nSri Lanka Signal Corps,\n\nRegiment Centre,\n\nArmy Cantonment,\n\nPanagoda.\n\n5A. Major General B. H. M. A. Wijesinghe,\n\n3\n\nColonel Commandant,\n\nSri Lanka Signal Corps,\n\nRegiment Centre,\n\nArmy Cantonment,\n\nPanagoda.\n\n6. Brigadier K. A. D. S. L. Perera,\n\nDirector Pay and Records,\n\nArmy Cantonment,\n\nPanagoda.\n\n6A. Colonel L. Wijesundara,\n\nDirector Pay and Records,\n\nArmy Cantonment,\n\nPanagoda.\n\n7. Lieutenant Colonel B. D. Fernando,\n\n5th Commanding Officer,\n\nSri Lanka Signal Corps,\n\nRegiment Centre, Army Cantonment,\n\nPanagoda.\n\n8. Jagath Dias,\n\nDirector General of Pensions,\n\nDepartment of Pensions,\n\nColombo 10.\n\n9. Karunasena Hettiarachchi,\n\nSecretary to the Ministry of Defence,\n\nMinistry of Defence,\n\n15/5, Baladaksha Mawatha,\n\n4\n\nColombo 03.\n\n9A. Kapila Waidyaratne PC,\n\nSecretary to the Ministry of Defence,\n\nMinistry of Defence,\n\n15/5, Baladaksha Mawatha,\n\nColombo 03.\n\n10. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nRespondents",
@@ -76,6 +78,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.012673"
+    "extracted_at": "2026-10-17T16:44:30.463284"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC Appeal 09/2010 JUDGMENT Page 1 of 42\n\nIN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an Appeal to the\n\nSupreme Court from a judgment\n\nof the High Court of the Province\n\nholden in Colombo in terms of\n\nsection 31DD of the Industrial\n\nDisputes Act (as amended).\n\nDavid Micheal Joachim\n\nNo. 27/6, Peters Lane,\n\nColombo 06.\n\nAPPLICANT\n\n-VS-\n\nAitken Spence Travels Ltd.\n\nNo. 305, Vauxhall Street,\n\nColombo 02.\n\nRESPONDENT\n\nAND BETWEEN\n\nDavid Micheal Joachim\n\nNo. 27/6, Peters Lane,\n\nColombo 06.\n\nAPPLICANT-APPELLANT\n\nSC Appeal No: 09/2010 SC (Spl) LA No. 209/2009 HC ALT No: 26/2008 LT Colombo No. 1/117/2001\n\nSC Appeal 09/2010 JUDGMENT Page 2 of 42\n\n-VS-\n\nAitken Spence Travels Ltd.\n\nNo. 305, Vauxhall Street,\n\nColombo 02.\n\nRESPONDENT -RESPONDENT\n\nAND NOW BETWEEN\n\nDavid Micheal Joachim\n\nNo. 27/6, Peters Lane,\n\nColombo 06.\n\nAPPLICANT-APPELLANT-\n\nAPPELLANT\n\n-VS-\n\nAitken Spence Travels Ltd.\n\nNo. 305, Vauxhall Street,\n\nColombo 02.\n\nRESPONDENT - RESPONDENT\n\nRESPONDENT",
@@ -229,6 +231,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.113809"
+    "extracted_at": "2026-10-17T16:44:32.271520"
   }
 }

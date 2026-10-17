@@ -2,6 +2,12 @@ import re
 import json, sqlite3, os
 from datetime import datetime
 from .entity_extractor import extract_entities
+from .chain_parser import parse_chain_from_caption
+
+ARTICLE_RX = re.compile(
+    r'\bArticle\s+\d+(?:\(\d+\))?',
+    re.IGNORECASE
+)
 
 DB_PATH   = "corpus/cases.db"
 CASES_DIR = "corpus/cases"
@@ -37,6 +43,15 @@ def init_db():
 def ingest_document(text, doc_id, case_num, court, date, source_sha):
     sections, entities = extract_entities(text)
 
+    caption_text = sections["caption"]["text"]
+    is_fr = bool(re.search(r'\bSC[.\s/]+FR\b', caption_text, re.IGNORECASE))
+    chain = parse_chain_from_caption(caption_text) if not is_fr else []
+    appeal_chain_parsed = not is_fr
+
+    acts_found = [e for e in entities if e["label"] == "ACT"]
+    articles_found = bool(ARTICLE_RX.search(sections["body"]["text"]))
+    legislation_parsed = len(acts_found) > 0 or articles_found
+
     record = {
         "doc_id":         doc_id,
         "case_num":       case_num,
@@ -47,6 +62,8 @@ def ingest_document(text, doc_id, case_num, court, date, source_sha):
         "text_available": True,
         "ocr_required":   False,
         "validity_status":"good_law",
+        "appeal_chain_parsed":  appeal_chain_parsed,
+        "legislation_parsed":   legislation_parsed,
         "sections":       sections,
         "entities": {
             "judges":    [e for e in entities if e["label"] == "JUDGE"],

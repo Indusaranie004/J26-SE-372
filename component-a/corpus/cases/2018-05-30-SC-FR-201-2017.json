@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nS.C. [FR] Application No. 201/2017\n\nIN THE SUPRME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an application under Articles 17 and 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka\n\n1. K. J. A Chathumi Sehasa, 2. K. J. A Aminda Kumara,\n\nBoth of 26A, Viyananda Mawatha, Weliwatta, Galle PETITIONERS -Vs- 1. Mrs. S. Irani Pathiranawasam,\n\nPrincipal, Southlands Balika Vidyalaya Light House Street, Fort, Galle. 2. Mr. Ranjith Tilakarathne,\n\nPrincipal, Aloysius College, Templers Road, Galle. 3. S. K. De Silva\n\n4. D. L. Chitra\n\n5. Ranga Mohotti\n\n6. Upali Amaratunga\n\n2nd to 6th Respondents are Members of the Appeals and Objections Investigations Board, Southlands Balika Vidyalaya, Light House Street, fort, Galle. 7. Mr. Sunil Hettiarachchi,\n\nSecretary, Ministry of Education, 3rd Floor, Isurupaya, Battaramulla. 8. Hon. Attorney General,\n\nAttorney General‟s Department, Colombo 12.\n\n2\n\nRESPONDENTS",
@@ -100,6 +102,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.402316"
+    "extracted_at": "2026-10-17T16:44:24.878328"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nJohn Devakumar Wilson,\n\nNo. 173/B,\n\nModel Farm Road,\n\nColombo 08.\n\nPlaintiff\n\nVs.\n\n1. Rajendra Wasanthikumari\n\n2. Sinnadurai Rajendran\n\nBoth\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n3. Masilaman Sivarasa,\n\nAnandapuram,\n\nKillinochchi.\n\n4. Sellaiya Sendiban,\n\nPungawana Junction,\n\nMulativu Road,\n\nKillinochchi.\n\n5. Siva Johnson,\n\nSC CHC Appeal No. 04/2017\n\nSC HCCA LA: 174/2005 and 175/2005\n\nHC/ JAFFNA CASE NO:\n\nNP/ HCCA/ JAFFNA/ 02/2014/LA\n\nDC KILLINOCHCHI CASE NO: L 325/13\n\n2\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n6. Suppaiya Selvendran,\n\nNo. 336, YMCA Junction,\n\nBharathipuram,\n\nKillinochchi.\n\n7. Veluraja Sekaran,\n\nNo. 414 02/02, Thirungar South,\n\nKillinochchi.\n\nDefendants\n\nAnd now between\n\nIn the matter of an application, inter\n\nalia, under section 757 of the Civil\n\nProcedure Code and section 5A(1)\n\nand 5A(2) of the High Court of the\n\nprovinces (Special Provisions)\n\n(Amendment Act No. 54 of 2006 for\n\nleave to Appeal from the Order made\n\nby the District Court of Killinochchi in\n\ncase No. L/325 on 10. 03. 2014)\n\nJohn Devakumar Wilson,\n\nNo. 173/B,\n\n3\n\nModel Farm Road,\n\nColombo 08.\n\nPlaintiff-Petitioner\n\nVs.\n\n1. Rajendra Wasanthikumari\n\n2. Sinnadurai Rajendran\n\nBoth\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n3. Masilaman Sivarasa,\n\nAnandapuram,\n\nKillinochchi.\n\n4. Sellaiya Sendiban,\n\nPungawana Junction,\n\nMulativu Road,\n\nKillinochchi.\n\n5. Siva Johnson,\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n6. Suppaiya Selvendran,\n\n4\n\nNo. 336, YMCA Junction,\n\nBharathipuram,\n\nKillinochchi.\n\n7. Veluraja Sekaran,\n\nNo. 414 02/02, Thirungar South,\n\nKillinochchi.\n\nDefendant-Respondents\n\nNow\n\nIn the matter of an Application for\n\nLeave to Appeal in terms of Section\n\n5(C) (1) of the High Court of the\n\nProvinces (Special Provisions)\n\n(Amendment) Act No. 54 of 2006\n\nread together with Article 127 of the\n\nConstitution.\n\n1. Rajendra Wasanthikumari\n\n2. Sinnadurai Rajendran\n\nBoth\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n3. Masilaman Sivarasa,\n\nAnandapuram,\n\n5\n\nKillinochchi.\n\n4. Sellaiya Sendiban,\n\nPungawana Junction,\n\nMulativu Road,\n\nKillinochchi.\n\n5. Siva Johnson,\n\nA9 Road, Paravipanchan,\n\nKillinochchi.\n\n1, 2, 3 & 5th Defendants-\n\nRespondents-Petitioners\n\nVs.\n\nJohn Devakumar Wilson,\n\nNo. 173/B,\n\nModel Farm Road,\n\nColombo 08.\n\nPlaintiff-Petitioner-Respondent",
@@ -154,6 +156,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.416431"
+    "extracted_at": "2026-10-17T16:44:26.095674"
   }
 }

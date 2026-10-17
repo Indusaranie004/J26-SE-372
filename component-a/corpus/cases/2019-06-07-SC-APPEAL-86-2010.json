@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1 SC Appeal 86 / 2010\n\nIN THE SUPREME COURT OF THE\n\nDEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an appeal in terms of\n\nArticle 128 of the Constitution of the\n\nDemocratic Socialist Republic of Sri\n\nLanka, against a judgment of the Court\n\nof Appeal.\n\nS C Appeal 86 / 2010\n\nS C Spl/LA 106 / 2010\n\nHigh Court of Galle\n\nCase No. 2361\n\n1. Ramasamy Mayalagu,\n\nNagoda Watta,\n\nNagoda,\n\nGalle.\n\n1ST ACCUSED - APPELLANT -\n\nAPPELLANT\n\n2. Mayalagu Tangaraja,\n\nNagoda Watta,\n\nNagoda,\n\n2 SC Appeal 86 / 2010\n\nGalle.\n\n3RD ACCUSED - APPELLANT -\n\nAPPELLANT\n\n-Vs-\n\nHon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nCOMPLAINANT - RESPONDENT -\n\nRESPONDENT",
@@ -73,6 +75,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.160386"
+    "extracted_at": "2026-10-17T16:44:27.942468"
   }
 }

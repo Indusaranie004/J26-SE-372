@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1 S C (F R) 288/2017\n\nIN THE SUPREME COURT OF THE\n\nDEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an application in terms of Article\n\n126 read with Article 17 of the Constitution of\n\nthe Democratic Socialist Republic of Sri Lanka.\n\nS C (F R) Application No. 288/ 2017,\n\n1. Dr. W M P N Weerasinghe,\n\nNo 9/11,\n\nRanasinghe Mawatha,\n\nHiripitiya,\n\nPannipitiya.\n\nPETITIONER\n\n-Vs-\n\n1. University of Colombo,\n\nCollege House,\n\nNo. 94,\n\nKumaratunga Munidasa Mawatha,\n\nColombo 03.\n\n2. Prof. Lakshman Dissanayake,\n\nVice Chancellor,\n\nUniversity of Colombo.\n\n3. K A S Edward,\n\nSecretary / Registrar,\n\n2 S C (F R) 288/2017\n\nUniversity of Colombo.\n\n4. Dr. R C K Hettiarachchi,\n\nRector,\n\nSri Palee Campus,\n\nUniversity of Colombo.\n\n5. Prof. M D A L Ranasinghe,\n\nDean,\n\nFaculty of Arts,\n\nUniversity of Colombo.\n\n6. Prof. M V Vithanapathirana,\n\nDean,\n\nFaculty of Education,\n\nUniversity of Colombo.\n\n7. Ms. Indira Nanayakkara,\n\nDean,\n\nFaculty of Law,\n\nUniversity of Colombo.\n\n8. Dr. R Senathiraja,\n\nDean,\n\nFaculty of Management and Finance,\n\nUniversity of Colombo.\n\n9. Prof. Jennifer Perera,\n\n3 S C (F R) 288/2017\n\nDean,\n\nFaculty of Medicine,\n\nUniversity of Colombo.\n\n10. Prof. K R R Mahanama,\n\nDean,\n\nFaculty of Science,\n\nUniversity of Colombo.\n\n11. Prof. Nayani Melegoda,\n\nDean,\n\nFaculty of Graduate Studies,\n\nUniversity of Colombo.\n\n12. Prof. Janaka de Silva\n\n13. Prof. J K D S Jayanetti\n\n14. Rajan Asiriwatham\n\n15. Dr. Harsha Cabraal PC\n\n16. Thilak Karunaratne\n\n17. Nigel Hatch PC\n\n18. Prof. Lakshman Ratnayaka\n\n19. Dr. Mrs.Ranee Jayamaha\n\n20. J M Swaminathan\n\n21. Prof. Rohan Jayasekera,\n\nAll of, the Council of the University of\n\nColombo.\n\n4 S C (F R) 288/2017\n\n22. Ms. D D N N Dissanayake\n\n23. Ms. S D P S Dissanayake\n\nBoth, lecturers (probationary),\n\nDepartment of Mass Media,\n\nSri Palee Campus,\n\nWewala,\n\nHorana.\n\n24. Dr. D Sri Ranjan,\n\nSenior Lecturer,\n\nSri Palee Campus,\n\nWewala,\n\n25. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nRESPONDENTS",
@@ -97,6 +99,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.293927"
+    "extracted_at": "2026-10-17T16:44:31.194622"
   }
 }
