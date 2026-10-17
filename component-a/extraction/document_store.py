@@ -1,3 +1,4 @@
+import re
 import json, sqlite3, os
 from datetime import datetime
 from .entity_extractor import extract_entities
@@ -6,6 +7,7 @@ DB_PATH   = "corpus/cases.db"
 CASES_DIR = "corpus/cases"
 STUBS_DIR = "corpus/stubs"
 
+# ── DATABASE ──────────────────────────────────────────────────────
 def init_db():
     os.makedirs(CASES_DIR, exist_ok=True)
     os.makedirs(STUBS_DIR, exist_ok=True)
