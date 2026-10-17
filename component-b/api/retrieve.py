@@ -2,6 +2,7 @@ import dataclasses
 import json
 import sys
 import os
+import httpx
 from contextlib import asynccontextmanager
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -16,6 +17,7 @@ from retrieval.seed.dense_retriever import DenseRetriever
 from retrieval.seed.hybrid import retrieve_concurrent, rrf_merge
 from retrieval.expand.traversal import expand
 from api.corpus_loader import fetch_corpus_from_api
+from api.response_enrichment import enrich_cluster
 
 bm25: BM25Retriever = None
 dense: DenseRetriever = None
@@ -42,6 +44,18 @@ class RetrieveRequest(BaseModel):
     top_k: int = TOP_K
     debug: bool = False
 
+def _get_case_meta(case_id: str) -> dict:
+    try:
+        resp = httpx.get(
+            f"https://component-a-api.onrender.com/cases/{case_id}",
+            timeout=10.0
+        )
+        if resp.status_code == 200:
+            return resp.json()
+    except Exception:
+        pass
+    return {}
+
 @app.post("/retrieve")
 def retrieve(req: RetrieveRequest):
     #Retrieval
@@ -58,9 +72,9 @@ def retrieve(req: RetrieveRequest):
             "bm25":    [{"id": i, "score": s} for i, s in b], #Debugging Only
             "dense":   [{"id": i, "score": s} for i, s in d], #Debugging Only
             "hybrid":  [{"id": i, "score": s} for i, s in h], #Debugging Only
-            "clusters": [dataclasses.asdict(c) for c in clusters], #To be consumed by downstream RAG (C)
+            "clusters": [enrich_cluster(c, _get_case_meta(c.seed_id)) for c in clusters], #To be consumed by downstream RAG (C)
         }
 
-    return {"clusters": [dataclasses.asdict(c) for c in clusters]}
+    return {"clusters": [enrich_cluster(c, _get_case_meta(c.seed_id)) for c in clusters]}
 
 # uvicorn component_b.api.retrieve:app --port 8001 --reload
