@@ -137,7 +137,9 @@ def get_manifest():
         }
     try:
         con = sqlite3.connect(DB_PATH)
-        count = con.execute("SELECT count(*) FROM cases WHERE in_corpus=1").fetchone()[0]
+        count = con.execute(
+            "SELECT count(*) FROM cases WHERE in_corpus=1"
+        ).fetchone()[0]
         doc_ids = [r[0] for r in con.execute(
             "SELECT doc_id FROM cases WHERE in_corpus=1"
         ).fetchall()]
@@ -175,9 +177,11 @@ def get_case(doc_id: str):
     # Live mode — read from document store
     record = get_case_from_db(doc_id)
     if record:
+        record["is_stub"] = False
         return record
     stub = get_stub_from_db(doc_id)
     if stub:
+        stub["is_stub"] = True   # cited but not in corpus
         return stub
     raise HTTPException(status_code=404, detail={
         "error": "case_not_found", "doc_id": doc_id,
@@ -202,6 +206,7 @@ def get_stub(doc_id: str):
             "error": "stub_not_found", "doc_id": doc_id,
             "message": f"No stub found for {doc_id}."
         })
+    stub["is_stub"] = True
     return stub
 
 # ── SECTIONS ──────────────────────────────────────────────────────
@@ -287,8 +292,23 @@ def get_citations(
     # Live mode — query Neo4j
     try:
         citations = get_citations_from_neo4j(doc_id, citation_type)
-        return {"doc_id": doc_id, "count": len(citations),
-                "citations": citations}
+
+        note = None
+        if not citations:
+            stub = get_stub_from_db(doc_id)
+            record = get_case_from_db(doc_id)
+            if stub:
+                note = "Case exists as a stub — cited but citation not classified by extraction pipeline"
+            elif record:
+                note = "Case is in corpus but not cited by other cases in current corpus"
+
+        return {
+            "doc_id": doc_id,
+            "source": "knowledge_graph",
+            "count": len(citations),
+            "citations": citations,
+            "treatment_note": note
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail={"error": str(e)})
 
@@ -332,8 +352,8 @@ def get_validity(
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail={"error": str(e)})
-
+        raise HTTPException(status_code=500, detail={"error": str(e)})    
+    
 # ── CHAIN ─────────────────────────────────────────────────────────
 
 @app.get("/cases/{doc_id}/chain")
@@ -348,19 +368,35 @@ def get_chain(doc_id: str):
         )
         return chain_data
 
-    # Live mode — read from document store JSON
-    record = get_case_from_db(doc_id)
-    if not record:
-        stub = get_stub_from_db(doc_id)
-        if not stub:
-            raise HTTPException(status_code=404, detail={
-                "error": "case_not_found", "doc_id": doc_id
-            })
-        return {"doc_id": doc_id, "chain": []}
-    return {
-        "doc_id": doc_id,
-        "chain": record.get("chain", [])
-    }
+    # Live mode — read from Neo4j APPEALED_FROM edges
+    try:
+        with get_driver().session() as s:
+            rows = s.run("""
+                MATCH (c:Case {doc_id: $doc_id})-[:APPEALED_FROM]->(lower:Case)
+                RETURN lower.court    AS court,
+                       lower.case_num AS num,
+                       lower.place    AS place,
+                       lower.in_corpus AS in_corpus
+            """, doc_id=doc_id).data()
+
+        if not rows:
+            # Fallback to document store if no KG chain
+            record = get_case_from_db(doc_id)
+            if record:
+                return {
+                    "doc_id": doc_id,
+                    "source": "document_store",
+                    "chain": record.get("chain", [])
+                }
+            return {"doc_id": doc_id, "source": "knowledge_graph", "chain": []}
+
+        return {
+            "doc_id": doc_id,
+            "source": "knowledge_graph",
+            "chain": rows
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"error": str(e)})
 
 # ── SEARCH ────────────────────────────────────────────────────────
 
