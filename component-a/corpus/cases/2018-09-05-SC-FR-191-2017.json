@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an Application in\n\nterms of Article 17 and 126 of the\n\nConstitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\n1. Rohini Manel Hettiarachchi\n\nParathalakanda, Erathne. 2. Walimuni Senaratne Mendis,\n\n5th Post, Batathota, Kuruwita.\n\nPETITIONERS S.C. (F.R) Application. No. 191/17\n\nVs. 1. Central Environmental\n\nAuthority, No. 104, ParisaraPiyasa, DenzilKobbekaduwa Mawatha, Battaramulla. 2. Sri Lanka Sustainable Energy\n\nAuthority, 3G-174 A, BMICH, Bauddhaloka Mawatha, Colombo 07. 3. Mr. Anura Satharasinghe,\n\nConservator General of Forest, Department of Forest, Rajamalwatta Road, Battaramulla. 4. A.S.J. Godellawatta,\n\n2\n\nFormer Divisional Secretary of Kuruwita, Presently at Provincial Commissioner of land, Sabaragamuwa Provincial Council, New town, Ratnapura. 5. Mr. Sunil Kannangara,\n\n(Former District Secretary o Ratnapura), Currently, District Secretary of Colombo, District Secretariat, Thimbirigasyaya. 6. Hon. Attorney General,\n\n(To represent His Excellency Hon. Maithripala Sirisena, Minister of Environment) Attorney General’s Department, Colombo 12. 7. Kuruganga Hydro (Pvt) Ltd,\n\nNo. 27-02, East Tower, World Trade Centre, Echelon Square, Colombo 01. 8. Mrs. MalaniLokupathagama,\n\nDistrict Secretary, Ratnapura. 9. Mrs. Dilini Dharmadasa,\n\nDivisional Secretary of Kuruwita, Divisional Secretariat, Kuruwita.\n\n3\n\n10. Hon. Attorney General,\n\nAttorney General’s Department, Colombo12.\n\nRESPONDENTS",
@@ -84,6 +86,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.846630"
+    "extracted_at": "2026-10-17T16:44:25.238094"
   }
 }

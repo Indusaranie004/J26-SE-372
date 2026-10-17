@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nKushan Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\nRepresented by his duly appointed next\n\nFriend.\n\nChandra Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\nPlaintiff\n\nCase No. SC. Appeal 65/2016\n\nCase No. SC/HC/CA/LA/137/2013 Vs.\n\nCase No. WP/HCCA/COL/123/2011\n\nCase No. 58123/MR 1. Sadhasivam Sivagankan,\n\n442, High Street, Tooting,\n\nLondon, United Kingdom and\n\n439, Galle Road,\n\nColombo 06.\n\n2. Tissaweerasingham Sundhararajan of,\n\n439, Galle Road,\n\nColombo 06 and of,\n\n17, De Mel Road, Mount Lavinia.\n\nDefendants\n\n2\n\n3. Union Assurance Limited of,\n\nNo. 20, St. Michael’s Road,\n\nColombo 03.\n\nAdded Defendant\n\nAND BETWEEN\n\nIn the matter of an application, inter alia, under\n\nSection 757 of the Civil Procedure Code and\n\nSections 5A (1) and 5A (2) of the High Court of the\n\nProvinces (Special Provisions) (Amendment) Act\n\nNo. 54 of 2006 for leave to appeal from the Order\n\nmade by the Learned Additional District Judge in\n\nDC Case No. 58123/MR and Delivered in open\n\ncourt on 24.10.2011.\n\nUnion Assurance Limited of,\n\nNo. 20, St. Michael’s Road,\n\nColombo 03.\n\nAdded Defendant – Petitioner\n\nKushan Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\nRepresented by his duly appointed next\n\nFriend.\n\n3\n\nChandra Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\nPlaintiff - Respondent\n\n1. Sadhasivam Sivagankan,\n\n442, High Street, Tooting,\n\nLondon, United Kingdom and\n\n439, Galle Road,\n\nColombo 06.\n\n2. Tissaweerasingham Sundhararajan of,\n\n439, Galle Road,\n\nColombo 06 and of,\n\n17, De Mel Road, Mount Lavinia.\n\nDefendant – Respondents\n\nAND NOW BETWEEN\n\nIn the matter of an application for Special Leave to\n\nAppeal to the Supreme Court under and in terms of\n\nArticle 128 of the Constitution.\n\nKushan Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\n4\n\nRepresented by his duly appointed next\n\nFriend.\n\nChandra Ediriweera of,\n\n40, Lake Gardens,\n\nRajagiriya.\n\nPlaintiff – Respondent - Petitioner\n\nVs.\n\n1. Sadhasivam Sivagankan,\n\n442, High Street, Tooting,\n\nLondon, United Kingdom and\n\n439, Galle Road,\n\nColombo 06.\n\n2. Tissaweerasingham Sundhararajan of,\n\n439, Galle Road,\n\nColombo 06 and of,\n\n17, De Mel Road, Mount Lavinia.\n\nDefendants – Respondents –Respondents\n\n3. Fairfirst Insurance Limited (formerly known\n\nas Union Assurance General Limited) of,\n\n5\n\nNo. 33, St. Michael’s Road,\n\nColombo 03.\n\nAdded Defendant – Petitioner – Respondent",
@@ -153,6 +155,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.531917"
+    "extracted_at": "2026-10-17T16:44:31.524092"
   }
 }

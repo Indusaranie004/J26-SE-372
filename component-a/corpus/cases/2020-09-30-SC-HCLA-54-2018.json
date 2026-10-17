@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC HC LA/54/18\n\n1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for\n\nLeave to Appeal in terms of\n\nSection 31DD of the Industrial\n\nDisputes Act No. 43 of 1950(as\n\namended) read with section 3 and\n\n10 of the High Courts of Provinces\n\n(Special Provisions) Act No. 19 of\n\n1990 from the judgement of the\n\nHigh Court of Negombo dated\n\n29th March, 2018.\n\nSC Appeal No. SC HC LA/54/18 HC Appeal No. HCA LT/86/2016 LT Case No. 21/95/2012 Nestle Lanka PLC 440, T.B. Jayah Mawatha, Colombo 10. Respondent-Appellant- Petitioner Vs. Gamini Rajapakshe Bodiyawatte Ambalan Watte, Ratnapura. Applicant-Respondent- Respondent\n\nSC HC LA/54/18\n\n2",
@@ -159,6 +161,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.711697"
+    "extracted_at": "2026-10-17T16:44:31.677511"
   }
 }

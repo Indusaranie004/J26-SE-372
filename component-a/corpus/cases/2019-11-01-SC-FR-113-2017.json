@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE\n\nDEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an application in terms\n\nof Article 126 read with Article17 of the\n\nConstitution of the Democratic Socialist\n\nRepublic of Sri Lanka.\n\nSC FR Application\n\nNo. 113 / 2017\n\n01 Tharushi Navodini Amarasena,\n\nManipal College of Medical Sciences,\n\nP O Box 155,\n\nPokhara,\n\nNepal.\n\nAppearing through her Power of Attorney\n\nholder\n\n02 Ramya Rohini Hettige Amarasena,\n\nNo. 8 1/1,\n\nSkyline Residencies,\n\n2\n\nMagazine Road,\n\nColombo 08.\n\nPETITIONER\n\n-Vs-\n\n01 Sri Lanka Medical Council,\n\nNo. 31,\n\nNorris Canal Road,\n\nColombo 10.\n\n02 Professor Carlo Fonseka,\n\nChairman,\n\nSri Lanka Medical Council,\n\nNo. 31,\n\nNorris Canal Road,\n\nColombo 10.\n\n02 (a) Dr. Colvin Gunaratne,\n\nChairman,\n\nSri Lanka Medical Council,\n\nNo. 31,\n\nNorris Canal Road,\n\nColombo 10.\n\n3\n\nDr. Terrence de Silva,\n\nRegistrar,\n\nSri Lanka Medical Council,\n\nNo. 31,\n\nNorris Canal Road,\n\nColombo 10.\n\n04 Dr. Jayasundara Bandara,\n\nActing Director General of Health\n\nServices,\n\n\"Suwasiripaya\",\n\nNo. 385,\n\nRev Baddegama Wimalawansa Thero\n\nMawatha,\n\nColombo 10.\n\n03 (a) Dr. Anil Jasinghe,\n\nActing Director General of Health\n\nServices,\n\n“Suwasiripaya”,\n\nNo. 385,\n\nRev Baddegama Wimalawansa Thero\n\nMawatha,\n\nColombo 10.\n\n4\n\n04 Hon. Attorney General,\n\nAttorney General's Department,\n\nColombo 12.\n\nRESPONDENTS",
@@ -118,6 +120,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.626040"
+    "extracted_at": "2026-10-17T16:44:29.324864"
   }
 }

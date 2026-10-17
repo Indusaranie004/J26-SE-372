@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under the\n\nprovisions of High Court of the Province\n\n(Special Provisions) Act No.19 of 1990\n\nas amended by the Act No.54 of 2006,\n\nfor leave to appeal against judgement\n\ndated 11/09/2012 delivered by the High\n\nCourt of the Southern Province in\n\nSP/HCCA/GA/0030/2006 (F) D.C.\n\nGalle Case No.13556/L.\n\nS.C. Appeal No.31/2013,\n\nS.C.HCCA/LA No.444/2012,\n\nS.C.HCCA/GA/Appeal No.030/2006 (f),\n\nD.C.Galle Case No.13556/L\n\nDona Premawathie Kodithuwakkurachchi, ‘Seedevi’, Narawala, Poddala. Plaintiff\n\nVs.\n\n1. Kuragodage Sujitha Gunawathie\n\n2\n\n2. Piyasena Annatta Pathirana alias\n\nA.P. Gunadasa both of Post Office\n\nQuarters, Poddala.\n\nDefendants\n\nDona Premawathi Kodithuwakkuarachchi, ‘Seedevi’, Narawala,\n\nPoddala.\n\nPlaintiff -Appellant\n\nVs.\n\n1. Kuragodage Sujitha Gunawathie\n\n2. Piyasena Annatta Pathirana alias\n\nA.P. Gunadasa both of Post Office\n\nQuarters, Poddala.\n\nDefendant –Respondent\n\nAnd Now Between\n\n1. Kuragodage Sujitha Gunawathie\n\n2. Piyasena Annatta Pathirana alias\n\nA.P. Gunadasa both of Post\n\nOffice Quarters, Poddala.\n\nDefendant-Appellant-Petitioner\n\n3\n\nVs.\n\nDona Premawathi Kodithuwakkuarachchi, ‘Seedevi’, Narawala,\n\nPoddala.\n\nPlaintiff-Appellant-Respondent",
@@ -72,6 +74,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.889334"
+    "extracted_at": "2026-10-17T16:44:27.223720"
   }
 }

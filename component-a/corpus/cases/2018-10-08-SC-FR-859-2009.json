@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC FR 859/2009\n\n1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an Application under and in terms of Article 126 of the Constitution of Sri Lanka\n\nW.N.D. Gunasekara\n\n378/10/B, Rathnarama Road,\n\nHokandara – North,\n\nHokandara.\n\nPetitioner\n\n-Vs-\n\n1. Police Constable Chandana\n\n(PC 25410)\n\nGrandpass Police Station,\n\nGrandpass\n\n2. Anton Jayasinghe,\n\nPolice Transport Division,\n\nSub Garage,\n\nKundasale.\n\n3. N.K.Illangakoon\n\nInspector General of Police\n\nPolice Headquarters,\n\nColombo 01\n\nSC FR No. 859/2009\n\nSC FR 859/2009\n\n2\n\n4. Hon. Attorney General\n\nAttorney General’s Department\n\nColombo 12\n\nRespondents",
@@ -145,6 +147,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.154427"
+    "extracted_at": "2026-10-17T16:44:25.500876"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA In the matter of an Appeal from a judgment in the Civil Appellate High Court. R.H.S.C. Soyza, Kimbulamaladeniya, Berathuduwa, Gonapeenuwala. Applicant SC APPEAL 152/2014. SC/SPL/LA/ 100/2014 Vs HCALT/ 126/2012 LT /2/96/2010 Asiri Central Hospitals PLC, No. 37, Horton Place, Colombo 07. Respondent A N D Asiri Central Hospitals PLC, No.37, Horton Place, Colombo 07. Respondent Appellant Vs R.H.S.C. Soyza, Kimbulamaladeniya, Berathuduwa, Gonapeenuwala. Applicant Respondent AND NOW BETWEEN\n\n2\n\nAsiri Central Hospitals PLC, No. 37, Horton Place, Colombo 07. Respondent Appellant Appellant Vs R.H.S.C. Soyza Kimbulamaladeniya, Berathuduwa, Gonapeenuwala. Applicant Respondent Respondent",
@@ -66,6 +68,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.055143"
+    "extracted_at": "2026-10-17T16:44:24.520555"
   }
 }

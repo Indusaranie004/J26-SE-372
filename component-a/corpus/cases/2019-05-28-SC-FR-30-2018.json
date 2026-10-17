@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC.FR.NO.30/18 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under Article 126 and Article 12 and 12(1) of the constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. S.M.N.S. Thilakarathne,\n\n10/2, Baduwatta Lane, Dharmashoka Mawatha, Lewella, Kandy. 1a. Sajana Sathmina Gunarathne (minor) 10/2, Baduwatta Lane, Dharmashoka\n\nMawatha, Lewella, Kandy.\n\nPetitioners Application No. SC/FR/30/18.\n\n1. M.W.D.T.P. Wanasinghe\n\nThe Principal and the Chairman of the Interview Board, Dharmaraja College, Kandy. 2. W.M. Wijerathna,\n\nThe Zonal Director of Education, Zonal Education Office, Kandy.\n\n2\n\n3. W.M. Jayantha Wickaramanayake,\n\nDirector of National Schools Branch, Ministry of Education, “Isurupaya” Battaramulla. 4. Sunil Hettiarachchi,\n\nThe Secretary, Ministry of Education, “Isurupaya” Battaramulla. 5. Herathmudiyanselage Kanishka Hemindra\n\nHearth,\n\n5a. H.M.C.D. Hearath (minor) Both are at: 29/58, Nuwarawela, Ampitiya Road, Kandy. 6. T.B.G. Bulumulla, 6a. T.B.G.U.E. Bulumulla (minor)\n\nBoth are at: 96/39A, Rajapheela Mawatha, Kandy. 7. Hon. Attorney General,\n\nAttorney General’s Department, Hultsdorp, Colombo 12.\n\nRespondents.",
@@ -76,6 +78,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.112726"
+    "extracted_at": "2026-10-17T16:44:27.784813"
   }
 }

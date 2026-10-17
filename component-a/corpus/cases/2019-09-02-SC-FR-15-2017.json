@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under and in terms of Articles 17 and 126 of the Constitution. T.G.J.L. AMARASINGHE 87th Kilometer Post, Kanthattiya, Mihinthalaya. PETITIONER SC FR Application No. 15/2017 VS.\n\n1. DR. N.C.D. ARIYARATNE\n\nRegional Director of Health Services, Office of the Regional Director of Health Services, Anuradhapura. 2. DR. W.M. PALITHA BANDARA\n\nProvincial Director of Health Services, Provincial Department of Health Services - North Central, Bandaranayake Mawatha, Anuradhapura. 3. G.D. KEERTHI GAMAGE\n\nSecretary, Ministry of Health, Provincial Administrative Building Complex, 3rd Floor, Harischandra Mawatha, Anuradhapura. 4. A.W.C. ARIYADASA\n\nSecretary to the Governor, Secretariat of the Governor, North Central Province, Anuradhapura. 5. R.B. ABEYSINGHA\n\nChairman.\n\n2\n\n6. H.M.K. HERATH\n\nMember, 7. H.M.H.B. RATHNAYAKA\n\nMember, 5th to 7th Respondents, all of the North Central Provincial Public Service Commission, North Central Province, Anuradhapura. 8. HON. ATTORNEY GENERAL\n\nAttorney General’s Department, Colombo 12.",
@@ -102,6 +104,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.455197"
+    "extracted_at": "2026-10-17T16:44:28.859688"
   }
 }

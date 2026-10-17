@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREMECOURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an application for\n\nLeave to Appeal in terms of Article\n\n127 of the Constitution read with\n\nSection 5(c)(1) of the High Court of\n\nthe Provinces (Special Provisions)\n\n(Amendment) Act No. 54 of 2006.\n\n1. Kothmale Gajanayake\n\nMudiyanselage Sanduni\n\nRasanjali Bandara (being a\n\nminor, through her next friend,\n\nher father; the 2nd Defendant)\n\n2. Kothmale Gajanayake\n\nMudiyanselage Priyantha\n\nBandara (the next friend of the\n\nabove mentioned Plaintiff\n\nminor)\n\nBoth of 295/15, Sri Somananda\n\nMawatha,\n\nArukgoda, Alubomulla.\n\nPLAINTIFFS\n\n-Vs-\n\n1. E. Chandrani alias Chandrani\n\nEpitawala,\n\nDias Memorial Hospital\n\n(Kethumathi),\n\nPanadura.\n\nSC Appeal No. 152/2011\n\nSC (HC) CA LA No. 152/2011\n\nWP/ HCCA/ Kaluthara No.13/2007(F)\n\nDC Panadura No.1842/M\n\n2\n\n2. Western Provincial Council,\n\nWestern Provincial Council\n\nOffice,\n\nColombo.\n\n3. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nAnd others\n\nDEFENDANTS\n\nAnd then\n\n1. E. Chandrani alias Chandrani\n\nEpitawala,\n\nDias Memorial Hospital\n\n(Kethumathi),\n\nPanadura.\n\n2. Western Provincial Council,\n\nWestern Provincial Council\n\nOffice,\n\nColombo.\n\n3. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nDEFENDANT- APPELLANTS\n\n-Vs-\n\n3\n\n1. Kothmale Gajanayake\n\nMudiyanselage Sanduni\n\nRasanjali Bandara\n\n2. Kothmale Gajanayake\n\nMudiyanselage Priyantha\n\nBandara\n\nBoth of 295/15, Sri Somananda\n\nMawatha,\n\nArukgoda, Alubomulla.\n\nPLAINTIFF- RESPONDENTS\n\nAnd Now Between\n\n1. E. Chandrani alias Chandrani\n\nEpitawala,\n\nDias Memorial Hospital\n\n(Kethumathi),\n\nPanadura.\n\n2. Western Provincial Council,\n\nWestern Provincial Council\n\nOffice,\n\nColombo.\n\n1ST AND 2ND DEFENDANT-\n\nAPPELLANT- PETITIONERS\n\n-Vs-\n\n1. Kothmale Gajanayake\n\nMudiyanselage Sanduni\n\nRasanjali Bandara\n\n4\n\n2. Kothmale Gajanayake\n\nMudiyanselage Priyantha\n\nBandara\n\nBoth of 295/15, Sri Somananda\n\nMawatha,\n\nArukgoda, Alubomulla.\n\nPLAINTIFF- RESPONDENT-\n\nRESPONDENTS\n\n3. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\n3RD DEFENDANT-\n\nAPPELLANT- RESPONDENT\n\nAnd now between\n\n1. E. Chandrani alias Chandrani\n\nEpitawala,\n\nDias Memorial Hospital\n\n(Kethumathi),\n\nPanadura.\n\n2. Western Provincial Council,\n\nWestern Provincial Council\n\nOffice,\n\nColombo.\n\n1ST AND 2ND DEFENDANT-\n\nPETITIONER - APPELLANTS\n\n5\n\n1. Kothmale Gajanayake\n\nMudiyanselage Sanduni\n\nRasanjali Bandara\n\n2. Kothmale Gajanayake\n\nMudiyanselage Priyantha\n\nBandara\n\nBoth of 295/15, Sri Somananda\n\nMawatha,\n\nArukgoda, Alubomulla.\n\n1ST & 2ND PLAINTIFF –\n\nRESPONDENT – RESPONDENTS\n\n3. Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\n3RD DEFENDANT –\n\nAPPELLANT – RESPONDENT",
@@ -114,6 +116,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.208668"
+    "extracted_at": "2026-10-17T16:44:25.585923"
   }
 }

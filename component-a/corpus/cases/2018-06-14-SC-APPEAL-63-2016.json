@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nShirani Buffin\n\nNo.7 King Charles Walk\n\nWimbledon Park,\n\nLondon SW196, JA\n\nEngland.\n\nPresently at No.71G\n\nPolhenwatte, Housing Scheme\n\nKelaniya\n\nSC Appeal 63/16 PLAINTIFF- RESPONDENT-\n\nSC(HC)CALA/308/2014 APPELLANT\n\nWP/HCCA/COL/22/2011/LA Vs.\n\nDC Colombo Case No. 16493/L 1. M.A. Anthony Neville\n\nNo.275/01,Old Kandy Road, Dalugama, Kelaniya 2. M. A. Rohan Dulip\n\nNo.57, 6th Lane, Kotahena New address, No.47/A 9th Lane, Ethul Kotte, Kotte\n\nDEFENDANT – PETITIONER - RESPONDENTS",
@@ -88,6 +90,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.518014"
+    "extracted_at": "2026-10-17T16:44:24.983459"
   }
 }

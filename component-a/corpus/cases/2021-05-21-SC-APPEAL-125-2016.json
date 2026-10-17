@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "IN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA\n\nThiththalapitige Tilakaratne,\n\nRukgahawila, Walpola.\n\nPlaintiff\n\nSC APPEAL NO: SC/APPEAL/125/2016\n\nSC LA NO: SC/HC/CALA/290/2015\n\nHCCA GAMPAHA NO: WP/HCCA/GPH/69/2009/F\n\nDC GAMPAHA NO: 39762/P\n\nVs.\n\n1. Thiththalapitige Chandrawathi\n\nPerera, (Deceased)\n\n2. Thiththalapitige Wilbert Perera,\n\n3. Thiththalapitige Ruban Perera,\n\nAll of\n\nRukgahawila, Walpola.\n\nDefendants\n\nAND BETWEEN\n\n1. Thiththalapitige Tilakaratne,\n\nRukgahawila, Walpola.\n\nPlaintiff-Appellant\n\nVs.\n\n2\n\n1. Thiththalapitige Chandrawathi\n\nPerera, (Deceased)\n\n2. Thiththalapitige Wilbert Perera,\n\n3. Thiththalapitige Ruban Perera,\n\nAll of\n\nRukgahawila, Walpola.\n\nDefendant-Respondents\n\nAND NOW BETWEEN\n\n3. Thiththalapitige Ruban Perera,\n\n(Deceased)\n\n3A. Thiththalapitige Vipula Namal\n\nPriyadharshana Perera,\n\nAll of\n\nRukgahawila, Walpola.\n\n3rd Defendant-Respondent-\n\nAppellant\n\nVs.\n\n1. Thiththalapitige Tilakaratne,\n\nRukgahawila, Walpola.\n\nPlaintiff-Appellant-Respondent\n\n2. Thiththalapitige Wilbert Perera\n\nRukgahawila,\n\nWalpola.\n\n2nd Defendant-Respondent-\n\nRespondent\n\n3",
@@ -57,6 +59,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.684422"
+    "extracted_at": "2026-10-17T16:44:32.906270"
   }
 }

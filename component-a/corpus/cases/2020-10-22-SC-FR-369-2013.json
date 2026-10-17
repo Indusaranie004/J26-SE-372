@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC FR 369/2013 JUDGMENT Page 1 of 16\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application\n\nunder and in terms of Articles 17\n\nand 126 of the Constitution of the\n\nDemocratic Socialist Republic of\n\nSri Lanka.\n\nNandasenage Lalantha Anurdha,\n\nNandasena,\n\nPahalagama,\n\nMahabulankulama.\n\nPETITIONER\n\nVs\n\n1. Head Quarter Inspector of Police,\n\nPolice Station,\n\nAnuradhapura.\n\n2. C.I Gallage,\n\nOfficer in Charge - Crime Branch,\n\nPolice Station,\n\nAnuradhapura.\n\n3. S. I. Amarasingha,\n\nPolice Station,\n\nAnuradhapura.\n\nSC/FR APPLICATION 369/2013\n\nSC FR 369/2013 JUDGMENT Page 2 of 16\n\n4. P.C. Dias,\n\nPolice Station,\n\nAnuradhapura.\n\n5. Inspector General of Police,\n\nPolice Headquarters,\n\nColombo 01.\n\n6. Hon. Attorney General,\n\nAttorney –General’s Department,\n\nColombo 12.\n\nRESPONDENTS",
@@ -96,6 +98,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.832879"
+    "extracted_at": "2026-10-17T16:44:31.833530"
   }
 }

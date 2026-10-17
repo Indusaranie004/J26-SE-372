@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT\n\nOF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an Application for\n\nSpecial Leave to Appeal in terms of\n\nArticle 128 of the Constitution of the\n\nDemocratic Socialist Republic of Sri\n\nLanka read with Section 9(a) of the\n\nHigh Court of the Provinces (Special\n\nProvisions) Act No. 19 of 1990 and\n\nSection 31DD(1) of the Industrial\n\nDisputes Act from the judgment of the\n\nProvincial High Court of the Western\n\nProvince\n\nHiranya Surantha Wijesinghe\n\nThuduwa Road, Madapatha, Piliyandala\n\nApplicant\n\nSC/Spl/LA/159/2017\n\nHC (ALT) No. 53/2014\n\nLT Maharagama 33/1000/2011\n\nVs.\n\nTenderlea Farms (Pvt) Limited\n\nNo. 5A, Thuduwa Road, Madapatha,\n\nPiliyandala\n\n(office Now at)\n\nNo. 31, First Lane, Ratmalana\n\nRespondent\n\n2\n\nAND BETWEEN\n\nTenderlea Farms (Pvt) Limited\n\nNo. 5A, Thuduwa Road, Madapatha,\n\nPiliyandala\n\n(Office now at)\n\nNo. 31, First Lane, Ratmalana\n\nRespondent-Appellant\n\nVs.\n\nHiranya Surantha Wijesighe\n\nThudawa Road, Madapatha, Piliyandala.\n\nApplicant-Respondent\n\nAND NOW BETWEEN\n\nHiranya Surantha Wijesinghe\n\nThuduwa Road, Madapatha, Piliyandala\n\nApplicant-Respondent-Petitioner\n\nVs.\n\nTenderlea Farms (Pvt) Limited\n\nNo. 5A, Thuduwa Road, Madapatha,\n\nPiliyandala\n\n(Office now at)\n\nNo. 31, First Lane, Ratmalana\n\nRespondent-Appellant-Respondent\n\n3",
@@ -65,6 +67,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.629081"
+    "extracted_at": "2026-10-17T16:44:31.599185"
   }
 }

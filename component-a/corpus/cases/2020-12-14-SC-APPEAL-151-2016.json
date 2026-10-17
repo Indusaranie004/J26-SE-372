@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nAn appeal against the judgment of the Learned Judges in case No. PHC Kegalle (Civil) 334/2007 of the High Court of Province (Civil Appellate), Kegalle dated 27.04.2011 under the High Court of Provinces (Special Provisions) Amendment Act No. 54 of 2006.\n\nSeneviratne Mudiyanselage Kirihamy Seneviratne of Senani, Panagamuwa, Ambulugala, Mawanella.\n\nSC Appeal No. 151/2016 Plaintiff\n\nSC HCCA L/A No. 192/2011\n\nPHC Kegalle (Civil) 334/2007 Vs.\n\nDC Mawanella No. 608/L\n\n1. Ihala Wahumpurayalage Emalin 2. Viyannalage Kusuma 3. Viyannalage Wimalawathi 4. Viyannalage Nishshanka 5. Viyannalage Cyril 6. Viyannalage Gamini Gunathunga 7. Viyannalage Sita 8. Viyannalage Sunil 9. Viyannalage Lesly Wijethunge 10. Viyannalage Somaratne all of Nayawetunuhena, Attanagoda (Panagamuwa), Ambulugala, Mawanella.\n\nDefendants\n\nAnd Now\n\n2\n\nSeneviratne Mudiyanselage Kirihamy Seneviratne of Senani, Panagamuwa, Ambulugala, Mawanella. Plaintiff-Appellant\n\nVs.\n\n1. Ihala Wahumpurayalage Emalin 2. Viyannalage Kusuma 3. Viyannalage Wimalawathi 4. Viyannalage Nishshanka 5. Viyannalage Cyril 6. Viyannalage Gamini Gunathunga 7. Viyannalage Sita 8. Viyannalage Sunil 9. Viyannalage Lesly Wijethunge 10. Viyannalage Somaratne\n\nall of Nayawetunuhena, Attanagoda (Panagamuwa), Ambulugala, Mawanella.\n\nDefendant-Respondents\n\nAnd Now Between\n\n1. Ihala Vahumpurayalage Emalin (Deceased)\n\n1A. Viyannalage Kusuma\n\n2. Viyannalage Kusuma 3. Viyannalage Wimalawathi 4. Viyannalage Nishshanka 5. Viyannalage Cyril 6. Viyannalage Gamini Gunathunga 7. Viyannalage Sita 8. Viyannalage Lesly Wijethunge 9. Viyannalage Somaratne\n\nall of Nayawetunuhena, Attanagoda (Panagamuwa), Ambulugala, Mawanella.\n\n3\n\nDefendant-Respondent-Appellants\n\nVs.\n\nSeneviratne Mudiyanselage Kirihamy Seneviratne of Senani, Panagamuwa, Ambulugala, Mawanella. Plaintiff-Appellant-Respondent\n\nViyannalage Sunil (deceased)\n\nNayawetunuhena, Attanagoda (Panagamuwa), Ambulugala, Mawanella.\n\n8. Defendant-Respondent-Respondent\n\nSubhasinghe Mudiyanselage Ranjani Kumari of Ehawatte, Atanagoda, Ambulugala, Mawanella.\n\n8A. Substituted Defendant-Respondent-Respondent",
@@ -150,6 +152,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.889239"
+    "extracted_at": "2026-10-17T16:44:31.935086"
   }
 }

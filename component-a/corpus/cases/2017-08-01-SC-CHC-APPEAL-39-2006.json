@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an appeal.\n\nSEYLAN BANK LIMITED\n\nNo. 69, Janadhipathi Mawatha, Colombo 1. Presently at “Ceylinco- S.C.Appeal No: SC CHC 39/06 Seylan Towers”, No. 90,Galle Road, CHC Case No: 107/2001(1) Colombo 03.\n\nPLAINTIFF\n\nVS.\n\n1. CLEMENT CHARLES\n\nEPASINGHE No.301/B, Kanjukkuliya, Mugunuwatawana.\n\n2. WEERAKKODY ARATCHIGE NIMALA EPASINGHE No.301/B, Kanjukkuliya, Mugunuwatawana.\n\n3. BRAHMANA MUDALIGE BASIL PETER Suduwella Farm,Suduwella, Madampe.\n\n4. BODAWALA\n\nMARASINGHALAGE SARATH KARUNATHILAKE MARASINGHE Rest House,Chilaw.\n\nDEFENDANTS AND NOW\n\nSEYLAN BANK LIMITED No. 69, Janadhipathi Mawatha, Colombo 1. Presently at “Ceylinco-\n\nSeylan Towers”, No.90, Galle Road, Colombo 03. PLAINTIFF-APPELLANT VS.\n\n2\n\n1. CLEMENT CHARLES\n\nEPASINGHE No.301/B, Kanjukkuliya, Mugunuwatawana.\n\n2. WEERAKKODY ARATCHIGE NIMALA EPASINGHE No.301/B, Kanjukkuliya, Mugunuwatawana.\n\n1ST AND 2ND DEFENDANTS- RESPONDENTS",
@@ -126,6 +128,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.877603"
+    "extracted_at": "2026-10-17T16:44:24.347094"
   }
 }

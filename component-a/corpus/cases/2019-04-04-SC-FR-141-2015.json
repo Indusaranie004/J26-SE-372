@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an application under Article 17 and 126 of the Constitution.\n\nRAVINDRA GUNAWARDENA KARIYAWASAM Chairman, Centre for Environment and Nature Studies, No. 1149, Old Kotte Road, Rajagiriya. PETITIONER SC FR Application No. 141/2015 VS. 1. CENTRAL ENVIRONMENT\n\nAUTHORITY No. 104,Denzil Kobbekaduwa Road, Battaramulla. 2. CHAIRMAN, CENTRAL\n\nENVIRONMENT AUTHORITY No. 104, Denzil Kobbekaduwa Road, Battaramulla. 3. SRI LANKA ELECTRICITY BOARD P.O. Box 540, Colombo 2. 4. CHAIRMAN, SRI LANKA ELECTRICITY BOARD\n\nP.O. Box 540, Colombo 02. 5. CHIEF MINISTER, NORTHERN PROVINCE\n\nNo. 26, Somasundaram Avenue, Chundukuli, Jaffna. 6. PONNUTHURAI AYNGARANESAN, MINISTER OF ENVIRONMENT, NORTHERN PROVINCE\n\nNo. 295, Kandy Road, Ariyalai, Jaffna. 7. CHAIRMAN, VALIKAMAM SOUTH\n\nPRADESHIYA SABHA\n\nValikamam.\n\n2\n\n8. NORTHERN POWER COMPANY (PVT) LTD.\n\nNo. 29, Castle Street, Colombo 10. 9. HON. ATTORNEY GENERAL Attorney General‟s Department, Colombo 12. 10. BOARD OF INVESTMENT OF SRI LANKA Level 26, West Tower, World Trade Center, Colombo 1. 11. NATIONAL WATER SUPPLY AND DRAINAGE BOARD P.O. Box 14, Galle Road, Mt. Lavinia.\n\nRESPONDENTS\n\n1. DR. RAJALINGAM SIVASANGAR Chunnakam East, Chunnakam. 2. SINNATHURAI SIVAMAINTHAN Chunnakam East, Chunnakam. 3. SIVASAKTHIVEL SIVARATHEES\n\nChunnakam East, Chunnakam. ADDED RESPONDENTS",
@@ -249,6 +251,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.862517"
+    "extracted_at": "2026-10-17T16:44:27.132059"
   }
 }

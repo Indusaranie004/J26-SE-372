@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nSC APPEAL 102/2011\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA\n\nIn the matter of an application for Leave\n\nto Appeal from Judgment dated 19th\n\nAugust 2010 of the High Court of Civil\n\nAppeal of the Sabaragamuwa Province\n\nHolden in Ratnapura in Appeal No.SP/HC\n\nCA/RAT/09/2008.\n\nSC Appeal No:-102/2011\n\nSC [HC] CA LA No:-381/2010\n\nHCCA NO.SP/HCCA/RAT/09/2008 (FA)\n\nDC Ratnapura Case No.10124/Partition\n\n1.Uyanwattalage Piyarathne\n\n2.Uyanwattalage Jayarathne\n\nBoth of Hangamuwa, Ratnapura.\n\nPlaintiffs\n\nV.\n\n1.Rajapakse Mudiyanselage Somapala\n\nRajapaksha,\n\nDemalaporuwa Karangoda.\n\n2.Malini Somalatha Wakkumbura nee\n\n2\n\nWeerasena,\n\nBopitiya Road, Pelmadulla.\n\n3.Lalani Nirmala Wakkumbura,\n\nRadella, Karannagoda, Ratnapura.\n\n4.Habarakada Arachchige\n\nHansawathie (deceased)\n\n4A.Lalani Nirmala Wakkumbura\n\nRadell, Karannagoda, Ratnapura.\n\nDefendants\n\nAND BETWEEN\n\n1.Uyanwattalage Piyarathne\n\n2.Uyanwattalage Jayarsthne\n\nBoth of\n\nHangamuwa Ratnapura.\n\nPlaintiff-Appellants\n\nV\n\n1.Rajapakse Mudiyanselage\n\nSomapala Rajapaksha\n\nDemalaporuwa, Karannagoda.\n\n2.Malini Somalatha Wakkumbura\n\nBopitiya Road, Pelmadulla.\n\n3.Lalani Nirmala Wakkumbura,\n\n3\n\nRadella, Karannaoda, Ratnapura\n\n4.Habarakada Arachchige\n\nHansawathie (deceased)\n\n4A.Lalani Nirmala Wakkumbura\n\nRadella, Karnnagoda,\n\nRatnapura.\n\nDefendant-respondents\n\nAND NOW BETWEEN\n\nLalani Nirmala Wakkumbura\n\nRadella, Karannagoda,\n\nRatnapura.\n\n3rd [4A] Defendant-Respondent-\n\nPetitioner-Appellant\n\nV.\n\n1.Uyanwattalage Piyarathne,\n\n2.Uyanwattalage Jayarathne\n\nBoth of\n\nHangamuwa, Ratnapura.\n\nPlaintiff-Appellant-Respondent-Respondents\n\nAND\n\n1A. Karangoda Gamage\n\nKusumawathie\n\n4\n\n1B. Ajith Mohan Rajapakse\n\n1C. Gihani Sandhaya Rajapakse\n\n1D. Thanuja Rajapakse\n\n1E. Chaminda Rajapakse\n\n1F. Udeshika Rajapakse\n\nAll of Demalaporuwa,\n\nKarannagoda, Ratnapura.\n\n1A -1F Substituted Defendant-Respondent-Respondent-\n\nRespondents\n\n2.Malini Somalatha Wakkumbura\n\nNee Weerasena.\n\nBopitiya Road, Pelmadulla.\n\n4.Habarakada Arachchige\n\nHansawathie (deceased)\n\n2nd & 4th Defendant-Respondent-Respondent-Respondents",
@@ -70,6 +72,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.373576"
+    "extracted_at": "2026-10-17T16:44:23.781938"
   }
 }

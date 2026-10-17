@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nUdawela Pathiranehelage Dharmasena of Bandaranayake Mawatha, Millathe, Kirindiwela.\n\nPlaintiff -Vs- SC Appeal 210/2015 1. I.L. Malani, 19 1/3, SC/HCCA/LA/141/2014 Bauddhaloka Mawatha, WP/HCCA/Avi/222/2011(Rev) Gampaha D.C. Pugoda Case No. 327/L 2. Sooriya Arachchige Sandasiri Perera No. 247, Weerangula, Yakkala. 3. Polwattege Abeysinghe\n\nNo. 65/1, School Road, Meddegama, Kiridiwela.\n\n4. D.M. Leelawathi Dissanayake,\n\nAnuragoda, Pepiliyawela.\n\nDefendants\n\nAND\n\nUdawela Pathiranehelage Dharmasena of Bandaranayake Mawatha, Millathe, Kirindiwela.\n\nPlaintiff- Petitioner\n\nVs 1. I.L. Malani, 19 1/3, Bauddhaloka Mawatha, Gampaha\n\n2\n\n2. Sooriya Arachchige Sandasiri Perera No. 247, Weerangula, Yakkala. 3. Polwattege Abeysinghe\n\nNo. 65/1, School Road, Meddegama, Kiridiwela.\n\n4. D.M. Leelawathi Dissanayake,\n\nAnuragoda, Pepiliyawela.\n\nDefendants – Respondents AND NOW BETWEEN 3. Polwattege Abeysinghe\n\nNo. 65/1, School Road, Meddegama, Kiridiwela.\n\n4. D.M. Leelawathi Dissanayake,\n\nAnuragoda, Pepiliyawela\n\nDEFENDANTS-RESPONDENTS- PETITIONERS/APPELLANTS\n\nVS.\n\n1a. Lewwanda Pathirannehelage Leelawathie, 1b. Manel Ajantha Chandrakanthie, 1c. Anoma Nalini Swarnakanthie, 1d. Himali Pradeepika Malkanthie, 1e. Priyani Priyadharshini, All of,\n\nNo. 75/16, Amuhena, Welliwaththa Road, Papiliyawala.\n\nSUBSTITUTED PLAINTIFF- PETITIONER RESPONDENTS\n\n3\n\n1. I.L. Malani, 19 1/3, Bauddhaloka Mawatha, Gampaha.\n\nNow at\n\nRathnaloka Enterprise, 37/4, New Trade Complex, Gampaha.\n\n2. Sooriya Arachchige Sandasiri Perera No. 247, Weerangula, Yakkala. DEFENDANTS-RESPONDENTS- RESPONDENTS",
@@ -220,6 +222,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.942222"
+    "extracted_at": "2026-10-17T16:44:32.050593"
   }
 }

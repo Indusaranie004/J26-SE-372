@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "IN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA\n\n1. Sirinivasam Prasanth,\n\n2. Gayathiry Prasanth,\n\nBoth of Ratnagara Place,\n\nDehiwala.\n\nAnd presently of 289, Cossack\n\nCourt, Mississauga, L5 B4 C2,\n\nOntario, Canada.\n\nActing through their Power of\n\nAttorney holder,\n\nKanagasundram Sathiakantham\n\nof No.442, R.A. De Mel Mawatha,\n\nKollupitiya, Colombo 3.\n\nPlaintiffs\n\nSC APPEAL NO: SC/APPEAL/163/2019\n\nSC LA NO: SC/HCCA/LA/327/2019\n\nHCCA NO: WP/HCCA/COL/131/2015 (F)\n\nDC COLOMBO NO: DLM/00041/2013\n\nVs.\n\n1. Nadaraja Devarajan,\n\n2. Sri Jayadevi Devarajan,\n\nBoth of No. 541/4 – 1/2A,\n\nGalle Road, Wellawatta,\n\nColombo 6.\n\nDefendants\n\n2\n\nAND BETWEEN\n\n1. Nadaraja Devarajan,\n\n2. Sri Jayadevi Devarajan,\n\nBoth of No. 541/4 – 1/2A,\n\nGalle Road, Wellawatta,\n\nColombo 6.\n\nDefendant-Appellants\n\nVs.\n\n1. Sirinivasam Prasanth,\n\n2. Gayathiry Prasanth,\n\nBoth of Ratnagara Place,\n\nDehiwala.\n\nAnd presently of 289, Cossack\n\nCourt, Mississauga, L5 B4 C2,\n\nOntario, Canada.\n\nActing through their Power of\n\nAttorney holder,\n\nKanagasundram Sathiakantham\n\nof No.442, R.A. De Mel Mawatha,\n\nKollupitiya, Colombo 3.\n\nPlaintiff-Respondents\n\nAND NOW BETWEEN\n\n1. Sirinivasam Prasanth,\n\n2. Gayathiry Prasanth,\n\nBoth of Ratnagara Place,\n\nDehiwala.\n\nAnd presently of 289,\n\nCossack Court, Mississauga,\n\n3\n\nL5 B4 C2,\n\nOntario, Canada.\n\nActing through their Power of\n\nAttorney holder,\n\nKanagasundram Sathiakantham\n\nof No.442, R.A. De Mel Mawatha,\n\nKollupitiya, Colombo 3.\n\nPlaintiff-Respondent-Appellants\n\nVs.\n\n1. Nadaraja Devarajan,\n\n2. Sri Jayadevi Devarajan,\n\nBoth of No. 541/4 – 1/2A,\n\nGalle Road, Wellawatta,\n\nColombo 6.\n\nDefendant-Appellant-\n\nRespondents",
@@ -249,6 +251,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.357490"
+    "extracted_at": "2026-10-17T16:44:32.563591"
   }
 }

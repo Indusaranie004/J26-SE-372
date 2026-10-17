@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA\n\nIn the matter of an Application for Special Leave to Appeal in terms of Article 128 of the Constitution\n\nP.N. Maharajah, No. 133/5, Nawala Road, Narahenpita, Colombo 05. Deceased-Petitioner 1. Nagan Maharajah Weerasingham, 2. Muniyandi Aswath Ammal 3. Nagam Maharajah Nirmala\n\nAll of, No. 133/5, Nawala Road, Narahenpita, Colombo 05.\n\n4. Nagam Maharajah Thilagawathie 5. Nagam Maharajah Thilakaranee\n\nBoth of, No. 16/10, Liyanage Mawatha, Nawala Road, Rajagiriya. Substituted-Petitioners SC. Appeal No. 121/2010\n\nSC (SPL) 286/2008 CA/Writ/1923/2006 Vs,\n\n1. Hema Wijesekara,\n\nThe Commissioner of National Housing, National Housing Department, “Sethsiripaya”Battaramulla.\n\n2. Perumal Muniyandi Sundarammal (Deceased),\n\nNo. 133/5, Nawala Road, Narahenpita, Colombo 05.\n\n2\n\n3. M.S. Jaldeen 4. H. Akurugoda 5. R.W.M.S.B. Rajapkse 6. N.T. Padmadasa\n\nAll members of the Board of Review under Ceiling on Housing Property Law No. 10G, Sri Vipulasena Mawatha, Colombo 10. Respondents 7. Sunil Kannangara\n\nDirector-Housing, National Housing Department, ‘Sethsiripaya’ Battaramulla. Added Respondent Now Between\n\n1. Nagan Maharajah Weerasingham, 2. Muniyandi Aswath Ammal 3. Nagam Maharajah Nirmala\n\nAll of, No. 133/5, Nawala Road, Narahenpita, Colombo 05.\n\n4. Nagam Maharajah Thilagawathie 5. Nagam Maharajah Thilakaranee\n\nBoth of, No. 16/10, Liyanage Mawatha, Nawala Road, Rajagiriya. Substituted-Petitioners-Petitioners\n\n1. Hema Wijesekara,\n\nThe Commissioner of National Housing, National Housing Department, “Sethsiripaya” Battaramulla.\n\n3\n\n2. Perumal Muniyandi Sundarammal (Deceased),\n\nNo. 133/5, Nawala Road, Narahenpita, Colombo 05. 2A. Kasamuthu Singiah\n\nNo. 133/6, Nawala Road, Narahenpita, Colombo 05. 2B. Kasamuthu Sinniah\n\nNo. 133/5, Nawala Road, Narahenpita, Colombo 05.\n\n3. M.S. Jaldeen 4. H. Akurugoda 5. R.W.M.S.B. Rajapkse 6. N.T. Padmadasa\n\nAll members of the Board of Review under Ceiling on Housing Property Law No. 10G, Sri Vipulasena Mawatha, Colombo 10. Respondents-Respondents 7. Sunil Kannangara\n\nDirector-Housing, National Housing Department, ‘Sethsiripaya” Battaramulla. 8. Raja Gunaratne\n\nThe Commissioner of National Housing, National Housing Department, “Sethsiripaya” Battaramulla\n\n9. Dr. M. Karunadasa\n\nThe Commissioner of National Housing, National Housing Department, “Sethsiripaya” Battaramulla\n\n4\n\n10. S. Collure\n\nThe Commissioner of National Housing, National Housing Department, “Sethsiripaya” Battaramulla Added Respondents-Respondents",
@@ -79,6 +81,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.201735"
+    "extracted_at": "2026-10-17T16:44:24.675936"
   }
 }
