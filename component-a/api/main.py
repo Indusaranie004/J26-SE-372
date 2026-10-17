@@ -153,77 +153,6 @@ def get_manifest():
         "mock_mode": False,
         "doc_ids": doc_ids
     }
-    if MOCK_MODE:
-        return {
-            "corpus_version": "2026.10-mock",
-            "sc_documents": 3,
-            "mock_mode": True,
-            "doc_ids": list(mock_data.CASES.keys())
-        }
-    
-    import os
-    # Debug — show what paths Render can see
-    cwd = os.getcwd()
-    db_exists = os.path.exists(DB_PATH)
-    cases_exists = os.path.exists(CASES_DIR)
-    
-    try:
-        json_files = os.listdir(CASES_DIR) if cases_exists else []
-    except Exception as e:
-        json_files = [str(e)]
-    
-    try:
-        con = sqlite3.connect(DB_PATH)
-        count = con.execute("SELECT count(*) FROM cases WHERE in_corpus=1").fetchone()[0]
-        doc_ids = [r[0] for r in con.execute(
-            "SELECT doc_id FROM cases WHERE in_corpus=1"
-        ).fetchall()]
-        con.close()
-    except Exception as e:
-        count = 0
-        doc_ids = []
-        db_error = str(e)
-    else:
-        db_error = None
-
-    return {
-        "corpus_version": "2026.10",
-        "sc_documents": count,
-        "mock_mode": False,
-        "doc_ids": doc_ids,
-        "debug": {
-            "cwd": cwd,
-            "db_path": DB_PATH,
-            "db_exists": db_exists,
-            "cases_dir": CASES_DIR,
-            "cases_dir_exists": cases_exists,
-            "json_files_count": len(json_files),
-            "db_error": db_error
-        }
-    }
-    if MOCK_MODE:
-        return {
-            "corpus_version": "2026.10-mock",
-            "sc_documents": 3,
-            "mock_mode": True,
-            "doc_ids": list(mock_data.CASES.keys())
-        }
-    try:
-        con = sqlite3.connect(DB_PATH)
-        count = con.execute("SELECT count(*) FROM cases WHERE in_corpus=1").fetchone()[0]
-        doc_ids = [r[0] for r in con.execute(
-            "SELECT doc_id FROM cases WHERE in_corpus=1"
-        ).fetchall()]
-        con.close()
-    except Exception:
-        count = 0
-        doc_ids = []
-    return {
-        "corpus_version": "2026.10",
-        "sc_documents": count,
-        "mock_mode": False,
-        "doc_ids": doc_ids
-    }
 
 # ── HEALTH ────────────────────────────────────────────────────────
 
@@ -421,19 +350,35 @@ def get_chain(doc_id: str):
         )
         return chain_data
 
-    # Live mode — read from document store JSON
-    record = get_case_from_db(doc_id)
-    if not record:
-        stub = get_stub_from_db(doc_id)
-        if not stub:
-            raise HTTPException(status_code=404, detail={
-                "error": "case_not_found", "doc_id": doc_id
-            })
-        return {"doc_id": doc_id, "chain": []}
-    return {
-        "doc_id": doc_id,
-        "chain": record.get("chain", [])
-    }
+    # Live mode — read from Neo4j APPEALED_FROM edges
+    try:
+        with get_driver().session() as s:
+            rows = s.run("""
+                MATCH (c:Case {doc_id: $doc_id})-[:APPEALED_FROM]->(lower:Case)
+                RETURN lower.court    AS court,
+                       lower.case_num AS num,
+                       lower.place    AS place,
+                       lower.in_corpus AS in_corpus
+            """, doc_id=doc_id).data()
+
+        if not rows:
+            # Fallback to document store if no KG chain
+            record = get_case_from_db(doc_id)
+            if record:
+                return {
+                    "doc_id": doc_id,
+                    "source": "document_store",
+                    "chain": record.get("chain", [])
+                }
+            return {"doc_id": doc_id, "source": "knowledge_graph", "chain": []}
+
+        return {
+            "doc_id": doc_id,
+            "source": "knowledge_graph",
+            "chain": rows
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"error": str(e)})
 
 # ── SEARCH ────────────────────────────────────────────────────────
 
