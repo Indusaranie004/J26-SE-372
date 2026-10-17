@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA TAD Hemasiri Gomis No.71, Vihara Mawatha. Singharamulla, Kelaniya Applicant SC Appeal No.47/2014 SC SPL LA No. 105/2012 HCCA Gampaha Case No. 17/2010 LT LT Wattala Case No. 31/060/2006 Vs\n\nKelaniya Co-operative Society Ltd., Biyagama Road, Kelaniya. Respondent AND TAD Hemasiri Gomis No.71, Vihara Mawatha. Singharamulla, Kelaniya Applicant-Appellant Vs Kelaniya Co-operative Society Ltd., Biyagama Road, Kelaniya.\n\n2\n\nRespondent-Respondent AND NOW BETWEEN TAD Hemasiri Gomis No.71, Vihara Mawatha. Singharamulla, Kelaniya Applicant-Appellant-Petitioner-Appellant\n\nVs\n\nKelaniya Co-operative Society Ltd., Biyagama Road, Kelaniya.\n\nRespondent-Respondent-Respondent-Respondent",
@@ -40,6 +42,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.621246"
+    "extracted_at": "2026-10-17T16:44:24.075387"
   }
 }

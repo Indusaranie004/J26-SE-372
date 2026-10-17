@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF\n\nSRI LANKA.\n\nIn the matter of an Application under and in terms of Articles 17 and 126 of\n\nthe Constitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\n1. KARUWALAGASWEWA VIDANELAGE SWARNA MANJULA Tilakapura, Kalakarambewa. 2. NAWARATHNA HENALAGE\n\nROSALIYA Tilakapura, Kalakarambewa. PETITIONERS S.C. F.R. No. 241/14 VS.\n\n1. C.I.V.P.J. PUSHPAKUMARA\n\nOfficer-in- Charge,Police Station, Kekirawa. 2. RATNAYAKE\n\nActing Officer-in- Charge, Police Station,Kekirawa. 3. BHODINARAYAN ACHARIGE\n\nSWARNASHEELI Kottalbadda,Kekirawa. 4. ANURA PRIYATHILAKA\n\nKottalbadda,Kekirawa. 5. N.K. ILLANGAKOON\n\nInspector General of Police, Police Head Quarters, Colombo 01. 6. HON. ATTORNEY-GENERAL\n\nAttorney-General‟s Department, Colombo 12. RESPONDENTS\n\n2\n\n5A.PUJITHA JAYASUNDERA\n\nInspector General of Police, Police Head Quarters, Colombo 01. ADDED RESPONDENT",
@@ -235,6 +237,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.642005"
+    "extracted_at": "2026-10-17T16:44:25.071329"
   }
 }

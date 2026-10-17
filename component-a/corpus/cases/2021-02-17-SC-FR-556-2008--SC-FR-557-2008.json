@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA\n\nIn the matter of an Application under Article\n\n126 of the Constitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\nSC FR Application No. 556/2008 Petitioners\n\nSC FR Application No. 557/2008 U. N. S. P. Kurukulasuriya,\n\nConvenor, Free Media Movement,\n\n237/22, Vijaya Kumaratunga Mawatha,\n\nColombo 05.\n\n(Petitioner SC FR Application No. 556/2008)\n\nJ. K. W. Jayasekara,\n\nNo. 58/10, Suhada Place,\n\nThalapathpitiya, Nugegoda.\n\n(Petitioner SC FR Application No. 557/2008)\n\nVs.\n\nRespondents\n\n1. Sri Lanka Rupavahini Corporation\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n2. Dr. Ariyaratne Athugala\n\nThe Chairman & the Director-General,\n\nSri Lanka Rupavahini Coporation,\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n2\n\n2(b-i). Ms. Enokaa Sathyangani\n\nThe Chairperson\n\nSri Lanka Rupavahini Coporation,\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n2(c-i). Thusira Malawwethantri\n\nDirector General\n\nSri Lanka Rupavahini Coporation,\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n3. Lakshman Muthuthantri,\n\nProgramme Producer,\n\nSri Lanka Rupavahini Corporation,\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n4. Anura Priyadarshana Yapa,\n\nHon. Minister of Mass Media and\n\nInformation,\n\n163, Kirulapone Avenue,\n\nPolhengoda,\n\nColombo 05.\n\n4(b). Mangala Samaraweera\n\nHon. Minister of Finance and Mass Media\n\nInformation,\n\n163, Kirulapone Avenue,\n\nPolhengoda,\n\nColombo 05.\n\n3\n\n5. Hon. Attorney General,\n\nAttorney-General’s Department,\n\nColombo 12.\n\n6. Sarath Kongahage\n\nThe Chairman & the Director-General,\n\nSri Lanka Rupavahini Coporation,\n\nBauddhaloka Mawatha,\n\nColombo 07.\n\n7. Keheliya Rambukwella\n\nHon. Minister of Mass Media and Information, 163, Kirulapone Avenue,\n\nPolhengoda,\n\nColombo 05.\n\nADDED RESPONDENTS",
@@ -330,6 +332,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:13.184492"
+    "extracted_at": "2026-10-17T16:44:32.346270"
   }
 }

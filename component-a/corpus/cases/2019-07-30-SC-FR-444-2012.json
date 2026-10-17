@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATRIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an application under Articles 17 and 126 of the Constitution.\n\n1. M.R.C.C. ARIYARATHNE\n\nNo. 27/55, 1st Lane, Colombo Road, Ratnapura. 2. H.K.B. JAYARUWAN\n\n„Issuru‟, Karambaketiya, Beliatta. 3. N.U.S. ARIYARATHNE\n\nGalkadagodawaththa, Horawala, Welipenna. 4. W.H.M.A.G.S. BANDARA\n\nWijethunga Niwasa, Ihalagama, Millawana, Matale. 5. J.K.S.F. PERERA\n\nNo. 25/2, Asoka Mawatha, Dandagamuwa, Kuliyapitiya. 6. U.P. ABEYWICKRAMA\n\nNo. 26A, Diyawana, Kirindiwella. 7. N. WANIGASEKARA\n\nNo. 512/C, Near the Milk Board, Dikhenapura, Munagama, Horana. 8. D.M.M.C. DISSANAYAKE,\n\nBoraluwa, Kalugalla, Molagoda, Kegalle. 9. R.W. DAYARATHNE\n\nNo. 49, Gurudeniya Road, Ampitiya. 10. B.L.A. HEMANTHA\n\nNo. 429/2, Walawwa Road, H",
@@ -780,6 +782,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.392676"
+    "extracted_at": "2026-10-17T16:44:28.643708"
   }
 }

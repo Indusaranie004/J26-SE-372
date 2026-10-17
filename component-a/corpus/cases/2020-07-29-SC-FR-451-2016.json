@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application under and in terms of 126(2) of the Constitution of the Republic of Sri Lanka\n\nBatuwana Dewage Lionel Hemakumara, No. 681 2/2, Hospital Place, New Town, Embilipitiya.\n\nSC FR Application No. 451/2016 Petitioners -Vs-\n\n1) Ruwan Gunasekara,\n\nSuperintendent of Police, Director, Discipline and Conduct Division, Police Headquarters, Colombo 01. 2) Ajith Rohana,\n\nDeputy Inspector General, Discipline and Conduct Division, Police Headquarters, Colombo 01. 3) Pujitha Jayasundara,\n\nInspector General of Police, Police Headquarters, Colombo 01.\n\n4) P.H. Manatunga,\n\nChairman 5) S.T. Hettige,\n\nMember,\n\n2\n\n6) Savithree D. Wijesekara,\n\nMember, 7) Y.L.M. Zawahir,\n\nMember, 8) B.A. Jeyanadan,\n\nMember, 9) Tilak Collure,\n\nMember, 10) Frank De Silva,\n\nMember, The 4th to 10th Respondents, all of National Police Commission, Block No.09, BMICH Premises, Bauddaloka Mawatha, Colombo 07. 11) Hon. Attorney General,\n\nAttorney General’s Department, Colombo 12.\n\nRespondents",
@@ -129,6 +131,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.471798"
+    "extracted_at": "2026-10-17T16:44:31.464292"
   }
 }

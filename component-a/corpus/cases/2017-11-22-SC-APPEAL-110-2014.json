@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nS.C Appeal 110/2014 S.C Spl. LA No. 28/2014 C.A Appeal No.534/1995 (F) D.C Kalutara No. 3368/L\n\n1. Abdul Hameed Marikkar Mohamed\n\nIsmail 2. Mohamed Ismail Ummul Kadeeja\n\nBoth of No.185, Old Road, Beruwela. PLAINTIFFS Vs. Mohamed Sainadeen Mohamed Saleem Of No. 181/1, Old Road, Beruwela.\n\nDEFENDANT AND Mohamed Sainadeen Mohamed Saleem Of No. 181/1, Old Road, Beruwela. (DECEASED)\n\nDEFENDANT-APPELLANT\n\n2\n\nMohamed Saleem Misriya No. 181/1, Old Road, Beruwela.\n\nSUBSTITUED-DEFENDANT-APPELLANT Vs. 1. Abdul Hameed Marikar Mohamed Ismail\n\n(DECEASED) 1ST PLAINTIFF-RESPONDENT\n\n2. Mohamed Ismail Ummul Kadeeja (DECEASED)\n\nBoth of No. 185, Old Road, Beruweala. SUBSTITUTED-1ST PLAINTIFF AND 2ND PLAINTIFF-RESPONDENT\n\n1. Mohamed Ismail Mohamed 2. Mohamed Ismail Ahamed Maood 3. Mohamed Ismail Abdul Rahuman 4. Mohamed Ismail Sulaiha Umma 5. Mohamed Ismail Ahamed Bari 6. Mohamed Ismail Abdul Cader\n\nAll of No. 185, Sheik Jamaldeen Road, Beruwala. 7. Abdul Raheema Umma Nafeema 8. Abdul Raheema Umma Aasiya 9. Abdul Raheema Umma Ameena\n\nAll of No. 181/1, Sheik Jamaldeen Road, Beruwala. SUBSTITUTED-PLAINTIFF-RESPONDENTS AND NOW BETWEEN 1. Mohamed Ismail Mohamed 2. Mohamed Ismail Ahamed Maood 3. Mohamed Ismail Abdul Rahuman\n\n3\n\n4. Mohamed Ismail Sulaiha Umma 5. Mohamed Ismail Ahamed Bari 6. Mohamed Ismail Abdul Cader\n\nAll of No. 185, Sheik Jamaldeen Road, Beruwala. 7. Abdul Raheem Umma Nafeema 8. Abdul Raheem Umma Aasiya 9. Abdul Raheem Umma Ameena\n\nAll of No. 181/1, Sheik Jamaldeen Beruwela. SUBSTITUTED-PLAINTIFF-RESPONDENT-PETITIONERS Vs. Mohamed Saleem Misriya Of No. 181/1. Old Road, Beruwala.\n\nSUBSTITUTED-DEFENDANT-APPELLANT-RESPONDENTS",
@@ -158,6 +160,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.103734"
+    "extracted_at": "2026-10-17T16:44:24.572311"
   }
 }

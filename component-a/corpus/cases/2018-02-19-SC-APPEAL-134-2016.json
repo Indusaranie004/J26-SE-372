@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\n1. Hettige Don Tudor, 142, Lanka\n\nPorcelain,Katuwawala,Boralesgamuwa. 2. Hettige Lakshman Sandasiri,117,\n\nUdupeella, Matale. 3. Hettige Dona Seetha Padmini Sandasiri,\n\n142 B, Katuwawala, Borelesgamuwa.\n\nPlaintiffs SC (APPEAL) 134/16 SC/HC/CALA 435/2015 Vs WP/HCCA/KAL 132/2010(F) DC Panadura 429/P\n\nHettige Don Ananda Chandrasiri, 82C,Katuwawala, Boralesgamuwa.\n\nAnd Others Defendants AND THEN BETWEEN\n\n11. Hettige Dona Lalitha 12. Hettige Don Sunila, Both of, No. 142/2A, Katuwawala, Boralesgamuwa.\n\n11th and 12th Defendant Appellants Vs 1.Hettige Don Tudor,142B, Lanka Porcelain, Katuwawala, Boralesgamuwa. 2.Hettige Lakshman Sandasiri, 117, Udupeella, Matale. 3.Hettige Dona Seetha Padmini Sandasiri, 142, Katuwawala, Boralesgamuwa.\n\nPlaintiff Respondent\n\n2\n\nAND 1.Hettige Don Ananda Chandrasiri, 82C, Katuwawala, Borelesgamuwa. 2.Hettige Don Edwin alias Edman, Abhaya Niwasa, Katuwawala, Borelesgamuwa. (Deceased) 2A. Hettige Dona Lalitha, 142/2A, Katuwawala, Boralesgamuwa. 3. Hettige Dona Emanona,\n\n220/7, Glunberg Place, (Off Dambahena Road), Maharagama. (Deceased) 3A. W.A.Nandasena, 323/6, Pelanwatta, Pannipitiya. 4.Hettige Dona Jane Nona, 220/7, Glenburg Place, Dambahena Road Maharagama. 5.D.M.D. Biyatris, 785, Etul Kotte, Kotte. 6. D.M.D. Herbert, 785, Etul Kotte, Kotte. 7. D.M.D. Clarice, 785, Etul Kotte, Kotte. 8. D.M.C. William,785, Etul Kotte, Kotte. 9. D.M.D. Sunil, 785, Etul Kotte,Kotte. 10. D.S.Rupasinghe,142B, Katuwawala, Borelesgamuwa. (Deceased) 10A.Hettige Don Ananda Chandrasiri,\n\n82C, Katuwawala, Boralesgamuwa. Defendant Respondents AND NOW BETWEEN\n\n1.Hettige Don Tudor,142B, Lanka Porcelain, Katuwawala, Boralesgamuwa. 2.Hettige Lakshman Sandasiri, 117, Udupeella, Matale. 3.Hettige Dona Seetha Padmini Sandasiri, 142 B, Katuwawala, Boralesgamuwa. . Plaintiff Respondent Appellants\n\n3\n\nVs 11. Hettige Dona Lalitha 12. Hettige Don Sunila, Both of, No. 142/2A, Katuwawala, Boralesgamuwa.\n\n11th and 12th Defendant Appellant Respondents And 1.Hettige Don Ananda Chandrasiri, 82C, Katuwawala, Borelesgamuwa. 2.Hettige Don Edwin alias Edman, Abhaya Niwasa, Katuwawala, Borelesgamuwa. (Deceased) 2A. Hettige Dona Lalitha, 142/2A, Katuwawala, Boralesgamuwa. 3. Hettige Dona Emanona,\n\n220/7, Glunberg Place, (Off Dambahena Road), Maharagama. (Deceased) 3A. W.A.Nandasena, 323/6, Pelanwatta, Pannipitiya. 4.Hettige Dona Jane Nona, 220/7, Glenburg Place, Dambahena Road Maharagama. 5.D.M.D. Biyatris, 785, Etul Kotte, Kotte. 6. D.M.D. Herbert, 785, Etul Kotte, Kotte. 7. D.M.D. Clarice, 785, Etul Kotte, Kotte. 8. D.M.C. William,785, Etul Kotte, Kotte. 9. D.M.D. Sunil, 785, Etul Kotte,Kotte. 10. D.S.Rupasinghe,142B, Katuwawala, Borelesgamuwa. (Deceased) 10A.Hettige Don Ananda Chandrasiri,\n\n82C, Katuwawala, Boralesgamuwa. Defendant Respondent Respondents\n\n4",
@@ -101,6 +103,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.228540"
+    "extracted_at": "2026-10-17T16:44:24.699724"
   }
 }

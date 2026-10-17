@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nS.C.Appeal 196/2015\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA\n\nIn the matter of an application for\n\nLeave to Appeal under and in terms of\n\nArticle 128 of the Constitution.\n\nSC Appeal No. 196/2015 Suppaiah Wijeratnam\n\nCase No.SC/HCCA/LA:03/2015 No.47, Kandy Road, Kengalle\n\nCivil Appeal Case No:- Plaintiff\n\nCP/HCCA/KANDY/97/2011(FA)\n\nDC Kandy Case No:-L/21801/05\n\nV.\n\nSarath Perera,\n\nNo.90, Kandy Road, Kengalle.\n\nDefendant\n\nTHEN BETWEEN\n\nSarath Perera,\n\nNo.90, Kandy Road, Kengalle.\n\nDefendant-Appellant\n\nV.\n\nSuppaiah Wijeratnam,\n\nNo.47, Kandy Road, Kengalle.\n\n2\n\nPlaintiff-Respondent\n\nNOW BETWEEN\n\nSuppaiah Wijeratnam,\n\nNo. 90, Kandy Road, Kengalle.\n\nPlaintiff-Respondent-Petitioner\n\nV.\n\nSarath Perera,\n\nNo.90, Kandy Road, Kengalle.\n\nDefendant-Appellant-Respondent",
@@ -136,6 +138,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.352551"
+    "extracted_at": "2026-10-17T16:44:23.755334"
   }
 }

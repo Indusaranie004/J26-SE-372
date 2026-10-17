@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for Special Leave to Appeal from an Order of the Provincial High Court\n\nSC Appeal No. 148/2012\n\nR. Chandrasena 392, Siri Parakumba Mawatha, Makola South, Makola. SC/HCLA No. 111/2011 Applicant\n\nHC Colombo No. HCALT 68/2008 Vs\n\nLT Application No. LT 1/320/2002\n\nThe Monetary Board, Central Bank of Sri Lanka, 30, Janadhipathi Mawatha, Colombo 01. Respondent\n\nAnd\n\nR. Chandrasena 392, Siri Parakumba Mawatha, Makola South, Makola. Applicant-Appellant\n\nVs\n\nThe Monetary Board, Central Bank of Sri Lanka, 30, Janadhipathi Mawatha, Colombo 01. Respondent-Respondent\n\nAnd\n\nThe Monetary Board, Central Bank of Sri Lanka,\n\n2\n\n30, Janadhipathi Mawatha, Colombo 01. Respondent-Respondent-Appellant\n\nVs\n\nR. Chandrasena 392, Siri Parakumba Mawatha, Makola South, Makola. Applicant-Appellant-Respondent\n\nAnd Now Between\n\nBethmage Premawathie Chandrasena (nee Perera), 392, Siri Parakumba Mawatha, Makola South, Makola. Petitioner\n\nVs\n\nThe Monetary Board, Central Bank of Sri Lanka, 30, Janadhipathi Mawatha, Colombo 01.\n\nRespondent-Respondent-Petitioner-Appellant",
@@ -103,6 +105,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.652657"
+    "extracted_at": "2026-10-17T16:44:31.623376"
   }
 }

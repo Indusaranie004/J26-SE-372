@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nCENTRAL FINANCE COMPANY PLC No. 84, Raja Veediya, Kandy. PLAINTIFF SC Appeal No. SC/CHC/37/2013 VS. HC (Civil) Case No. 440/2008/MR 1. SAPPANI CHANDRASEKERA\n\nNo. 22-E, Quarry Road, Colombo 12. 2. SITTAMBARAM PILLEI\n\nSHANMUGAM No. 23, Abdul Jabbar Mawatha, Colombo12. DEFENDANTS AND CENTRAL FINANCE COMPANY PLC No. 84, Raja Veediya, Kandy. PLAINTIFF-APPELLANT VS.\n\n1. SAPPANI CHANDRASEKERA\n\nNo. 22-E, Quarry Road, Colombo 12. 2. SITTAMBARAM PILLEI\n\nSHANMUGAM No. 23, Abdul Jabbar Mawatha, Colombo12. DEFENDANTS-RESPONDENTS",
@@ -165,6 +167,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.136013"
+    "extracted_at": "2026-10-17T16:44:27.858701"
   }
 }

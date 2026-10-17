@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for leave to appeal under and in terms of Article 127 and 128 of the Constitution of the Democratic Socialist Republic of Sri Lanka read with Section 5c of the High Court of Provinces (Special Provision) Act No. 54 of 2006.\n\nW. L. M. N. De Alwis, No 2A, Abeywickrema Avenue, Mount Lavinia. Plaintiff\n\nWP/HCCA/COL/38/2010 (F)\n\nDC Colombo Case No. 39717/MR\n\nSC/HCCA/LA No. 47/16 Vs\n\n1. Malwatte Valley Plantations Limited,\n\nNo. 280. Dam Street, Colombo 12. 2. L. R. Anthony Perera,\n\nRoyal Gardens, No. 288/12, Sri Jayawardenapura Mawatha, Kotte.\n\nDefendants\n\nAnd\n\nW. L. M. N. De Alwis, No 2A, Abeywickrema Avenue, Mount Lavinia. Plaintiff-Appellant\n\nVs\n\n2\n\n1. Malwatte Valley Plantations Limited,\n\nNo. 280, Dam Street, Colombo 12. 2. L. R. Anthony Perera,\n\nRoyal Gardens, No. 288/12, Sri Jayawardenapura Mawatha, Kotte.\n\nDefendant-Respondents Now (By and between)\n\nW. L. M. N. De Alwis, No 2A, Abeywickrema Avenue, Mount Lavinia.\n\nPlaintiff-Appellant-Petitioner\n\nVs\n\n1. Malwatte Valley Plantations Limited,\n\nNo. 280. Dam Street, Colombo 12. 2. L. R. Anthony Perera,\n\nRoyal Gardens, No. 288/12, Sri Jayawardenapura Mawatha, Kotte.\n\nDefendant-Respondent-Respondents\n\nAnd Now Between\n\nIn the matter of an Application for\n\nsubstitution of the heirs of\n\nW. L. M. N. De Alwis (Deceased),\n\n3\n\nNo 2A, Abeywickrema Avenue,\n\nMount Lavinia.\n\nPlaintiff-Appellant-Petitioner\n\na. Usha Amala De Alwis\n\nb. W. Ravini Padmangi De Alwis\n\nKarunaratne\n\nc. W. Sanjaya Ruwan De Alwis\n\nAll of No.2B, Abeywickrama Avenue Mt-Lavinia\n\nPetitioners\n\nVs 1. Malwatte Valley Plantations Limited,\n\nNo. 280. Dam Street, Colombo 12. 2. L. R. Anthony Perera,\n\nRoyal Gardens, No. 288/12, Sri Jayawardenapura Mawatha, Kotte.\n\nDefendant-Respondent-Respondent-Respondents\n\n4\n\nAluwihare PC J.\n\nThis order pertains to the issue as to whether the cause of action for malicious\n\nprosecution, following the death of the Plaintiff abates or whether it is permissible\n\nfor the Plaintiff’s heirs to be substituted in his room and place.\n\nThe Plaintiff-Appellant-Petitioner (hereinafter referred to as the ‘Plaintiff’), filed\n\naction against the 1st and 2nd Defendant-Respondent-Respondent-Respondents\n\n(hereinafter referred to as the ‘Respondents’) seeking damages for pain of mind,",
@@ -157,6 +159,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.260342"
+    "extracted_at": "2026-10-17T16:44:28.302680"
   }
 }

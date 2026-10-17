@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nS.C. Appeal 125/2015 SC/HCCA/LA/ 24/2013 (LA) WP/HCCA/GAMP/44/2013 D.C. Attanagalla Case No. 1253/M\n\nIn the matter of an Application for Leave to Appeal against the Judgment dated 03.12.2014 delivered by the Provincial High Court of the Civil Appeals of the Western Province (Holden at Gampaha) in Case No. WP/HCCA/GPH/44/2013 (LA) Hatton National Bank PLC No. 479, T.B. Jaya Mawatha, Colombo 10. and previously at 481, T.B. Jayah Mawatha, Colombo 10. And having and maintaining a branch office at 22, Kandy Road, Nittambuwa (previously known as Hatton National Bank Ltd)\n\nPLAINTIFF Vs. 1. Sakalasuriya Appuhamilage Upul Aruna\n\nShantha\n\nKukulnape, Pallewela.\n\n2. Senanayake Amarasinghe Mohotti\n\nAppuhamilage Sudath Denzil No. 64, Kirindiwita. Gampaha.\n\n2\n\n3. Subasinghe Dissanayake Appuhamilage\n\nUpul Hemantha Subsasinshge, No. 74, Marapola, Veyangoda. DEFENDANTS\n\nAND BETWEEN Hatton National Bank PLC No. 479, T.B. Jaya Mawatha, Colombo 10. and previously at 481, T.B. Jayah Mawatha, Colombo 10. And having and maintaining a branch office at 22, Kandy Road, Nittambuwa (previously known as Hatton National Bank Ltd) PLAINTIFF-APPELLANT Vs. 1. Sakalasuriya Appuhamilage Upul Aruna\n\nShantha\n\nKukulnape, Pallewela.\n\n2. Senanayake Amarasinghe Mohotti\n\nAppuhamilage Sudath Denzil No. 64, Kirindiwita. Gampaha.\n\n3. Subasinghe Dissanayake Appuhamilage\n\nUpul Hemantha Subsasinshge, No. 74, Marapola, Veyangoda. DEFENDANT-RESPONDENTS AND NOW BETWEEN\n\n3\n\nSenanayake Amarasinghe Mohotti Appuhamilage Sudath Denzil No. 64, Kirindiwita. Gampaha. 2ND DEFENDANT-RESPONDENT-APPELLANT\n\nHatton National Bank PLC No. 479, T.B. Jaya Mawatha, Colombo 10. and previously at 481, T.B. Jayah Mawatha, Colombo 10. And having and maintaining a branch office at 22, Kandy Road, Nittambuwa (previously known as Hatton National Bank Ltd) PLAINTIFF-APPELLANT-RESPONDENT Vs. 1. Sakalasuriya Appuhamilage Upul Aruna\n\nShantha\n\nKukulnape, Pallewela. 2. Subasinghe Dissanayake Appuhamilage\n\nUpul Hemantha Subsasinshge, No. 74, Marapola, Veyangoda.\n\nDEFENDANT-RESPONDENT-RESPONDENTS",
@@ -98,6 +100,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.828356"
+    "extracted_at": "2026-10-17T16:44:24.291862"
   }
 }

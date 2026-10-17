@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nPeople’s Bank\n\nNo: 75,\n\nSir Chittampalam A.Gardiner Mawatha,\n\nColombo 02.\n\nPlaintiff\n\n-Vs-\n\nS.C. Appeal 04/2015 Mahavidanage Simpson Kularatne\n\nSC/HCCA/LA NO: 239/2012 No:622, Tangalle Road,\n\nSP/HCCA/TA/12/2007 (F) Meddewatta, Matara.\n\nSP/HCCA/MA/49/2007 (F)\n\nD.C. Tissamaharama DR/01/97 Defendant\n\nAND\n\nPeople’s Bank\n\nNo: 75,\n\nSir Chittampalam A.Gardiner Mawatha,\n\nColombo 02.\n\nPlaintiff-Appellant\n\n-Vs-\n\nMahavidanage Simpson Kularatne\n\nNo:622, Tangalle Road,\n\nMeddewatta, Matara.\n\nDefendant-Respondent\n\n2\n\nAND NOW BETWEEN Mahavidanage Simpson Kularatne\n\nNo:622, Tangalle Road,\n\nMeddewatta, Matara.\n\nPresently at\n\nNo.6B 1-1\n\nColonel Sunil Senanayake Mawatha,\n\nPitakotte.\n\nDefendant-Respondent-Petitioner/\n\nAppellant\n\n-Vs-\n\nPeople’s Bank\n\nNo: 75,\n\nSir Chittampalam A.Gardiner Mawatha,\n\nColombo 02.\n\nPlaintiff-Appellant-Respondent",
@@ -165,6 +167,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.574844"
+    "extracted_at": "2026-10-17T16:44:31.551221"
   }
 }

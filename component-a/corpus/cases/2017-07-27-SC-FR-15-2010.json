@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI\n\nLANKA\n\nIn the matter of an application under Article 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka. SC FR Application No.15/2010 1. Shanmugam Sivarajah 2. Sivarajah Sarojini Devi\n\nPresently residing in Sagetrastrasse 12,3133 Belp, Switzerland. Petitioners Vs.\n\n1. Officer in Charge, Terrorist Investigation Division, Chaithya Road, Colombo 01 2. Director, Terrorist Investigation Division, Police Headquarters, Chaithya Road, Colombo 01. 3. Deputy Inspector General of Police, Terrorist Investigation Division, Chaithya Road, Colombo 01.\n\n2\n\n4. Inspector Abdeen, Terrorist Investigation Division, Chaithya Road, Colombo 01. 5. Subair, Terrorist Investigation Division, Colombo 01. 6. Mr. Mahinda Balasuriya, Inspector General of Police, Police Head Quarters, Colombo 01. 6A. Mr. N.K.Illangakoon, Inspector General of Police, Police Headquarters, Colombo 1. 7. Secretary to the Ministry of Defence, Public Security and Law and Order, Ministry of Defence, Colomb o 02. 7A. Mr. B.M.U.D Basnayake Secretary to the Ministry of Defence, Public Security and Law and Order, Ministry of Defence, Colombo 2. 7B Eng. Karunasena Hettiarachchi, Secretary to the Ministry of Defence, Ministry of Defence, Colombo 2. 8. Mr. H. K. Balasuriya, Additional Secretary, Ministry of Defence, Public Security and Law and Order, Ministry of Defence, Colombo 02. 8A Mr. S.Hettiarachchi,\n\n3\n\nAdditional Secretary, Ministry of Defence, Public Security and Law and Oder, Ministry of Defence, Colombo 2. 8B Mr. S.Hettiarachchi, Additional Secretary Ministry of Defence, Ministry of Defence,Colomb Colombo 2 9. Mr. Lalith Weerathunga, Secretary to His Excellency the President, Presidential Secretariat, Colombo 01. 9A P.B.Abeykoon, Secretary to His Excellency the President, Presidential Secretariat, Colombo 01. 10. The Honourable Attorney General, Department of the Attorney General, Colombo 12. Respondents.",
@@ -81,6 +83,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:08.851139"
+    "extracted_at": "2026-10-17T16:44:24.316285"
   }
 }

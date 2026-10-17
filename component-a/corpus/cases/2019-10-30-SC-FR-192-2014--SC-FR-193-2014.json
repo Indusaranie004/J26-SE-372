@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application under\n\nand in terms of Article 17 and 126 of\n\nthe Constitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\nS.C. (F/R) Application No. 192/2014 Petitioners\n\nS.C. (F/R) Application No. 193/2014 Adasuriya Mudiyanselage Dinuka\n\nMadushan Adasuriya,\n\nPothuwela, Ganthiriyawa,\n\nBamunukotuwa.\n\n(Petitioner S.C. (F/R) Application No.\n\n192/2014)\n\n1. Wijeyamunige Nadish Srinath\n\nRanatunga,\n\n‘Kusum Nivasa’, Horewila,\n\nWalasmulla.\n\n2. Nuwan Buddhika Bandaranayake,\n\n53/2/B, Ayurveda Road, Uda\n\nAludeniya, Weligalla.\n\n3. Hashan Dhananjaya Wijesinghe,\n\n2\n\n110/B,\n\nBattagala, Dambara,\n\nMeewanapalaana.\n\n4. Gunasekara Liyanage Janith Kalana,\n\n21/18, Ranasooriya Mawatha,\n\nPaniyana,\n\nAmbalangoda.\n\n5. Athapattu Mudiyanselage Asanka\n\nSanjeewa Athapaththu,\n\nKalawanegama, Kohumola Road,\n\nWariyapola.\n\n6. Aarachchi Mudiyanselage Buddhika\n\nDilshantha Bandara,\n\nKatamillagaswatte, Vellawela,\n\nAtampitiya.\n\n7. Induwara Wedagedara Pathum\n\nMadushanka,\n\n832/162, Hinnarandeniyawatte,\n\nGampola.\n\n8. Jasiri Liyanage Waruna Dhananjaya\n\nRatnawansha,\n\n3\n\nLiyanage Trade Centre,\n\nYakdehiwatte, Niwithigala.\n\n9. Bambagedara Priyantha Dinesh\n\nSomasiri,\n\n45, Aanakatawa, Dambulu Halmilla\n\nWeva,\n\nKekirawa.\n\n10. Kannanagarage Don Chanaka\n\nMihiran Wijekoon,\n\n216/2, Kurana, Handapaangoda.\n\n11. Palpolage Don Tharindu Sampath,\n\nBollunna, Hadigalla Janapadaya,\n\nBaduraliya.\n\n12. Warahena Liyanage Thushan Indika\n\nSampath,\n\nBeligaswatte, Halla, Diwuldeniya.\n\n(Petitioners in S.C. (F/R) Application No. 193/2014)\n\nVs\n\nRespondents\n\n4\n\n1. Chief Inspector Malin Perera,\n\nOfficer-in-Charge, Police Station,\n\nSlave Island.\n\n2. N. K. Illangakoon,\n\nInspector General of Police, Police\n\nHeadquarters, Colombo 01.\n\n3. Attorney General, Attorney\n\nGeneral’s Department, Colombo 12.\n\n(Respondents in S.C. (F/R)\n\nApplication No. 192/2014 & No.\n\n193/2014)",
@@ -120,6 +122,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.569543"
+    "extracted_at": "2026-10-17T16:44:29.178330"
   }
 }

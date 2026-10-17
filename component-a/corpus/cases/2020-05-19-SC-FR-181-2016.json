@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "SC FR 181/2016 JUDGMENT Page 1 of 9\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application\n\nunder and in terms of Articles 17\n\nand 126 of the Constitution.\n\n1. M. Weerasinghe,\n\nNo. 1200/4, Rajamalwatta Road,\n\nBattaramulla.\n\n2. D.G.A Wijebandara,\n\nNo. 972A, Pannipitiya Road,\n\nThalangama South,\n\nBattaramulla.\n\n3. R.K.M Dayananda,\n\nNo. 25/7, Coranelis Mawatha,\n\nThalapathpitiya Road,\n\nNugegoda.\n\n4. N.P.G. Karunathilaka,\n\nNo. 190, Whitewell Estate,\n\nPaththalagedara,\n\nVeyangoda. PETITIONERS\n\nVs\n\nSC/FR APPLICATION 181/2016\n\nSC FR 181/2016 JUDGMENT Page 2 of 9\n\n1. P.S.M Charles,\n\nDirector – General of Customs,\n\nSri Lanka Customs Department,\n\nNo. 40, Main Street,\n\nColombo 11.\n\n2. A. Senanayake,\n\nAdditional Director – General\n\n(Human Resource Management)\n\nSri Lanka Customs Department,\n\nNo. 40, Main Street,\n\nColombo 11.\n\n3. D. Dissanayake,\n\nChairman,\n\n4. Prof. Hussain Ismail\n\n5. V. Jegarajasingham,\n\n6. Nihal Seneviratne,\n\n7. Dr. Prathap Ramanujan,\n\n8. S. Ranugge,\n\n9. D.L. Mendis,\n\n10. Sarath Jayathilaka,\n\n11. D. Wijayatileke,\n\nSC FR 181/2016 JUDGMENT Page 3 of 9\n\n(All members of the Public Service\n\nCommission of No. 177, Nawala\n\nRoad, Narahenpita, Colombo 05.)\n\n12. A. Kulatunga ,\n\nSecretary,\n\nPublic Service Commission,\n\nNo. 177, Nawala Road,\n\nNarahenpita, Colombo 05.\n\n13. Secretary,\n\nMinistry of Finance,\n\nThe Secretariat,\n\nColombo 01.\n\n14. Director – General of\n\nEstablishments,\n\nMinistry of Public Administration\n\nand Home Affairs,\n\nIndependence Square,\n\nColombo 07.\n\n15. M.M. Alwis,\n\n16. A.J. Fernando,\n\n17. B.C.L. Hewawitharana,\n\n18. K.D.R. Perera,\n\nSC FR 181/2016 JUDGMENT Page 4 of 9\n\n19. W.M.T. Mahaulpatha,\n\n20. U.K.A.S. Yapa,\n\n21. A.N. Kurukulaarachchi,\n\n22. R.P.D.R. Sandya,\n\nAll acting Superintendents of\n\nCustoms and all c/o. the\n\nAdditional Director – General\n\n(Human Resource Management),\n\nSri Lanka Customs Department,\n\nNo. 40, Main Street,\n\nColombo 11.\n\n23. Hon. Attorney – General,\n\nAttorney – General’s Department,\n\nHultsdorp Street,\n\nColombo 12.\n\nRESPONDENTS",
@@ -60,6 +62,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.064018"
+    "extracted_at": "2026-10-17T16:44:30.631374"
   }
 }

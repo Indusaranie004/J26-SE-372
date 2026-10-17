@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA Dr. (Mrs.) Chandini Perera, 33/3, Jambugasmulla Road, Nugegoda. Petitioner SC FR No. 120/2017\n\n1. Dr. J.M.W. Jayasundara Bandara, Director General of Health Services, Ministry of Health, Nutrition and Indigenous Medicine, 385, ‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10. 1A. Dr. Anil Jasinghe,\n\nDirector General of Health Services, Ministry of Health, Nutrition and Indigenous Medicine, 385, ‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10.\n\n2. Dr. Anil Jasinghe,\n\nDirector General of Health Services, Ministry of Health, Nutrition and Indigenous Medicine, 385,\n\n‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10. 2A. Dr. W.K. Wickremasinghe, Acting Deputy Director General of Health, The National Hospital of Sri Lanka, Colombo 10.\n\n2\n\n3. Dr. (Mrs.) Samiddhi Samarakoon,\n\nDeputy Director, Neurotroma Accident and Orthopaidec Services, The National Hospital of Sri Lanka, Colombo 10. 4. Dr. Cyril de Silva,\n\nDeputy Director, The National Hospital of Sri Lanka, Colombo 10. 5. Hon. Dr. Rajitha Senaratne, MP,\n\nMinister of Health, Nutrition and Indigenous Medicine, 385, ‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10. 6. Mr. Anura Jayawickrema,\n\nSecretary, Ministry of Health, Nutrition and Indigenous Medicine, 385, ‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10. 6A. Mr. Janaka Sugathadasa, Secretary, Ministry of Health, Nutrition and Indigenous Medicine, 385, ‘Suwasiripaya’, Rev. Baddegama Wimalawansa Thero Mawatha, Colombo 10. 7. Dharmasena Dissanayaka, Chairman 8. Prof. Hussain Ismail, Member 9. Ms.ShiranthaWijayatilake,Member 10. Dr. Prathap Ramanujam, Member 11. Mrs. V. Jegarasasingam, Member 12. Santi Nihal Seneviratne, Member 13. S.Ranugge, Member 14. D.L.Mendis 15. Sarath Jayathilaka, Member\n\n7th to 15th Respondents, All of the\n\n3\n\nPublic Service Commission, No. 177, Nawala Road, Narahenpita, Colombo 5. 16. Dr. Dulip Perera,\n\nConsultant Plastic Surgeon, The National Hospital of Sri Lanka, Colombo 10. 17. Hon. Attorney General,\n\nAttorney General’s Department. Hulftsdorp, Colombo 12. Respondents",
@@ -66,6 +68,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.305262"
+    "extracted_at": "2026-10-17T16:44:24.783631"
   }
 }

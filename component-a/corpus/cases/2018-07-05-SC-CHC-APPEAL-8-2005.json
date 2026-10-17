@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC\n\nSOCIALIST REPUBLIC OF SRI LANKA In the matter of an Appeal from the Commercial High Court of Colombo. Aitken Spence & Company Limited, No. 305, Vauxhall Street, Colombo 2. Petitioner SC CHC APPEAL 08/2005 Commercial High Court Vs Case No. 02/2003(2)\n\n1. The Garment Services Group\n\nLtd., Swan House, 52-53 Poland Street, London WIV 3DF. 2. Dennis Day Limited,\n\nSwan House, 52-53 Poland Street, London WIV 3DF. 3. Aitken Spence Garments Ltd.,No.305,VauxhallStreet,Colombo2. 4. J.M.S. Brito, Cinnamon Garden\n\nResidencies,No. 67, Ward Place, Colombo 07. 5. R.E.V. CasieChetty,No. 50, Rosmead Place, Colombo 7. 6. E.P.A. Cooray, No. 95/15, Kalyani\n\nMawatha, Wattala. 7. K.D.A.Lawrence, No. 41/1, Old\n\nNawala Road, Nawala. 8. D.S.Rose, 4th Floor, Mercantile\n\nInvestment Building, No. 236, GalleRoad, Colombo 3.\n\n2\n\n9. M. Rhodes, Swan House, 52-53\n\nPoland Street, London WIV 3DF. 10. Mrs. K.R.M.Weerakoon, No. 589/8, Kandy Road, Ranmutugala, Kandy. 11. M. Gabay, No. 7, Sukhastan\n\nGardens, Colombo 7.\n\nRespondents AND NOW\n\n1. D D Garments Limited ( formerly\n\nknown as ‘The Garment Services Group Ltd.’ ) , Swan House, 52-53 Poland Street, London WIV 3DF. 2. Dennis Day Limited,\n\nSwan House, 52-53 Poland Street, London WIV 3DF. 3. D.S.Rose, 4th Floor, Mercantile\n\nInvestment Building, No. 236, Galle Road, Colombo 3. 4. M. Rhodes, Swan House, 52-53 Poland Street, London WIV 3DF. 5. Mrs. K.R.M.Weerakoon, No. 589/8, Kandy Road, Ranmutugala, Kadawatha. Respondent Appellants Vs 1. Aitken Spence & Company Ltd.,\n\nNo. 305,Vauxhall Street, Colombo 2. Petitioner Respondent\n\n3\n\n2. Aitken Spence Garments Limited,\n\nNo. 305, Vauxhall Street, Colombo 2. 3. J.M.S.Brito, Cinnamon Grand Residencies, No.67, Ward Place, Colombo 7. 4. R.V.E. Casie Chetty, No. 50,\n\nRosmead Place, Colombo 7. 5. E.P.A.Cooray, No. 95/15, Kalyani\n\nMawatha, Wattala. 6. K.D.A. Lawrence, No. 41/1, Old\n\nNawala Road, Nawala. 7. M. Gabay, No. 7, Sukhastan\n\nGardens, Colombo 7. Respondent Respondents",
@@ -114,6 +116,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.548704"
+    "extracted_at": "2026-10-17T16:44:25.011364"
   }
 }

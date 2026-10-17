@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": false,
   "sections": {
     "caption": {
       "text": "1 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of an application for Special Leave to appeal in terms Article 154 (P) of the Constitution read with section 31DD of the Industrial Disputes Act (as Amended) and section 9 of the High Court of the Provisions (SPL) Act No. 19 of 1990\n\nG. Kothandan, “Bethany” Golf Links Road, Bandarawela Applicant SC Appeal 164/2011 SC Appeal 165/2011 Vs,\n\nHC/ALT/55/2008 Agarapatane Plantations Limited, HC/ALT/63/2008 No. 53-1/1, Sir Baron Jayatilleke Mawatha, LT/36/19462/2006 Colombo 01 Respondent\n\nAnd Agarapatane Plantations Limited, No. 53-1/1, Sir Baron Jayatilleke Mawatha, Colombo 01 Respondent -Appellant Vs, G. Kothandan, “Bethany” Golf Links Road, Bandarawela Applicant-Respondent\n\n2\n\nAnd now between\n\nAgarapatane Plantations Limited, No. 53-1/1, Sir Baron Jayatilleke Mawatha, Colombo 01 Respondent-Appellant-Appellant\n\nVs,\n\nG. Kothandan, “Bethany” Golf Links Road, Bandarawela Applicant- Respondent -Respondent",
@@ -59,6 +61,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.331750"
+    "extracted_at": "2026-10-17T16:44:25.954113"
   }
 }

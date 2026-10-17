@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an application for Special Leave to Appeal under Article 128 of the Constitution\n\nSinna Lebbe Saliya Umma of Mawana, Mawanella.\n\nPLAINTIFF\n\n-Vs-\n\nShahul Hameed Mohammed Yaseen of No. 129/2, Courts Road, Marawa, Mawanella.\n\nDEFENDANT\n\nBetween\n\nSinna Lebbe Saliya Umma of\n\nMawana, Mawanella.\n\nPLAINTIFF- PETITIONER\n\n-Vs-\n\n1. Shahul Hameed Mohammed Yaseen of No. 129/2,\n\nCourts Road, Marawa, Mawanella.\n\nDEFENDANT- RESPONDENT\n\n2. Zainul Abdeen Mohammed Naufer of No. 40A, Kandy Road, Mawanella. 3. Mohammed Saly Mohammed\n\nMusthafa of No. 74, Hemmathagama Road, Mawanella.\n\nRESPONDENTS\n\nSC Appeal 99/2014 SC Special L.A No. 199/2012 CA No. 169/2006 DC Mawanella No.635/L\n\n2\n\nAnd Between\n\n3. Mohammed Saly Mohammed\n\nMusthafa of No. 74, Hemmathagama Road, Mawanella.\n\n3rd RESPONDENT\n\nPETITIONER\n\n-Vs-\n\nSinna Lebbe Saliya Umma of\n\nMawana, Mawanella.\n\nPLAINTIFF-PETITIONER- RESPONDENT\n\n1. Shahul Hameed Mohammed\n\nYaseen of No. 129/2, Courts Road, Marawa, Mawanella.\n\nDEFENDANT-RESPONDENT- RESPONDENT\n\n2. Zainul Abdeen Mohammed Naufer of No. 40A, Kandy Road, Mawanella.\n\n2ND RESPONDENT-RESPONDENT\n\nAnd Now Between\n\nSinna Lebbe Saliya Umma of\n\nMawana, Mawanella.\n\nPLAINTIFF-PETITIONER- RESPONDENT-APPELLANT\n\n-Vs-\n\n1. Shahul Hameed Mohammed Yaseen of No. 129/2,\n\nCourts Road, Marawa, Mawanella.\n\n3\n\nDEFENDANT- RESPONDENT-RESPONDENT-RESPONDENT\n\n2. Zainul Abdeen Mohammed Naufer of No. 40A, Kandy Road, Mawanella.\n\n2ND RESPONDENT-RESPONDENT-RESPONDENT\n\n3. Mohammed Saly Mohammed\n\nMusthafa of No. 74, Hemmathagama Road, Mawanella. (Deceased)\n\n3.(a) Mohammed Musthafa Mohammed Manazeer,\n\n3. (b) Mohammed Musthafa Fathima Nusrath,\n\n3.(c) Mohammed Musthafa Farhan,\n\n3. (d) Mohammed Musthafa Rasman Ahmad,\n\nAll of No. 74, Hemmathagama Road, Mawanella\n\nSUBSTITUTED 3A to 3D RESPONDENT-PETITIONER-RESPONDENT",
@@ -132,6 +134,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.379496"
+    "extracted_at": "2026-10-17T16:44:24.856556"
   }
 }

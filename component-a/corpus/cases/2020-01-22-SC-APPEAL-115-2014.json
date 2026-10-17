@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nSC Appeal No.115/2014 SC (SPL) LA Application No. 36/2014 CA Appeal No. CA 02/2008 High Court Embilipitiya Case No.199/2006\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application for Special Leave to Appeal in terms of Article 127 read with Article 128 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\nDemocratic Socialist Republic of Sri Lanka\n\nComplainant Vs. 1. Hiniduma Dahanayakage Siripala alias Kiri\n\nMahaththaya.\n\n2. Henapita Gamage Shantha.\n\n3. Kandabige Priyantha alias Appuhami.\n\n4. Karivila Kandhage Upul Priyashantha.\n\nAccused\n\nAnd Now\n\n1. Hiniduma Dahanayakage Siripala alias Kiri\n\nMahaththaya. 2. Henapita Gamage Shantha.\n\nAccused-Appellants\n\nVs.\n\nThe Hon. Attorney General\n\nAttorney General’s Department,\n\nColombo12.\n\nRespondent\n\n2\n\nAnd Now Between\n\n1. Hiniduma Dahanayakage Siripala alias Kiri\n\nMahaththaya. 2. Henapita Gamage Shantha.\n\nBoth presently at\n\nWelikada Prison, Baseline Road, Borella.\n\nAccused- Appellants-\n\nPetitioners- Appellants\n\nVs.\n\nThe Hon. Attorney General,\n\nAttorney General’s Department,\n\nColombo 12.\n\nComplainant-Respondent-\n\nRespondent",
@@ -126,6 +128,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.939957"
+    "extracted_at": "2026-10-17T16:44:30.258577"
   }
 }

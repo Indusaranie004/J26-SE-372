@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC\n\nOF SRI LANKA.\n\nIn the matter of and application under and in terms of Article 17 and 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. Juan Badathuruge Anugi Sageethma,\n\nNo. 78/23D, Samagi Mawatha, Bandaranayake Place, Galle.\n\n2. Juan Badathuruge Janaka Prasad,\n\nNo. 78/23D, Samagi Mawatha, Bandaranayake Place, Galle.\n\nSC FR Application No. 214/2017 Petitioners\n\n-Vs- 1. Sandhya Iranie Pathiranawasam,\n\nThe Principal and member of the Interview Board to admit students to Grade 1, Southlands College. Galle.\n\n2. S.K.S.D. Silva,\n\nThe Vice Principal and member of the Interview Board to admit students to Grade 1, Southlands College, Galle.\n\n3. Member of the Interview Board to admit\n\nstudents to Grade 1, Southlands College, Galle.\n\n2\n\n4. Member of the Interview Board to admit\n\nstudents to Grade 1, Southlands College, Galle.\n\n5. Member of the Interview Board to admit\n\nstudents to Grade 1, Southlands College, Galle.\n\n6. Ranjith Thilakasiri,\n\nChairman of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n7. S.K.S.D. Silva,\n\nMember of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n8. D.L.Chithra,\n\nMember of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n9. Upali Amaratunga,\n\nMember of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n10. Devika Dodampegama,\n\nMember of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n3\n\n11. Ranga Mohotti,\n\nMember of the Appeals and Objections Board to admit student to Grade 1, Southlands College, Galle.\n\n12. Director of National Schools,\n\nMinistry of Education, Isurupaya, Battaramulla. 13. Secretary,\n\nMinistry of Education, Isurupaya, Battaramulla.\n\n14. Padmi Dilrushika,\n\n317, Udugama Road, Galle.\n\n15. Dimantha Kumara,\n\nGangarama Cross Street, Magalle.\n\n16. M.D.S. Roshan,\n\nGangarama Cross Street, Magalle.\n\n17. W.G.M. Sharaf,\n\nMagalle, Galle.\n\n18. W.M.S. Senevirathne,\n\nGangarama Road, Magalle, Galle.\n\n19. Rasika Priyadharshana,\n\nMagalle, Galle.\n\n4\n\n20. Honorable Attorney General,\n\nDepartment of Attorney General, Colombo 12.\n\nRespondents",
@@ -65,6 +67,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:12.271661"
+    "extracted_at": "2026-10-17T16:44:31.132698"
   }
 }

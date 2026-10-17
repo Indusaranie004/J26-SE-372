@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": false,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1 IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nIn the matter of a Fundamental Rights application under and in terms of Article 126 reads with Article 17 of the constitution in respect of the violation of the Fundamental Rights of the Petitioners guaranteed under Article 12 (1) of the Constitution of the Democratic Socialist Republic of Sri Lanka\n\n1. Hadunnethige Amitha Saman Yuneka 2. Adhikari Dissanayakalage Sumedha Mahesh Jayarathne Both of, No. 57/108, 2nd Lane,\n\nVidyala Mawatha, Avissawella.\n\nPetitioners\n\nSC /FR/ Application No 84/2017\n\nVs,\n\n1. B.A. Abeyrathne,\n\nPrincipal, Royal College, Colombo. 2. L.W.K. Silva 3. R.M.I.P. Karunaratne 4. L.K. Jayathilake 5. A.G.P.A. Gunawansa 6. T.Tennakoon\n\nAll members of Interview Board for Grade One Admission 2017, Royal College, Colombo. 7. A.G.N. Jayasekara 8. G.V. Jayasuriya 9. R.M. Ratnayake 10. M.H. Sunny\n\n2\n\n11. U. Malalasekara 12. Inoka Gunn\n\nAll members of Appeal Board for Grade One Admission 2017, Royal College, Colombo. 13. P.N. Illapperuma,\n\nDirector, National Schools, Department of Education, Ministry of Education, ‘Isurupaya’ Pelawatte, Battaramulla. 14. Sunil Hettiarachchi,\n\nSecretary, Ministry of Education, ‘Isurupaya’ Pelawatte, Battaramulla. 15. Hon. Akila Viraj Kariyawasam,\n\nMinister of Education, Ministry of Education, ‘Isurupaya’ Pelawatte, Battaramulla. 16. Hon. Attorney General,\n\nAttorney General’s Department, Colombo 12.\n\nRespondents",
@@ -60,6 +62,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.914953"
+    "extracted_at": "2026-10-17T16:44:25.290893"
   }
 }

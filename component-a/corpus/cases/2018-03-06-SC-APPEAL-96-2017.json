@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA In the matter of an Appeal from the Civil Appellate High Court. Mohamed Ghouse Mohamed Sulaiman Zurfick, No. 142/4, W.A.de Silva Mawatha, Colombo 6. Plaintiff Vs SC APPEAL 96/17 SC/HCCA/LA/630/16 M.N.Naufer, No. 43, Hulftsdorp WP/HCCA/COL/120/11 Street, Colombo 10. D.C.Colombo 4415/09 And currently at, Bogambara Prison, Kandy. Defendant AND THEN BETWEEN Mohamed Ghouse Mohamed Sulaiman Zurfick, No. 142/4, W.A.de Silva Mawatha, Colombo 6. Plaintiff Petitioner Vs M.N.Naufer, No. 43, Hulftsdorp Street, Colombo 10. And currently at, Bogambara Prison, Kandy. Defendant Respondent\n\n2\n\nAND THEREAFTER BETWEEN Mohamed Ghouse Mohamed Sulaiman Zurfick, No. 142/4, W.A.de Silva Mawatha, Colombo 6. Plaintiff Petitioner Appellant\n\nVs M.N.Naufer, No. 43, Hulftsdorp Street, Colombo 10. And currently at, Bogambara Prison, Kandy. Defendant Respondent Respondent AND NOW BETWEEN M.N.Naufer, No. 43, Hulftsdorp Street, Colombo 10. And currently at, Bogambara Prison, Kandy. Defendant Respondent Respondent Appellant Vs Mohamed Ghouse Mohamed Sulaiman Zurfick, No. 142/4, W.A.de Silva Mawatha, Colombo 6. Plaintiff Petitioner Appellant Respondent\n\n3",
@@ -154,6 +156,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.253735"
+    "extracted_at": "2026-10-17T16:44:24.728690"
   }
 }

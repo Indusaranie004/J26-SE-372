@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA\n\nS.C. Appeal No. 61/2012 SC (HC) CALA 324/2011 HCCA/Rev/29/2009 D.C. Kandy Case No. 19989/MR\n\nIn the matter of an Application for Leave to Appeal against the Judgment dated 06.07.2011 pronounced by Civil Appellate High Court of the Central Province in Kandy in Application No. HC (Appeal) No. 29/2009 (Rev) G. M. M. Majeed No. 94/1, School Lane, Galhinna.\n\n1ST DEFENDANT-PETITIONER Vs. G.R.W.M. Weerakoone No. 09, Colombo Street, Kandy. PLAINTIFF-RESPONDENT Jayantha Fernando 29/9. Sri Pushpananda Mawatha, Kandy.\n\n2ND DEFENDANT-RESPONDENT AND BETWEEN G. M. M. Majeed No. 94/1, School Lane, Galhinna. 1ST DEFENDANT-PETITIONER-PETITIONER\n\n2\n\nVs. G.R.W.M. Weerakoone No. 09, Colombo Street, Kandy. PLAINTIFF-RESPONDENT-RESPONDENT Jayantha Fernando 29/9. Sri Pushpananda Mawatha, Kandy. 2ND DEFENDANT-RESPONDENT-RESPONDENT",
@@ -88,6 +90,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:09.011656"
+    "extracted_at": "2026-10-17T16:44:24.474184"
   }
 }

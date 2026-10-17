@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nE.A.G.R. Amarasekara J.\n\nI had the advantage of reading in draft, the Judgment written by Honourable\n\nJustice Surasena. With all due respect to his analysis of facts and\n\nconclusions, I intend to dissent and come to a different conclusion with\n\nregard to the facts revealed before us in this case. Since my brother Judge\n\nhas summarised the facts of this case, I need not repeat some of them here\n\nagain. My brother Judge has observed that many of the assertions made by\n\nthe Petitioner are based on hearsay material or mere speculation by the\n\nPetitioner that cannot be given any evidential value. I also agree with that.\n\nHowever, the fact that the Petitioner’s son Mariyadas Thevis Delrokson died\n\non 08.08.2012 at the Ragama Teaching Hospital while he was in the custody\n\nof Prison authorities",
@@ -105,6 +107,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.085989"
+    "extracted_at": "2026-10-17T16:44:27.718839"
   }
 }

@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nIN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application under Article 126 of the Constitution of the Democratic Socialist Republic of Sri Lanka.\n\n1. Sunway International (Pvt) Ltd. ‘Sunway House’ No.25, Kimbulapitiya Road, Negombo. 2. Ramesh Dassanayake Managing Director Sunway International (Pvt) Ltd ‘Sunway House’ No.25, Kimbulapitiya Road, Negombo.\n\nPetitioners\n\nVs.\n\n1. Airport & Aviation Services (Sri Lanka)\n\nLimited Bandaranaike International Airport, Colombo, Katunayake. 2. Chairman,\n\nAirport & Aviation Services (Sri Lanka) Limited Bandaranaike International Airport, Colombo, Katunayake. 3. Ministry of Transport and Civil Aviation\n\n7th Floor, Sethsiripaya, Stage II, Battaramulla.\n\nSC (F/R) No. 147/2017\n\n2\n\n4. Secretary,\n\nMinistry of Transport and Civil Aviation 7th Floor, Sethsiripaya, Stage II, Battaramulla. 5. Mr. R. W. L. B. Medawewa\n\nChairman, Technical Evaluation Committee (TEC), Airport & Aviation Services (Sri Lanka) Limited, Bandaranaike International Airport, Colombo, Katunayake. 6. Mrs. K. D. Yamuna Chandani\n\nMember, Technical Evaluation Committee (TEC), Airport & Aviation Services (Sri Lanka) Limited, Bandaranaike International Airport, Colombo, Katunayake. 7. Mr. Eranda Gunathilaka\n\nMember, Technical Evaluation Committee (TEC), Airport & Aviation Services (Sri Lanka) Limited, Bandaranaike International Airport, Colombo, Katunayake. 8. Mr. R. M. S. Ratnayake\n\nChairman, Ministerial Procurement Committee (MPC), Additional Secretary (Aviation), Ministry of Transport and Civil Aviation 7th Floor, Sethsiripaya, Stage II, Battaramulla.\n\n3\n\n9. Mr. S. S. Ediriweera\n\nMember, Ministerial Procurement Committee (MPC), Chairman, Airport & Aviation Services (Sri Lanka) Limited, Bandaranaike International Airport, Colombo, Katunayake. 10. Mr. E. M. N. R. Bandara\n\nMember, Ministerial Procurement Committee (MPC), Accountant, Department of the Registrar of Companies, No.400, D. R. Wijewardena Mawatha, Colombo 10. 11. Airport Tourist Drivers Association\n\nNo. 1454, Colombo Road, Kurana, Katunayake. 12. Sunhill Group of Hotels No. 26, Palmyrah Avenue, Colombo 03.\n\n13. Ancient Lanka Tours and Travels\n\nNo. 530/8, 12th Lane, Deminigahawatta, Kimbulapitiya, Katunayake. 14. Hon. Attorney General\n\nAttorney General’s Department, Colombo 12. Respondents\n\n4",
@@ -121,6 +123,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:11.719225"
+    "extracted_at": "2026-10-17T16:44:29.616615"
   }
 }

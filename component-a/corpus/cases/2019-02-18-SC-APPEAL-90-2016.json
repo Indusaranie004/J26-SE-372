@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "1\n\nTHE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI ANKA\n\nIn the matter of an application for leave to appeal in terms of Section 5 c (1) of the High Court of the Provinces ( Special Provisions) Act No.19 of 1990 (as amended).\n\n1. Mapalagama Manage Nishantha Viraj,\n\n‘Nihathamanee’, Niyagama,\n\nThalgaswala. (Minor) SC Appeal No.90/2016 Plaintiff SC/HCCA/LA 324/12 SP/HCCA/GA/LA By his next friend Case No.14/2011 Mapolagama Pathmini Sriyalatha, DC/GALLE Case No.10996/P ‘Nihathamanee’, Niyagama, Thalgaswala. Vs.\n\n1. Thenuwara Acharige Sardhasena,\n\n‘Nihathamanee’, Niyagama, Thalgaswala. 2. L.P.Chandrasena Karunathilake,\n\nGurugodella Estate, Niyagama, Thalgaswela. 3. Lokugamage Rupasena Karunathilake,\n\nBenthara Road, Elpitiya. 4. Sadini Maithree de Silva\n\nDikwella Stores, Thalgaswela.\n\nDefendants\n\n2\n\nAND Mahagama Vidanalage Chandradasa, ‘Rathna Radio Service’ Thalgaswala. Petitioner Vs. Mapalagama Manage Nishantha Viraj, ‘Nihathamanee’, Niyagama, Thalgaswala. Plaintiff-Respondent 1. Thenuwara Acharige Sardhasena, ‘Nihathamanee’, Niyagama, Thalgaswala.\n\n2. L.P.Chandrasena Karunathilake, Gurugodella Estate, Niyagama,\n\nThalgaswela.\n\n3. Lokugamage Rupasena Karunathilake, Benthara Road, Elpitiya.\n\n4. Sadini Maithree de Silva\n\nDikwella Stores, Thalgaswela Petitioner-Petitioner Vs. Mapalagama Manage Nishantha Viraj, ‘Nihathamanee’, Niyagama, Thalgaswala.\n\nPlaintiff-Respondent-Respondent\n\n3\n\n1. Thenuwara Acharige Sardhasena, ‘Nihathamanee’, Niyagama, Thalgaswala.\n\n2. L.P.Chandrasena Karunathilake, Gurugodella Estate, Niyagama,\n\nThalgaswela.\n\n3. Lokugamage Rupasena Karunathilake, Benthara Road, Elpitiya.\n\n4. Sadini Maithree de Silva\n\nDikwella Stores, Thalgaswela 1st to 4th Defendants-Respondent-Respondent AND NOW BETWEEN\n\nMahagama Vidanalage Chandradasa, ‘Rathna Radio Service’ Thalgaswala. Petitioner-Petitioner-Petitioner Vs. Mapalagama Manage Nishantha Viraj, ‘Nihathamanee’, Niyagama, Thalgaswala. Plaintiff-Respondent- Respondent-Respondent\n\n1. Thenuwara Acharige Sardhasena, ‘Nihathamanee’, Niyagama, Thalgaswala.\n\n4\n\n2. L.P.Chandrasena Karunathilake, Gurugodella Estate, Niyagama,\n\nThalgaswela.\n\n3. Lokugamage Rupasena Karunathilake, Benthara Road, Elpitiya.\n\n4. Sadini Maithree de Silva\n\nDikwella Stores, Thalgaswela\n\n1st to 4th Defendants-Respondents- Respondent - Respondent",
@@ -100,6 +102,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.685133"
+    "extracted_at": "2026-10-17T16:44:26.664293"
   }
 }

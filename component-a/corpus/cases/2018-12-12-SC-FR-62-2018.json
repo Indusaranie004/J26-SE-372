@@ -8,6 +8,8 @@
   "text_available": true,
   "ocr_required": false,
   "validity_status": "good_law",
+  "appeal_chain_parsed": true,
+  "legislation_parsed": true,
   "sections": {
     "caption": {
       "text": "IN THE SUPREME COURT OF THE DEMOCRATIC SOCIALIST\n\nREPUBLIC OF SRI LANKA\n\nIn the matter of an Application under\n\nand in terms Article 126 of the\n\nConstitution of the Democratic\n\nSocialist Republic of Sri Lanka.\n\n1. Menura Nanwidu\n\nRambukkanage, No:27, Nihal\n\nSilva Mawatha, Kirulapone,\n\nColombo 06.\n\n2. S.T.Kodithuwakku,\n\nNo: 27, Nihal Silva Mawatha,\n\nKirulapone, Colombo 06.\n\nPETITIONERS\n\nSC (F/R) ApplicationVs.\n\nNo: 62/2018\n\n(1)B.A. Abeyrathne,\n\nThe Principal and the\n\nChairman of the Interview\n\nBoard to admit Students to\n\nGrade 1 of Royal College\n\nOf Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(2)A. Galahitiyawa\n\nMember of the Interview\n\nBoard to admit Students to\n\nGrade 1 of Royal College\n\nOf Colombo,\n\nRoyal College,\n\n1\n\nColombo 07.\n\n(3)K.D.S. Siyaguna,\n\nMember of the Interview\n\nBoard to admit Students to\n\nGrade 1 of Royal College\n\nOf Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(4)Harshana Matharaarachchi,\n\nMember of the Interview\n\nBoard to admit Students to\n\nGrade 1 of Royal College\n\nOf Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(5)K.A.H. Karasingha,\n\nMember of the Interview\n\nBoard to admit Students to\n\nGrade 1 of Royal College\n\nOf Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(6)K.G. Wimalasena\n\nThe Chairman of the Appeals\n\nand Objections Board to\n\nadmit Students to Grade 1 of\n\nRoyal College of Colombo,\n\nRoyal College,\n\nColombo 07.\n\n2\n\n(7)Amith Dharmapala,\n\nThe Member of the Appeals\n\nand Objections Board to\n\nadmit Students to Grade 1 of\n\nRoyal College of Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(8)W.N.P. Kumara,\n\nThe Member of the Appeals\n\nand Objections Board to\n\nadmit Students to Grade 1 of\n\nRoyal College of Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(9)S.P.M. Gunasekara\n\nThe Member of the Appeals\n\nand Objections Board to\n\nadmit Students to Grade 1 of\n\nRoyal College of Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(10) Charana Gunasekara\n\nThe Member of the Appeals\n\nand Objections Board to\n\nadmit Students to Grade 1 of\n\nRoyal College of Colombo,\n\nRoyal College,\n\nColombo 07.\n\n(11) Director National Schools,\n\nMinistry of Education,\n\n3\n\nIsurupaya, Pelawatta,\n\nBattaramulla.\n\n(12) Sunil Hettiarachchi,\n\nSecretary,\n\nMinistry of Education,\n\nIsurupaya, Pelawatta,\n\nBattaramulla.\n\n(13) Honorable Attorney General,\n\nDepartment of Attorney General,\n\nColombo 12.\n\nRESPONDENTS",
@@ -69,6 +71,6 @@
   "provenance": {
     "source_dataset": "nuuuwan/lk_supreme_court_judgements",
     "revision": "unknown",
-    "extracted_at": "2026-10-17T08:46:10.572688"
+    "extracted_at": "2026-10-17T16:44:26.373483"
   }
 }
