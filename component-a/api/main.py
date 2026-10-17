@@ -262,6 +262,37 @@ def get_section(doc_id: str, section_name: str):
     return {"doc_id": doc_id, "section": section_name,
             **sections[section_name]}
 
+@app.get("/cases/{doc_id}/sections")
+def get_all_sections(doc_id: str):
+    """Returns all four sections in one response for embedding generation."""
+    if MOCK_MODE:
+        if doc_id not in mock_data.CASES:
+            raise HTTPException(status_code=404, detail={
+                "error": "case_not_found", "doc_id": doc_id
+            })
+        case = mock_data.CASES[doc_id]
+        if not case.get("text_available"):
+            raise HTTPException(status_code=503, detail={
+                "error": "text_unavailable",
+                "ocr_required": case.get("ocr_required", False)
+            })
+        return {"doc_id": doc_id, "sections": case.get("sections", {})}
+
+    record = get_case_from_db(doc_id)
+    if not record:
+        raise HTTPException(status_code=404, detail={
+            "error": "case_not_found", "doc_id": doc_id
+        })
+    if not record.get("text_available"):
+        raise HTTPException(status_code=503, detail={
+            "error": "text_unavailable",
+            "ocr_required": record.get("ocr_required", False)
+        })
+    return {
+        "doc_id": doc_id,
+        "sections": record.get("sections", {})
+    }
+
 # ── CITATIONS ─────────────────────────────────────────────────────
 
 @app.get("/cases/{doc_id}/citations")
