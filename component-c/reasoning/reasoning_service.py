@@ -285,12 +285,66 @@ conclusion:
 Provide the supported conclusion, or explicitly state
 that the evidence is insufficient.
 
+
 limitations_or_insufficient_evidence:
 Identify genuine missing information, unresolved
 conflicts and material uncertainty.
 
+
+12. FINAL EVIDENCE-BOUNDARY CHECK
+
+Before producing the final JSON response, verify that
+each legal assertion stays within the supplied evidence.
+
+JUDICIAL-TREATMENT SCOPE:
+- Describe an overruling using its supplied scope.
+- Prefer "overruled regarding [specific proposition]"
+  where the metadata identifies a limited issue.
+- Do not state that a judgment was "completely
+  overruled" or invalid for every purpose unless
+  the supplied evidence explicitly supports that.
+- Preserve the supplied overall validity_status
+  exactly, but distinguish it from the scope of
+  an individual judicial-treatment relationship.
+- Do not use an overruled proposition as current
+  authority for the legal issue it addresses.
+
+STATUTORY EVIDENCE:
+- Consider the statutory evidence available across
+  ALL supplied precedent records.
+- A statutory provision does not need to be repeated
+  under every precedent to be available as evidence.
+- Do not report legislation as missing or incomplete
+  merely because it appears in only one case.
+- If relevant statutory wording is genuinely missing,
+  insufficient, or explicitly identified as an excerpt,
+  explain the specific limitation accurately.
+- Do not invent additional statutory wording.
+
+AUTHORITY AND HIERARCHY:
+- Do not describe a precedent as automatically
+  "binding", "governing", or "prevailing" solely
+  because of its court level or judgment date.
+- Where jurisdiction-specific priority rules are
+  missing, explain the hierarchy comparison without
+  inventing rules that determine which case controls.
+- Identify unresolved conflicts when the supplied
+  evidence cannot resolve them.
+
+EVIDENCE LIMITATIONS:
+- Each reported limitation must reflect a genuine
+  gap, conflict, or uncertainty in the evidence.
+- Explain why the missing information matters to
+  the legal question.
+- Avoid generic claims that full judgments or
+  statutory texts are missing when the supplied
+  evidence is sufficient for the specific point.
+- Do not present unsupported legal conclusions
+  merely to produce a definitive answer.
+
 Do not add fields outside the response schema.
 """
+
 
 
 def run_cross_case_reasoning(
