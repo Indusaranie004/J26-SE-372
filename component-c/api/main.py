@@ -24,7 +24,7 @@ from reasoning.reasoning_service import (
 )
 from api.recorded_demo import router as recorded_demo_router
 from api.readable_demo import router as readable_demo_router
-
+from api.experiment_demo import router as experiment_demo_router
 
 # ---------------------------------------------
 # Application setup
@@ -47,6 +47,9 @@ app.include_router(recorded_demo_router)
 
 # Human-readable recorded demonstration
 app.include_router(readable_demo_router)
+
+# Recorded Gemini experiments and comparisons
+app.include_router(experiment_demo_router)
 
 
 # ---------------------------------------------
