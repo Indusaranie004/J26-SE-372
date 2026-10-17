@@ -177,9 +177,11 @@ def get_case(doc_id: str):
     # Live mode — read from document store
     record = get_case_from_db(doc_id)
     if record:
+        record["is_stub"] = False
         return record
     stub = get_stub_from_db(doc_id)
     if stub:
+        stub["is_stub"] = True   # cited but not in corpus
         return stub
     raise HTTPException(status_code=404, detail={
         "error": "case_not_found", "doc_id": doc_id,
@@ -204,6 +206,7 @@ def get_stub(doc_id: str):
             "error": "stub_not_found", "doc_id": doc_id,
             "message": f"No stub found for {doc_id}."
         })
+    stub["is_stub"] = True
     return stub
 
 # ── SECTIONS ──────────────────────────────────────────────────────
@@ -289,8 +292,23 @@ def get_citations(
     # Live mode — query Neo4j
     try:
         citations = get_citations_from_neo4j(doc_id, citation_type)
-        return {"doc_id": doc_id, "count": len(citations),
-                "citations": citations}
+
+        note = None
+        if not citations:
+            stub = get_stub_from_db(doc_id)
+            record = get_case_from_db(doc_id)
+            if stub:
+                note = "Case exists as a stub — cited but citation not classified by extraction pipeline"
+            elif record:
+                note = "Case is in corpus but not cited by other cases in current corpus"
+
+        return {
+            "doc_id": doc_id,
+            "source": "knowledge_graph",
+            "count": len(citations),
+            "citations": citations,
+            "treatment_note": note
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail={"error": str(e)})
 
@@ -334,8 +352,8 @@ def get_validity(
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail={"error": str(e)})
-
+        raise HTTPException(status_code=500, detail={"error": str(e)})    
+    
 # ── CHAIN ─────────────────────────────────────────────────────────
 
 @app.get("/cases/{doc_id}/chain")
