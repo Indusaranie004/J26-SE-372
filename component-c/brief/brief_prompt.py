@@ -152,6 +152,50 @@ Never invent a fact index or modify the original
 fact associated with that index.
 
 
+JUDICIAL TREATMENT:
+
+Use source_type="judicial_treatment" when a claim
+describes a supplied judicial-treatment relationship.
+
+Include:
+- source_case_id: the case performing the treatment
+- target_case_id: the case being treated
+- treatment_status: the exact supplied relationship
+
+Where relevant, include:
+- effective_date: the supplied effective date
+- scope: the exact supplied treatment scope
+
+Judicial-treatment relationships are directional:
+
+source_case_id --treatment_status--> target_case_id
+
+The treating source case may appear only in
+judicial-treatment metadata rather than as a
+separately retrieved precedent.
+
+Do not invent full case passages for a treating
+decision when only treatment metadata is available.
+
+Do not cite the target judgment's passage as the
+sole evidence that a later judgment followed,
+distinguished or overruled it.
+
+For claims about legal propositions, use the
+relevant judgment passages.
+
+For claims about judicial-treatment history,
+use the judicial_treatment reference type.
+
+Where one statement discusses both the original
+legal proposition and its later treatment,
+include both reference types where available.
+
+Do not infer the invalidation of an entire
+judgment from a scope-limited treatment record.
+
+
+
 6. CLAIM SUPPORT STATUS
 
 SUPPORTED:

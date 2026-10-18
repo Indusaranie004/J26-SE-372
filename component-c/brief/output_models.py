@@ -9,10 +9,17 @@ Defines:
 3. Structured legal brief sections
 4. Basic structural validation
 
+Supported evidence types:
+- Judgment passage
+- Legislation
+- Original case fact
+- Judicial-treatment metadata
+
 These models validate structure, not the
 semantic correctness of legal conclusions.
 """
 
+from datetime import date
 from typing import Literal
 
 from pydantic import (
@@ -22,20 +29,13 @@ from pydantic import (
     model_validator,
 )
 
+from reasoning.input_models import TreatmentStatus
 
-# ---------------------------------------------
-# Evidence reference
-# ---------------------------------------------
 
 class BriefEvidenceReference(BaseModel):
     """
-    Identifies the supplied evidence supporting
-    a statement in the generated legal brief.
-
-    Supported reference types:
-    - Judgment passage
-    - Legislation
-    - Original case fact
+    Identifies supplied evidence referenced by
+    a claim in a generated legal brief.
     """
 
     model_config = ConfigDict(extra="forbid")
@@ -43,29 +43,41 @@ class BriefEvidenceReference(BaseModel):
     source_type: Literal[
         "case_passage",
         "legislation",
-        "case_fact"
+        "case_fact",
+        "judicial_treatment",
     ]
 
+    # Judgment passage references
     case_id: str | None = None
     passage_id: str | None = None
 
+    # Legislation references
     act_id: str | None = None
     legislation_name: str | None = None
     section: str | None = None
 
+    # Original case fact references
     fact_index: int | None = Field(
         default=None,
         ge=0
     )
 
+    # Judicial-treatment metadata references
+    source_case_id: str | None = None
+    target_case_id: str | None = None
+    treatment_status: TreatmentStatus | None = None
+    effective_date: date | None = None
+    scope: str | None = None
+
     @model_validator(mode="after")
     def validate_reference(self):
         """
-        Check the minimum identifiers required
-        for each evidence reference type.
+        Check required identifiers for the
+        selected evidence reference type.
         """
 
         if self.source_type == "case_passage":
+
             if not self.case_id or not self.passage_id:
                 raise ValueError(
                     "A case passage reference requires "
@@ -73,6 +85,7 @@ class BriefEvidenceReference(BaseModel):
                 )
 
         elif self.source_type == "legislation":
+
             if not self.act_id and not self.legislation_name:
                 raise ValueError(
                     "A legislation reference requires "
@@ -80,26 +93,33 @@ class BriefEvidenceReference(BaseModel):
                 )
 
         elif self.source_type == "case_fact":
+
             if self.fact_index is None:
                 raise ValueError(
                     "A case fact reference requires "
                     "fact_index."
                 )
 
+        elif self.source_type == "judicial_treatment":
+
+            if (
+                not self.source_case_id
+                or not self.target_case_id
+                or not self.treatment_status
+            ):
+                raise ValueError(
+                    "A judicial-treatment reference requires "
+                    "source_case_id, target_case_id "
+                    "and treatment_status."
+                )
+
         return self
 
 
-# ---------------------------------------------
-# Evidence-grounded legal claim
-# ---------------------------------------------
-
 class BriefClaim(BaseModel):
     """
-    Represents one important statement
-    in the generated legal brief.
-
-    Claims have explicit evidence references
-    and an indication of evidentiary support.
+    Represents an individual statement in
+    the generated legal research brief.
     """
 
     model_config = ConfigDict(extra="forbid")
@@ -111,7 +131,7 @@ class BriefClaim(BaseModel):
     support_status: Literal[
         "supported",
         "contested",
-        "insufficient_evidence"
+        "insufficient_evidence",
     ]
 
     evidence_references: list[
@@ -121,16 +141,13 @@ class BriefClaim(BaseModel):
     @model_validator(mode="after")
     def validate_claim_support(self):
         """
-        A claim marked supported or contested
-        must identify at least one source.
-
-        Whether that source genuinely supports
-        the statement will be evaluated later.
+        Supported and contested claims must
+        contain at least one evidence reference.
         """
 
         if self.support_status in {
             "supported",
-            "contested"
+            "contested",
         } and not self.evidence_references:
 
             raise ValueError(
@@ -141,19 +158,12 @@ class BriefClaim(BaseModel):
         return self
 
 
-# ---------------------------------------------
-# Complete structured legal brief
-# ---------------------------------------------
-
 class LegalBrief(BaseModel):
     """
-    Structured legal research brief.
+    Structured evidence-grounded legal research brief.
 
-    Substantive sections contain individual
-    claims with traceable source references.
-
-    The document is a research draft,
-    not a court-ready legal filing.
+    This is a research draft, not a
+    court-ready legal filing.
     """
 
     model_config = ConfigDict(extra="forbid")
@@ -209,8 +219,8 @@ class LegalBrief(BaseModel):
     @model_validator(mode="after")
     def validate_unique_claim_ids(self):
         """
-        Ensure every claim in the document
-        has a unique identifier.
+        Ensure claim IDs are unique throughout
+        all sections of the legal brief.
         """
 
         sections = [

@@ -3,20 +3,21 @@
 Component C - Function 2
 Legal Brief Grounding Validator
 
-Checks generated legal brief references against
-the original evidence provided to Function 2.
+Validates claim references against original evidence.
 
-Validates:
-1. Supplied case identifiers
-2. Passage ownership and existence
-3. Supplied legislation identifiers and sections
-4. Original case fact indices
-5. Evidence references across all brief sections
+Checks:
+1. Case IDs and passage IDs
+2. Legislation references
+3. Original case fact indices
+4. Judicial-treatment relationships
+5. Judicial-treatment dates and scopes where cited
 
-Limitations:
-This validator checks reference consistency.
-It does not determine whether a passage
-semantically supports a legal claim.
+Important:
+This validator checks referential consistency.
+
+It does not independently verify whether a
+passage semantically supports a legal claim
+or whether upstream legal metadata is correct.
 """
 
 from brief.input_models import BriefGenerationRequest
@@ -40,15 +41,7 @@ BRIEF_CLAIM_SECTIONS = [
 
 
 def _normalize(value: str | None) -> str | None:
-    """
-    Normalize text identifiers for comparisons.
-
-    For example:
-    'Section 10' and 'section 10'
-    will be treated as equivalent.
-
-    This does not infer missing identifiers.
-    """
+    """Normalize text identifiers for comparison."""
 
     if value is None:
         return None
@@ -61,11 +54,11 @@ def _legislation_exists(
     request: BriefGenerationRequest
 ) -> bool:
     """
-    Check whether a legislation reference matches
-    a supplied legislation record.
+    Verify that the legislation reference matches
+    a supplied record.
 
-    If the reference contains multiple identifiers,
-    they must match the SAME legislation record.
+    All provided identifiers must match
+    the same legislation record.
     """
 
     for precedent in request.source_request.precedents:
@@ -95,29 +88,93 @@ def _legislation_exists(
     return False
 
 
+def _judicial_treatment_exists(
+    reference: BriefEvidenceReference,
+    request: BriefGenerationRequest
+) -> bool:
+    """
+    Verify a directional judicial-treatment
+    relationship against supplied metadata.
+
+    source_case_id --status--> target_case_id
+
+    Treatment records are stored under the
+    precedent they treat in our input structure.
+
+    The treating source case does not need to
+    appear as a separately retrieved precedent.
+
+    If the reference includes an effective date
+    or scope, it must match the supplied record.
+    """
+
+    for precedent in request.source_request.precedents:
+
+        # Only inspect metadata attached to
+        # the referenced target precedent.
+        if precedent.case_id != reference.target_case_id:
+            continue
+
+        for treatment in precedent.judicial_treatments:
+
+            if (
+                treatment.source_case_id
+                != reference.source_case_id
+            ):
+                continue
+
+            if (
+                treatment.target_case_id
+                != reference.target_case_id
+            ):
+                continue
+
+            if (
+                treatment.status
+                != reference.treatment_status
+            ):
+                continue
+
+            # Check the date when one is cited.
+            if reference.effective_date is not None:
+
+                if (
+                    treatment.effective_date
+                    != reference.effective_date
+                ):
+                    continue
+
+            # Check the scope when one is cited.
+            if reference.scope is not None:
+
+                if (
+                    _normalize(treatment.scope)
+                    != _normalize(reference.scope)
+                ):
+                    continue
+
+            return True
+
+    return False
+
+
 def validate_brief_grounding(
     request: BriefGenerationRequest,
     brief: LegalBrief
 ) -> list[str]:
     """
-    Validate all claim references against the
-    original source evidence.
+    Validate generated claim references against
+    the original source evidence.
 
-    Returns:
-        A list of validation errors.
+    Returns an empty list if all referenced
+    identifiers and relationships are found.
 
-    An empty list means that all referenced
-    identifiers were found in the source data.
-
-    It does not guarantee semantic accuracy.
+    Does not guarantee semantic correctness.
     """
 
     errors = []
 
-    # -----------------------------------------
-    # 1. Build original case-passage lookup
-    # -----------------------------------------
-
+    # Build a case-to-passage lookup.
     case_passages = {}
 
     for precedent in request.source_request.precedents:
@@ -127,18 +184,11 @@ def validate_brief_grounding(
             for passage in precedent.passages
         }
 
-    # -----------------------------------------
-    # 2. Determine valid fact indices
-    # -----------------------------------------
-
     fact_count = len(
         request.source_request.case_facts
     )
 
-    # -----------------------------------------
-    # 3. Validate every brief section
-    # -----------------------------------------
-
+    # Check every section containing legal claims.
     for section_name in BRIEF_CLAIM_SECTIONS:
 
         claims = getattr(brief, section_name)
@@ -149,12 +199,11 @@ def validate_brief_grounding(
                 f"{section_name}/{claim.claim_id}"
             )
 
-            # Each claim may have multiple references
             for reference in claim.evidence_references:
 
-                # ---------------------------------
-                # Case passage
-                # ---------------------------------
+                # -----------------------------
+                # Case passage reference
+                # -----------------------------
 
                 if reference.source_type == "case_passage":
 
@@ -172,7 +221,10 @@ def validate_brief_grounding(
                         reference.case_id
                     ]
 
-                    if reference.passage_id not in available_passages:
+                    if (
+                        reference.passage_id
+                        not in available_passages
+                    ):
 
                         errors.append(
                             f"{claim_location}: "
@@ -181,9 +233,9 @@ def validate_brief_grounding(
                             f"'{reference.case_id}'."
                         )
 
-                # ---------------------------------
-                # Legislation
-                # ---------------------------------
+                # -----------------------------
+                # Legislation reference
+                # -----------------------------
 
                 elif reference.source_type == "legislation":
 
@@ -198,9 +250,9 @@ def validate_brief_grounding(
                             "match the supplied evidence."
                         )
 
-                # ---------------------------------
-                # Case fact
-                # ---------------------------------
+                # -----------------------------
+                # Case fact reference
+                # -----------------------------
 
                 elif reference.source_type == "case_fact":
 
@@ -215,6 +267,24 @@ def validate_brief_grounding(
                             f"'{reference.fact_index}'. "
                             f"Available fact count: "
                             f"{fact_count}."
+                        )
+
+                # -----------------------------
+                # Judicial-treatment reference
+                # -----------------------------
+
+                elif reference.source_type == "judicial_treatment":
+
+                    if not _judicial_treatment_exists(
+                        reference,
+                        request
+                    ):
+
+                        errors.append(
+                            f"{claim_location}: "
+                            "Judicial-treatment reference "
+                            "does not match the supplied "
+                            "metadata."
                         )
 
     return errors
