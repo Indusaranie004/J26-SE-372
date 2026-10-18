@@ -2,11 +2,18 @@
 """
 Component C - FastAPI Application
 
-Exposes Function 1:
-Cross-Case Contextual & Precedent-Aware Legal Reasoning.
+Exposes:
 
-The API delegates legal reasoning to the existing
-reasoning service instead of implementing it here.
+Function 1:
+Cross-Case Contextual & Precedent-Aware
+Legal Reasoning.
+
+Function 2:
+Evidence-Grounded Legal Brief Generation.
+
+Both functions reuse their respective
+services instead of implementing legal
+reasoning or drafting inside API routes.
 """
 
 import logging
@@ -19,12 +26,26 @@ from reasoning.input_models import ReasoningRequest
 from reasoning.output_models import ReasoningResponse
 from reasoning.llm_provider import LLMProvider
 from reasoning.gemini_provider import GeminiProvider
+
 from reasoning.reasoning_service import (
     run_cross_case_reasoning
 )
-from api.recorded_demo import router as recorded_demo_router
-from api.readable_demo import router as readable_demo_router
-from api.experiment_demo import router as experiment_demo_router
+
+from api.recorded_demo import (
+    router as recorded_demo_router
+)
+from api.readable_demo import (
+    router as readable_demo_router
+)
+from api.experiment_demo import (
+    router as experiment_demo_router
+)
+
+# Function 2 API router
+from api.brief_api import (
+    router as brief_router
+)
+
 
 # ---------------------------------------------
 # Application setup
@@ -33,42 +54,57 @@ from api.experiment_demo import router as experiment_demo_router
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
-    title="Component C - Legal Reasoning API",
+    title="Component C - Legal Reasoning and Brief Generation API",
+
     description=(
-        "PP1 prototype for evidence-grounded, "
-        "cross-case contextual legal reasoning. "
-        "Development scenarios use fictional legal data."
+        "PP1 prototype for cross-case contextual "
+        "legal reasoning and evidence-grounded "
+        "legal research brief generation. "
+        "Development scenarios use fictional "
+        "legal evidence. Generated legal conclusions "
+        "are not independently verified legal advice."
     ),
-    version="0.1.0"
+
+    version="0.2.0",
 )
 
-# Register the recorded demonstration endpoint
+
+# ---------------------------------------------
+# Function 1 routers
+# ---------------------------------------------
+
 app.include_router(recorded_demo_router)
 
-# Human-readable recorded demonstration
 app.include_router(readable_demo_router)
 
-# Recorded Gemini experiments and comparisons
 app.include_router(experiment_demo_router)
 
 
 # ---------------------------------------------
-# LLM provider dependency
+# Function 2 router
+# ---------------------------------------------
+
+app.include_router(brief_router)
+
+
+# ---------------------------------------------
+# Function 1 provider dependency
 # ---------------------------------------------
 
 def get_llm_provider() -> LLMProvider:
     """
-    Create the configured LLM provider.
+    Create the configured Function 1 provider.
 
-    Keeping this separate makes it possible
-    to replace the provider or use a fake
-    provider during automated tests.
+    Dependency injection allows fake providers
+    to be used during automated tests.
     """
 
     try:
+
         return GeminiProvider()
 
     except ValueError as exc:
+
         raise HTTPException(
             status_code=503,
             detail=(
@@ -87,7 +123,7 @@ def health_check():
     """
     Check whether the API is running.
 
-    This does not contact Gemini.
+    Does not contact Gemini.
     """
 
     return {
@@ -98,7 +134,7 @@ def health_check():
 
 
 # ---------------------------------------------
-# Legal reasoning endpoint
+# Function 1 legal reasoning endpoint
 # ---------------------------------------------
 
 @app.post(
@@ -110,17 +146,18 @@ def analyze_legal_scenario(
     provider: LLMProvider = Depends(get_llm_provider)
 ) -> ReasoningResponse:
     """
-    Analyze supplied fictional legal evidence.
+    Analyze supplied legal evidence.
 
-    Steps performed by the existing service:
+    Function 1 service:
     1. Build structured context
-    2. Generate reasoning using the provider
-    3. Parse the structured response
-    4. Validate evidence references
-    5. Return the validated result
+    2. Generate cross-case reasoning
+    3. Parse the reasoning output
+    4. Validate grounding references
+    5. Return the result
     """
 
     try:
+
         result = run_cross_case_reasoning(
             request=request,
             provider=provider
@@ -134,7 +171,11 @@ def analyze_legal_scenario(
 
     except genai_errors.APIError as exc:
 
-        provider_status = getattr(exc, "code", None)
+        provider_status = getattr(
+            exc,
+            "code",
+            None
+        )
 
         logger.warning(
             "LLM provider request failed. Status: %s",
@@ -144,6 +185,7 @@ def analyze_legal_scenario(
         if provider_status in {
             429, 500, 502, 503, 504
         }:
+
             raise HTTPException(
                 status_code=503,
                 detail=(
