@@ -492,3 +492,32 @@ def test_new_routes_appear_in_openapi(client):
     assert "/health" in paths
 
     assert client.get("/health").status_code == 200
+
+def test_recorded_brief_uses_improved_treatment_references(
+    client
+):
+    """
+    Verify that the recorded PP1 demonstration
+    uses the improved judicial-treatment citations.
+    """
+
+    response = client.get(
+        "/api/brief/demo/recorded"
+    )
+
+    assert response.status_code == 200
+
+    brief = response.json()["result"]
+
+    treatment_claims = brief["precedent_treatment"]
+
+    assert treatment_claims
+
+    for claim in treatment_claims:
+
+        reference_types = {
+            reference["source_type"]
+            for reference in claim["evidence_references"]
+        }
+
+        assert "judicial_treatment" in reference_types

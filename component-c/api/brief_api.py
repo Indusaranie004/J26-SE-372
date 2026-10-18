@@ -62,7 +62,7 @@ RECORDED_BRIEF_FILE = (
     / "data"
     / "demo"
     / "briefs"
-    / "baseline_legal_brief.json"
+    / "improved_baseline_legal_brief.json"
 )
 
 
@@ -73,6 +73,7 @@ class MarkdownResponse(Response):
     """
 
     media_type = "text/markdown"
+
 
 
 class RecordedBriefResponse(BaseModel):
@@ -88,6 +89,7 @@ class RecordedBriefResponse(BaseModel):
     note: str
 
     result: LegalBrief
+
 
 
 # ---------------------------------------------
@@ -168,6 +170,7 @@ def load_recorded_brief() -> LegalBrief:
 # GET: Recorded structured legal brief
 # ---------------------------------------------
 
+
 @router.get(
     "/demo/recorded",
     response_model=RecordedBriefResponse,
@@ -175,10 +178,11 @@ def load_recorded_brief() -> LegalBrief:
 )
 def get_recorded_brief() -> RecordedBriefResponse:
     """
-    Return the saved baseline legal brief.
+    Return the improved recorded legal brief.
 
     This is a recorded demonstration.
-    It does not generate a new document.
+    It does not generate a new document
+    or contact Gemini.
     """
 
     brief = load_recorded_brief()
@@ -193,19 +197,19 @@ def get_recorded_brief() -> RecordedBriefResponse:
         note=(
             "This is a previously generated Gemini "
             "legal research brief, not a live response. "
-            "It uses fictional development evidence. "
-            "The original recorded output predates the "
-            "new judicial-treatment reference type, "
-            "so some treatment statements still cite "
-            "judgment passages rather than treatment "
-            "metadata. References passed the earlier "
-            "structural grounding checks, but legal "
-            "and semantic correctness have not been "
-            "independently verified."
+            "It uses fictional development evidence "
+            "and includes the improved judicial-treatment "
+            "citation mechanism. Its references passed "
+            "structural and reference-grounding validation. "
+            "The original baseline has been preserved "
+            "separately for experimental comparison. "
+            "Semantic and legal correctness have not "
+            "been independently verified."
         ),
 
         result=brief,
     )
+
 
 
 # ---------------------------------------------
