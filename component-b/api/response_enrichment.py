@@ -31,12 +31,12 @@ def enrich_cluster(cluster: PrecedentCluster, case_meta: dict) -> dict:
             ctx["litigation_history"] = "Appeal chain not yet parsed for this case."
 
     # --- legislation enrichment ---
-    if not ctx["legislation"]:
+    if not ctx["legislative_foundation"]:
         legislation_parsed = case_meta.get("legislation_parsed")
 
         if legislation_parsed is True:
-            ctx["legislation"] = "Constitutional articles cited — statutory Acts not captured for this case."
+            ctx["legislative_foundation"] = "Constitutional articles cited — statutory Acts not captured for this case."
         else:
-            ctx["legislation"] = "No legislation data available."
+            ctx["legislative_foundation"] = "No legislative foundation data available."
 
     return d

@@ -39,6 +39,7 @@ class DenseRetriever:
         # Load base BGE-M3 weights, or a fine-tuned checkpoint if provided
         model_source = checkpoint_path if mode == "finetuned" else "BAAI/bge-m3"
         self.model   = SentenceTransformer(model_source)
+        self.model.max_seq_length = 1024  #Override default 512 for BGE-M3 (For 97% cases caption + header + first body paragraph fully captured in embeddings)
 
         # Connect to ChromaDB on disk (persistent across runs)
         self.client = chromadb.PersistentClient(
