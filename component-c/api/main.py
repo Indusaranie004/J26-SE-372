@@ -19,9 +19,21 @@ remain limited to the supplied metadata.
 
 import logging
 
-from fastapi import Depends, FastAPI, HTTPException
 from google.genai import errors as genai_errors
-from pydantic import ValidationError
+
+from typing import Literal
+
+from fastapi import (
+    Depends,
+    FastAPI,
+    HTTPException,
+    Query,
+)
+
+from pydantic import (
+    BaseModel,
+    ValidationError,
+)
 
 from reasoning.input_models import ReasoningRequest
 from reasoning.output_models import ReasoningResponse
@@ -49,6 +61,16 @@ from api.experiment_demo import (
 )
 from api.brief_api import (
     router as brief_router,
+    get_brief_provider,
+    generate_legal_brief,
+)
+
+from brief.input_models import (
+    BriefGenerationRequest,
+)
+
+from brief.output_models import (
+    LegalBrief,
 )
 
 
@@ -285,3 +307,174 @@ def analyze_component_b_clusters(
         request=reasoning_request,
         provider=provider,
     )
+
+
+# ---------------------------------------------
+# Component B -> Function 1 -> Function 2
+# ---------------------------------------------
+
+METADATA_ONLY_NOTICE = (
+    "This preliminary legal research brief is based "
+    "on Component B's retrieved graph metadata. "
+    "Judgment passage text and statutory wording "
+    "were not supplied. Citation relationships and "
+    "legislation identifiers do not independently "
+    "establish the substantive legal holdings or "
+    "meaning of the referenced authorities. "
+    "Original sources require human verification."
+)
+
+
+class ComponentBPipelineResponse(BaseModel):
+    """
+    Combined Function 1 and Function 2 output.
+
+    The response explicitly identifies the
+    metadata-only evidence boundary.
+    """
+
+    evidence_mode: Literal["metadata_only"]
+
+    note: str
+
+    reasoning: ReasoningResponse
+
+    legal_brief: LegalBrief
+
+
+@app.post(
+    "/api/integration/component-b/brief",
+    response_model=ComponentBPipelineResponse,
+    tags=["Component B Integration"],
+    summary=(
+        "Generate legal reasoning and brief "
+        "from Component B clusters"
+    ),
+)
+def generate_component_b_legal_brief(
+    request: ComponentBReasoningRequest,
+    provider: LLMProvider = Depends(get_llm_provider),
+    brief_provider: LLMProvider = Depends(
+        get_brief_provider
+    ),
+    title: str = Query(
+        default="Component B Metadata Legal Research Brief",
+        min_length=1,
+    ),
+) -> ComponentBPipelineResponse:
+    """
+    Full Component C PP1 integration.
+
+    Pipeline:
+
+        Component B JSON
+            -> Component B adapter
+            -> Function 1 reasoning
+            -> Function 2 legal brief
+            -> Combined response
+
+    The generated result is preliminary because
+    the PP1 Component B interface does not
+    contain judgment passage text.
+
+    Existing Function 1 and Function 2 endpoint
+    handlers are reused with explicitly supplied
+    providers, preserving their established
+    validation and error handling.
+    """
+
+    # -----------------------------------------
+    # 1. Normalize Component B's clusters
+    # -----------------------------------------
+
+    try:
+        reasoning_request = (
+            component_b_to_reasoning_request(
+                request
+            )
+        )
+
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=422,
+            detail=str(exc),
+        ) from exc
+
+    # -----------------------------------------
+    # 2. Execute Function 1
+    # -----------------------------------------
+
+    reasoning_result = analyze_legal_scenario(
+        request=reasoning_request,
+        provider=provider,
+    )
+
+    # Preserve the metadata-only limitation
+    # independently of Gemini's wording.
+
+    reasoning_limitations = list(
+        reasoning_result.limitations_or_insufficient_evidence
+    )
+
+    if METADATA_ONLY_NOTICE not in reasoning_limitations:
+        reasoning_limitations.append(
+            METADATA_ONLY_NOTICE
+        )
+
+    reasoning_result = reasoning_result.model_copy(
+        update={
+            "limitations_or_insufficient_evidence": (
+                reasoning_limitations
+            )
+        }
+    )
+
+    # -----------------------------------------
+    # 3. Prepare Function 2 input
+    # -----------------------------------------
+
+    brief_request = BriefGenerationRequest(
+        source_request=reasoning_request,
+        reasoning_result=reasoning_result,
+        title=title,
+    )
+
+    # -----------------------------------------
+    # 4. Execute Function 2
+    # -----------------------------------------
+
+    legal_brief = generate_legal_brief(
+        request=brief_request,
+        provider=brief_provider,
+    )
+
+    # -----------------------------------------
+    # 5. Preserve evidence limitations
+    # -----------------------------------------
+
+    brief_limitations = list(
+        legal_brief.limitations
+    )
+
+    if METADATA_ONLY_NOTICE not in brief_limitations:
+        brief_limitations.append(
+            METADATA_ONLY_NOTICE
+        )
+
+    legal_brief = legal_brief.model_copy(
+        update={
+            "limitations": brief_limitations
+        }
+    )
+
+    # -----------------------------------------
+    # 6. Return both generated results
+    # -----------------------------------------
+
+    return ComponentBPipelineResponse(
+        evidence_mode="metadata_only",
+        note=METADATA_ONLY_NOTICE,
+        reasoning=reasoning_result,
+        legal_brief=legal_brief,
+    )
+
