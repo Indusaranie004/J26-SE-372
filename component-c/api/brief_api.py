@@ -41,6 +41,13 @@ from brief.brief_service import (
 from brief.brief_formatter import (
     format_legal_brief,
 )
+from brief.docx_exporter import (
+    export_legal_brief_docx,
+)
+
+from brief.pdf_exporter import (
+    export_legal_brief_pdf,
+)
 
 
 logger = logging.getLogger(__name__)
@@ -366,3 +373,240 @@ def generate_legal_brief(
                 "a usable legal brief response."
             ),
         ) from exc
+
+
+# ---------------------------------------------
+# Function 2 - Document Download API
+# ---------------------------------------------
+
+DOCX_MEDIA_TYPE = (
+    "application/vnd.openxmlformats-officedocument."
+    "wordprocessingml.document"
+)
+
+PDF_MEDIA_TYPE = "application/pdf"
+
+
+# ---------------------------------------------
+# Shared document response helper
+# ---------------------------------------------
+
+def _create_document_response(
+    brief: LegalBrief,
+    file_format: Literal["docx", "pdf"],
+) -> Response:
+    """
+    Convert an existing LegalBrief into a
+    downloadable document.
+
+    Supports:
+        - DOCX
+        - PDF
+
+    No Gemini API calls are made.
+    The original LegalBrief is not modified.
+    """
+
+    if file_format == "docx":
+
+        file_bytes = export_legal_brief_docx(
+            brief
+        )
+
+        media_type = DOCX_MEDIA_TYPE
+
+        filename = "legal_research_brief.docx"
+
+    elif file_format == "pdf":
+
+        file_bytes = export_legal_brief_pdf(
+            brief
+        )
+
+        media_type = PDF_MEDIA_TYPE
+
+        filename = "legal_research_brief.pdf"
+
+    else:
+
+        raise ValueError(
+            "Unsupported document format."
+        )
+
+    return Response(
+        content=file_bytes,
+        media_type=media_type,
+        headers={
+            "Content-Disposition": (
+                f'attachment; filename="{filename}"'
+            ),
+        },
+    )
+
+
+# ---------------------------------------------
+# GET: Download recorded brief as DOCX
+# ---------------------------------------------
+
+@router.get(
+    "/demo/download/docx",
+    response_class=Response,
+    tags=["Function 2 - Document Downloads"],
+    summary="Download recorded legal brief as Word",
+    responses={
+        200: {
+            "description": "Generated DOCX document",
+            "content": {
+                DOCX_MEDIA_TYPE: {
+                    "schema": {
+                        "type": "string",
+                        "format": "binary",
+                    }
+                }
+            },
+        }
+    },
+)
+def download_recorded_brief_docx() -> Response:
+    """
+    Download the saved improved baseline
+    legal brief as a Word document.
+
+    Does not contact Gemini.
+    """
+
+    brief = load_recorded_brief()
+
+    return _create_document_response(
+        brief=brief,
+        file_format="docx",
+    )
+
+
+# ---------------------------------------------
+# GET: Download recorded brief as PDF
+# ---------------------------------------------
+
+@router.get(
+    "/demo/download/pdf",
+    response_class=Response,
+    tags=["Function 2 - Document Downloads"],
+    summary="Download recorded legal brief as PDF",
+    responses={
+        200: {
+            "description": "Generated PDF document",
+            "content": {
+                PDF_MEDIA_TYPE: {
+                    "schema": {
+                        "type": "string",
+                        "format": "binary",
+                    }
+                }
+            },
+        }
+    },
+)
+def download_recorded_brief_pdf() -> Response:
+    """
+    Download the saved improved baseline
+    legal brief as a PDF document.
+
+    Does not contact Gemini.
+    """
+
+    brief = load_recorded_brief()
+
+    return _create_document_response(
+        brief=brief,
+        file_format="pdf",
+    )
+
+
+# ---------------------------------------------
+# POST: Export supplied LegalBrief as DOCX
+# ---------------------------------------------
+
+@router.post(
+    "/export/docx",
+    response_class=Response,
+    tags=["Function 2 - Document Downloads"],
+    summary="Export LegalBrief JSON as Word",
+    responses={
+        200: {
+            "description": "Generated DOCX document",
+            "content": {
+                DOCX_MEDIA_TYPE: {
+                    "schema": {
+                        "type": "string",
+                        "format": "binary",
+                    }
+                }
+            },
+        }
+    },
+)
+def export_brief_as_docx(
+    brief: LegalBrief,
+) -> Response:
+    """
+    Accept an existing structured LegalBrief
+    and export it as a Word document.
+
+    Pydantic validates the brief structure.
+
+    The endpoint does not independently
+    verify whether cited evidence supports
+    the legal claims.
+
+    No Gemini API calls are made.
+    """
+
+    return _create_document_response(
+        brief=brief,
+        file_format="docx",
+    )
+
+
+# ---------------------------------------------
+# POST: Export supplied LegalBrief as PDF
+# ---------------------------------------------
+
+@router.post(
+    "/export/pdf",
+    response_class=Response,
+    tags=["Function 2 - Document Downloads"],
+    summary="Export LegalBrief JSON as PDF",
+    responses={
+        200: {
+            "description": "Generated PDF document",
+            "content": {
+                PDF_MEDIA_TYPE: {
+                    "schema": {
+                        "type": "string",
+                        "format": "binary",
+                    }
+                }
+            },
+        }
+    },
+)
+def export_brief_as_pdf(
+    brief: LegalBrief,
+) -> Response:
+    """
+    Accept an existing structured LegalBrief
+    and export it as a PDF document.
+
+    Pydantic validates the brief structure.
+
+    This endpoint does not perform
+    independent legal correctness checks.
+
+    No Gemini API calls are made.
+    """
+
+    return _create_document_response(
+        brief=brief,
+        file_format="pdf",
+    )
+
