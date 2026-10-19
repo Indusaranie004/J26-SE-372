@@ -238,9 +238,6 @@ def _resolve_reference(
 
         for precedent in source.precedents:
 
-            if precedent.case_id != reference.target_case_id:
-                continue
-
             for treatment in precedent.judicial_treatments:
 
                 if (
@@ -296,6 +293,13 @@ def _resolve_reference(
                         "Scope: " + treatment.scope
                     )
 
+                if treatment.evidence:
+                    details.append(
+                        "Supplied evidence field / locator "
+                        "(not verified judgment text): "
+                        + treatment.evidence
+                    )
+
                 details.append(
                     "The treating judgment has not been "
                     "independently verified."
@@ -305,7 +309,7 @@ def _resolve_reference(
                     source_type="judicial_treatment",
                     label=label,
                     found=True,
-                    source_text=treatment.evidence or None,
+                    source_text=None,
                     source_details=" ".join(details),
                 )
 

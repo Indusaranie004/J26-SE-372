@@ -88,32 +88,28 @@ def _legislation_exists(
     return False
 
 
+
 def _judicial_treatment_exists(
     reference: BriefEvidenceReference,
     request: BriefGenerationRequest
 ) -> bool:
     """
-    Verify a directional judicial-treatment
-    relationship against supplied metadata.
+    Verify a judicial-treatment relationship.
+
+    Supports treatment metadata stored under
+    either the source precedent or the target
+    precedent.
+
+    This is necessary because Component B
+    supplies both cases_cited and cited_by
+    relationships.
+
+    Relationship direction remains:
 
     source_case_id --status--> target_case_id
-
-    Treatment records are stored under the
-    precedent they treat in our input structure.
-
-    The treating source case does not need to
-    appear as a separately retrieved precedent.
-
-    If the reference includes an effective date
-    or scope, it must match the supplied record.
     """
 
     for precedent in request.source_request.precedents:
-
-        # Only inspect metadata attached to
-        # the referenced target precedent.
-        if precedent.case_id != reference.target_case_id:
-            continue
 
         for treatment in precedent.judicial_treatments:
 
@@ -135,7 +131,6 @@ def _judicial_treatment_exists(
             ):
                 continue
 
-            # Check the date when one is cited.
             if reference.effective_date is not None:
 
                 if (
@@ -144,7 +139,6 @@ def _judicial_treatment_exists(
                 ):
                     continue
 
-            # Check the scope when one is cited.
             if reference.scope is not None:
 
                 if (
@@ -156,6 +150,7 @@ def _judicial_treatment_exists(
             return True
 
     return False
+
 
 
 def validate_brief_grounding(
