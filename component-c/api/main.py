@@ -192,8 +192,11 @@ def analyze_legal_scenario(
         )
 
         logger.warning(
-            "LLM provider request failed. Status: %s",
+            "LLM provider request failed. "
+            "Type: %s | Status: %s | Message: %s",
+            type(exc).__name__,
             provider_status,
+            getattr(exc, "message", "No message available"),
         )
 
         if provider_status in {
