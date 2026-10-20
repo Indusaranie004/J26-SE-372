@@ -19,13 +19,13 @@ from dotenv import load_dotenv
 
 # Import local modules
 from .argument_prompts import build_argument_messages
-from .explain_citation import generate_explanation
+from citation_strength.explain_citation import generate_explanation
 
 load_dotenv()
 
 # --- CONFIGURATION ---
 COMPONENT_A_API = os.getenv("COMPONENT_A_API", "http://127.0.0.1:8001")
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "scspm_model.pkl")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "citation_strength", "scspm_model.pkl")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 def load_model():
