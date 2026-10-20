@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+HF_TOKEN                       = os.getenv("HF_TOKEN", "")
 TOP_K                          = int(os.getenv("TOP_K",                          100))
 RRF_K                          = int(os.getenv("RRF_K",                          60))
 CHROMA_HOST                    = os.getenv("CHROMA_HOST",                         "localhost")

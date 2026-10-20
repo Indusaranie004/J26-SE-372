@@ -5,6 +5,9 @@ import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
+from huggingface_hub import login
+from config import HF_TOKEN
+
 
 class DenseRetriever:
     """
@@ -35,6 +38,10 @@ class DenseRetriever:
 
         self.mode            = mode
         self.collection_name = collection_name
+
+        # Authenticate with HuggingFace if token is available (required for private repos)
+        if HF_TOKEN:
+            login(token=HF_TOKEN, add_to_git_credential=False)
 
         # Load base BGE-M3 weights, or a fine-tuned checkpoint if provided
         model_source = checkpoint_path if mode == "finetuned" else "BAAI/bge-m3"
