@@ -4,17 +4,21 @@
 !.env.example
 
 # Corpus (too large; regenerated)
-# component-a/corpus/cases/*.json
+component-a/corpus/cases/*.json
+component-a/corpus/stubs/*.json
+component-a/corpus/cases.db
 
 # Databases
-# *.db
-# *.sqlite
-# *.sqlite3
+*.db
+*.sqlite
+*.sqlite3
 
 # Model weights
 *.bin
 *.pt
 *.ckpt
+*.safetensors
+model/treatment_classifier/
 
 # Python
 __pycache__/
