@@ -7,6 +7,8 @@
 component-a/corpus/cases/*.json
 component-a/corpus/stubs/*.json
 component-a/corpus/cases.db
+component-a/model/treatment_classifier.zip
+component-a/model/treatment_classifier/
 
 # Databases
 *.db
