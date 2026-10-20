@@ -14,4 +14,4 @@ GT1_PATH                       = os.getenv("GT1_PATH",                          
 ANGLEBERT_CKPT                 = os.getenv("ANGLEBERT_CKPT",                      "")
 BGE_FT_CKPT                    = os.getenv("BGE_FT_CKPT",                         "")
 
-NEO4J_USE_MOCK = os.getenv("NEO4J_USE_MOCK", "true").lower() != "false"
+NEO4J_USE_MOCK = os.getenv("NEO4J_USE_MOCK", "false").lower() != "false"

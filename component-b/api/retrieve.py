@@ -77,4 +77,4 @@ def retrieve(req: RetrieveRequest):
 
     return {"clusters": [enrich_cluster(c, _get_case_meta(c.seed_id)) for c in clusters]}
 
-# uvicorn component_b.api.retrieve:app --port 8001 --reload
+#uvicorn api.retrieve:app --reload --port 8000
