@@ -110,12 +110,25 @@ def get_real_time_score(doc_id: str) -> dict:
             df = pd.DataFrame([features])
             score = float(model.predict(df)[0])
             explanation = generate_explanation(features)
+
+             # --- NEW: Translate raw numbers to UI-friendly labels ---
+            court_label = "High" if court_level == 3 else ("Medium" if court_level == 2 else "Low")
+            recency_label = "High" if recency_score == 3 else ("Medium" if recency_score == 2 else "Low")
+            validity_label = "Good Law" if validity_score == 3 else ("Questionable" if validity_score == 1 else "Overruled")
+            density_label = "High" if incoming >= 15 else ("Medium" if incoming >= 5 else "Low")
+            
             return {
                 "doc_id": doc_id,
                 "name": case_data.get("case_num", doc_id), # Use real case number as the display name
                 "score": round(score, 1), 
                 "reasoning": explanation["reasoning"], 
-                "status": validity
+                "status": validity,
+                "citation_metrics": {
+                    "court_level": court_label,
+                    "recency": recency_label,
+                    "validity_treatment": validity_label,
+                    "citation_density": density_label
+                }
              }
      
     except Exception as e:
@@ -149,7 +162,8 @@ def build_argument_map(issue_id: str, issue_question: str) -> dict:
                         "relationship": "Supports" if stance == "supporting" else "Opposing",
                         "type": "Judicial decision",
                         "status": ml_data["status"],
-                        "shap_reasoning": ml_data["reasoning"] # The explainability text for the UI
+                        "shap_reasoning": ml_data["reasoning"], # The explainability text for the UI
+                        "citation_metrics": ml_data.get("citation_metrics", {})
                     })
             
             processed.append({
