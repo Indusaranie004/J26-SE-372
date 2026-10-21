@@ -13,7 +13,7 @@ from extraction.neo4j_writer import (
     init_constraints, write_case_node, write_judge_edge,
     write_act_edge, write_treatment_edge, write_chain_edges
 )
-from extraction.treatment_extractor import extract_treatments
+from extraction.treatment_extractor_model import extract_treatments_model
 from extraction.chain_parser import parse_chain_from_caption
 from pymongo import MongoClient
 from dotenv import load_dotenv
@@ -39,6 +39,58 @@ def ingest_to_mongodb(record):
         {"$set": doc},
         upsert=True
     )
+
+def read_text_from_blocks(folder_path):
+    """Extract full text from blocks.json when doc.txt is unavailable."""
+    blocks_path = os.path.join(folder_path, "blocks.json")
+    if not os.path.exists(blocks_path):
+        return None
+    try:
+        blocks = json.load(open(blocks_path, encoding="utf-8"))
+        blocks.sort(key=lambda b: (
+            b.get("page_number", 0),
+            -b.get("bbox", [0, 0, 0, 0])[3]
+        ))
+        text = " ".join(
+            b["text"] for b in blocks if b.get("text", "").strip()
+        )
+        return text if len(text) > 100 else None
+    except Exception:
+        return None
+
+def get_all_folders(corpus_path):
+    """Scan corpus including nested decade/year subfolders."""
+    folders = []
+
+    # Check if corpus has decade subfolders (2000s, 2010s, 2020s)
+    decade_dirs = [
+        d for d in os.listdir(corpus_path)
+        if os.path.isdir(os.path.join(corpus_path, d))
+        and d.endswith("s")
+        and d[:4].isdigit()
+    ]
+
+    if decade_dirs:
+        # Nested structure: corpus/2020s/2023/doc_folder/
+        for decade in sorted(decade_dirs):
+            decade_path = os.path.join(corpus_path, decade)
+            for year_dir in sorted(os.listdir(decade_path)):
+                year_path = os.path.join(decade_path, year_dir)
+                if not os.path.isdir(year_path):
+                    continue
+                for doc_dir in sorted(os.listdir(year_path)):
+                    doc_path = os.path.join(year_path, doc_dir)
+                    if os.path.isdir(doc_path):
+                        folders.append(doc_path)
+    else:
+        # Flat structure: corpus/doc_folder/
+        folders = [
+            os.path.join(corpus_path, d)
+            for d in sorted(os.listdir(corpus_path))
+            if os.path.isdir(os.path.join(corpus_path, d))
+        ]
+
+    return folders
 
 def populate_neo4j(rec):
     """Write a single case record to Neo4j."""
@@ -73,7 +125,7 @@ def populate_neo4j(rec):
             "body_offset": max(0, c["start"] - body_start)
         })
 
-    treatments = extract_treatments(body_text, doc_id, citations)
+    treatments = extract_treatments_model(body_text, doc_id, citations)
     for t in treatments:
         write_treatment_edge(
             doc_id,
@@ -99,34 +151,41 @@ def run_pipeline(corpus_path, limit=None, court="SC"):
     processed = get_processed_ids()
     print(f"Already processed: {len(processed)} documents")
 
-    # Find all document folders
-    folders = sorted(glob.glob(f"{corpus_path}/*/"))
+    # Find all document folders including nested decade/year structure
+    all_folders = get_all_folders(corpus_path)
+    print(f"Total folders found: {len(all_folders)}")
+
     if limit:
-        folders = folders[:limit]
+        all_folders = all_folders[:limit]
 
     new_docs        = 0
     skipped         = 0
+    no_text         = 0
     treatment_edges = 0
     errors          = 0
 
-    for folder in folders:
-        # Build doc_id from folder name
-        name   = os.path.basename(folder.rstrip("/"))
+    for folder in all_folders:
+        name   = os.path.basename(folder.rstrip("/").rstrip("\\"))
         doc_id = name
 
         if doc_id in processed:
             skipped += 1
             continue
 
+        # Try doc.txt first, fall back to blocks.json
+        text = None
         txt_path = os.path.join(folder, "doc.txt")
-        if not os.path.exists(txt_path):
+        if os.path.exists(txt_path):
+            text = open(txt_path, encoding="utf-8", errors="ignore").read()
+
+        if not text or len(text.strip()) < 100:
+            text = read_text_from_blocks(folder)
+
+        if not text or len(text.strip()) < 100:
+            no_text += 1
             continue
 
         try:
-            text = open(txt_path, encoding="utf-8", errors="ignore").read()
-            if len(text.strip()) < 100:
-                continue
-
             # Parse metadata from folder name
             parts    = name.split("-")
             date     = "-".join(parts[:3]) if len(parts) >= 3 else "unknown"
@@ -155,8 +214,10 @@ def run_pipeline(corpus_path, limit=None, court="SC"):
             continue
 
     print(f"\nPipeline complete: {datetime.now().isoformat()}")
+    print(f"  Total folders:    {len(all_folders)}")
     print(f"  New documents:    {new_docs}")
     print(f"  Skipped:          {skipped}")
+    print(f"  No text:          {no_text}")
     print(f"  Treatment edges:  {treatment_edges}")
     print(f"  Errors:           {errors}")
 
