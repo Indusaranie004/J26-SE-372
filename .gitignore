@@ -41,3 +41,6 @@ component-b/tests/fixtures/
 *.jsonl
 component-b/chroma_db/chroma.sqlite3
 component-b/models/anglebert_legal_finetuned/model.safetensors
+
+# Node
+node_modules/
