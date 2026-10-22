@@ -1,0 +1,74 @@
+{
+  "legal_issue": "Whether a business is entitled to financial compensation for lost income following the revocation of its operating permit without prior notice or an opportunity to respond, in the absence of a public safety emergency.",
+  "relevant_facts": [
+    "A business held a valid operating permit.",
+    "A public authority revoked the permit before its expiry.",
+    "The business received no prior notice.",
+    "The business was not given an opportunity to respond.",
+    "No immediate public safety emergency was identified."
+  ],
+  "authorities": [
+    {
+      "case_id": "MOCK_SC_001",
+      "case_name": "Mock Business Association v. Public Authority",
+      "court": "Supreme Court",
+      "relevance_to_issue": "Establishes that a public authority must ordinarily provide reasonable notice and an opportunity to respond before revoking a permit unless an emergency exception applies; however, it does not address financial compensation or damages for lost income.",
+      "validity_status": "good_law",
+      "judicial_treatment_summary": "Followed by MOCK_SC_004 on 2025-01-15 regarding general procedural fairness in permit revocation.",
+      "authority_assessment": "Current and reliable authority (good law) establishing procedural fairness requirements under Section 10 of the Mock Fair Administrative Procedure Act, but silent on financial remedies.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1"
+        }
+      ]
+    },
+    {
+      "case_id": "MOCK_CA_002",
+      "case_name": "Mock Emergency Authority v. Permit Holder",
+      "court": "Court of Appeal",
+      "relevance_to_issue": "Addresses immediate permit suspension without prior hearing in situations involving imminent and serious danger to public safety; does not address non-emergency revocations or entitlement to financial compensation.",
+      "validity_status": "partially_invalidated",
+      "judicial_treatment_summary": "Distinguished by MOCK_SC_005 on 2023-02-10 for non-emergency permit revocations.",
+      "authority_assessment": "Partially invalidated authority whose emergency exception remains potentially relevant, but it was distinguished for non-emergency decisions and contains no rule on financial compensation.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2"
+        }
+      ]
+    },
+    {
+      "case_id": "MOCK_SC_003",
+      "case_name": "Mock Traders Union v. Licensing Board",
+      "court": "Supreme Court",
+      "relevance_to_issue": "Historically permitted revocation without prior hearing whenever administratively appropriate, but does not provide for financial compensation.",
+      "validity_status": "no_longer_good_law",
+      "judicial_treatment_summary": "Expressly overruled by MOCK_SC_006 on 2024-06-01 regarding permit revocations without procedural safeguards.",
+      "authority_assessment": "No longer good law; cannot be relied upon as valid authority for permit revocation procedures or remedies.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3"
+        }
+      ]
+    }
+  ],
+  "authority_comparison": {
+    "hierarchy_considerations": "MOCK_SC_001 and MOCK_SC_003 are decisions from the Supreme Court, whereas MOCK_CA_002 is from the Court of Appeal. The hierarchy shows that Supreme Court authority governs procedural requirements, but none of the court levels provide rules governing monetary damages.",
+    "chronology_considerations": "MOCK_SC_003 (2010) was the earliest decision, followed by MOCK_CA_002 (2018) and MOCK_SC_001 (2022). All judicial treatments occurred prior to the reference date of 2026-10-12 (MOCK_SC_005 distinguished MOCK_CA_002 in 2023; MOCK_SC_006 overruled MOCK_SC_003 in 2024; MOCK_SC_004 followed MOCK_SC_001 in 2025).",
+    "judicial_treatment_considerations": "MOCK_SC_003 was overruled in 2024 and lacks legal force. MOCK_CA_002 was distinguished in 2023, narrowing its scope solely to emergency situations. MOCK_SC_001 was followed in 2025, confirming the requirement of prior notice and opportunity to respond in non-emergency revocations.",
+    "conflicts_or_distinctions": "MOCK_SC_003 conflicted with MOCK_SC_001 regarding the necessity of a hearing, but MOCK_SC_003 has been overruled. MOCK_CA_002 is factually and legally distinguished because it pertains strictly to imminent public safety emergencies, which are absent here. None of the precedents establish or resolve a rule on financial compensation."
+  },
+  "cross_case_analysis": "The supplied authorities and statutory text under Section 10 of the Mock Fair Administrative Procedure Act govern the procedural legality of permit revocations. MOCK_SC_001 establishes that procedural fairness (notice and an opportunity to respond) is mandatory unless an emergency exception applies, a standard reinforced by subsequent judicial treatment (MOCK_SC_004). MOCK_CA_002 recognises an emergency exception for imminent public safety threats, but was distinguished from ordinary revocations by MOCK_SC_005. MOCK_SC_003, which permitted summary revocation, has been completely overruled by MOCK_SC_006. While the authorities collectively clarify that revoking a permit without notice in a non-emergency scenario violates procedural fairness standards, none of the authorities, passages, or statutory provisions address whether a party is entitled to financial compensation for lost income.",
+  "legislation_considered": [
+    "Mock Fair Administrative Procedure Act, Section 10"
+  ],
+  "application": "Applying the authorities to the supplied facts, the public authority revoked the business's valid operating permit before expiry without prior notice or opportunity to respond. Because no immediate public safety emergency was identified, the exception under MOCK_CA_002 and Section 10 does not apply, and the revocation breaches the procedural fairness requirements set out in MOCK_SC_001. However, the business seeks financial compensation for lost income. The supplied facts and authorities provide no basis, statutory remedy, or precedent authorizing monetary compensation or damages for lost income resulting from an unlawful or procedurally deficient permit revocation.",
+  "conclusion": "The supplied evidence is insufficient to determine whether the business is entitled to financial compensation for lost income. While the revocation violated procedural fairness rules established in MOCK_SC_001, no supplied authority or statutory provision addresses financial remedies or compensation. Note: This analysis is based entirely on fictional development test data and does not constitute real legal advice.",
+  "limitations_or_insufficient_evidence": [
+    "No legal authorities, statutory sections, or principles regarding financial compensation, lost income, or damages were supplied.",
+    "The full statutory text of Section 10 was supplied only in part and contains no provisions regarding remedies or damages.",
+    "The dataset is composed of fictional development test data, limiting legal conclusions strictly to the provided materials."
+  ]
+}

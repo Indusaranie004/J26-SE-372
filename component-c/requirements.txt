@@ -1,0 +1,24 @@
+
+# Component C - Python Dependencies
+# Function 1: Cross-Case Contextual Legal Reasoning
+
+# Data validation and structured input/output
+pydantic>=2,<3
+
+# Gemini LLM integration
+google-genai
+
+# Environment variable management
+python-dotenv
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+
+# API testing
+httpx
+
+# Automated testing
+pytest
+
+# python -m pip install -r requirements.txt <-- run this command to install all the packages
