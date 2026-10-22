@@ -111,7 +111,15 @@ def get_real_time_score(doc_id: str) -> dict:
             score = float(model.predict(df)[0])
             explanation = generate_explanation(features)
 
-             # --- NEW: Translate raw numbers to UI-friendly labels ---
+             # --- TERMINAL LOGGING FOR Demo VISIBILITY ---
+            case_name = case_data.get("case_num", doc_id)
+            print(f"\n[ML PREDICTION] Calculating score for: {case_name}")
+            print(f"  ➤ Features Extracted: Court Level={court_level}, Recency={recency_score}, Validity={validity_score}, Outgoing={outgoing}, Incoming={incoming}")
+            print(f"  ➤ Final XGBoost Score: {round(score, 1)}%")
+            print(f"  ➤ SHAP Reasoning: {explanation['reasoning']}")
+            print("-" * 60)
+
+             # --- Translate raw numbers to UI-friendly labels ---
             court_label = "High" if court_level == 3 else ("Medium" if court_level == 2 else "Low")
             recency_label = "High" if recency_score == 3 else ("Medium" if recency_score == 2 else "Low")
             validity_label = "Good Law" if validity_score == 3 else ("Questionable" if validity_score == 1 else "Overruled")
@@ -148,7 +156,11 @@ def build_argument_map(issue_id: str, issue_question: str) -> dict:
             authorities = []
 
             # Search Component A for real cases matching this argument's legal text
-            real_doc_ids = search_real_authorities(arg["text"])
+            # Use the short search_query if available, otherwise fallback to the full text
+            search_text = arg.get("search_query", arg["text"])
+            
+            # Get Component A doc_ids for ML scoring
+            real_doc_ids = search_real_authorities(search_text)
                             
             # Calculate real XGBoost scores for each found case
             for doc_id in real_doc_ids:

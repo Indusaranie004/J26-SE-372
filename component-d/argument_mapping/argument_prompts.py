@@ -11,12 +11,14 @@ JSON Schema Requirements:
   "supporting_arguments": [
     {
       "text": "A clear legal proposition supporting the conclusion.",
+      "search_query": "A short 3-5 word keyword string to search the legal database for this specific point (e.g., 'withdrawal admission jurisdiction late').",
       "evidence": ["Specific documents or facts needed to prove this."],
     }
   ],
   "opposing_arguments": [
     {
       "text": "A clear legal proposition opposing the conclusion.",
+      "search_query": "A short 3-5 word keyword string to search the legal database for this specific point.",
       "evidence": ["Specific documents or facts needed to prove this."],
     }
   ]
@@ -25,9 +27,10 @@ JSON Schema Requirements:
 STRICT RULES:
 1. You must generate exactly 2 supporting arguments and 2 opposing arguments.
 2. 'evidence' must contain 2-3 specific items (e.g., "Medical reports", "Email correspondence").
-3. DO NOT suggest specific case names, statutes, or authority hints. Our system will automatically search the legal database for real cases matching your legal proposition.
-4. Write in professional legal English.
-5. Do NOT leave opposing_arguments empty - always provide counter-arguments.
+3. 'search_query' MUST be short keywords, NOT a full sentence. This is used to query Component A's database.
+4. DO NOT suggest specific case names, statutes, or authority hints. Our system will automatically search the legal database for real cases matching your legal proposition.
+5. Write in professional legal English.
+6. Do NOT leave opposing_arguments empty - always provide counter-arguments.
 """
 
 def build_argument_messages(issue_question: str) -> list[dict[str, str]]:
