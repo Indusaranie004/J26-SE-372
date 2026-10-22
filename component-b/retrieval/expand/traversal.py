@@ -9,29 +9,40 @@ from .models import (
     AppealEdge,
 )
 
-
 def _cites_outgoing(seed_id: str):
-    from data.mock_graph import mock_cites_outgoing as m
-    from .neo4j_client import neo4j_cites_outgoing as n
-    return (m if USE_MOCK else n)(seed_id)
+    if USE_MOCK:
+        from data.mock_graph import mock_cites_outgoing
+        return mock_cites_outgoing(seed_id)
+    else:
+        from .neo4j_client import neo4j_cites_outgoing
+        return neo4j_cites_outgoing(seed_id)
 
 
 def _cites_incoming(seed_id: str):
-    from data.mock_graph import mock_cites_incoming as m
-    from .neo4j_client import neo4j_cites_incoming as n
-    return (m if USE_MOCK else n)(seed_id)
+    if USE_MOCK:
+        from data.mock_graph import mock_cites_incoming
+        return mock_cites_incoming(seed_id)
+    else:
+        from .neo4j_client import neo4j_cites_incoming
+        return neo4j_cites_incoming(seed_id)
 
 
 def _legislation(seed_id: str):
-    from data.mock_graph import mock_legislation as m
-    from .neo4j_client import neo4j_legislation as n
-    return (m if USE_MOCK else n)(seed_id)
+    if USE_MOCK:
+        from data.mock_graph import mock_legislation
+        return mock_legislation(seed_id)
+    else:
+        from .neo4j_client import neo4j_legislation
+        return neo4j_legislation(seed_id)
 
 
 def _appeal_chain(seed_id: str):
-    from data.mock_graph import mock_appeal_chain as m
-    from .neo4j_client import neo4j_appeal_chain as n
-    return (m if USE_MOCK else n)(seed_id)
+    if USE_MOCK:
+        from data.mock_graph import mock_appeal_chain
+        return mock_appeal_chain(seed_id)
+    else:
+        from .neo4j_client import neo4j_appeal_chain
+        return neo4j_appeal_chain(seed_id)
 
 
 def expand(seed_ids: List[str]) -> List[PrecedentCluster]:

@@ -1,5 +1,19 @@
 import dataclasses
+import re
 from retrieval.expand.models import PrecedentCluster
+
+def extract_legal_issue(body: str, max_chars: int = 800) -> str:
+    paragraphs = [p.strip() for p in re.split(r'\n+', body) if p.strip()]
+    skip_patterns = re.compile(
+        r'^(decided on|before:|counsel:|appearance|for the petitioner|for the respondent|'
+        r'in the supreme court|democratic socialist|republic of sri lanka|in the matter|'
+        r'and (now )?between|and between|\d+$|sc\s*(appeal|fr|hc)|page \d)',
+        re.IGNORECASE
+    )
+    for para in paragraphs:
+        if not skip_patterns.match(para) and len(para) > 100:
+            return para[:max_chars] + "…" if len(para) > max_chars else para
+    return body[:max_chars] + "…"
 
 def enrich_cluster(cluster: PrecedentCluster, case_meta: dict) -> dict:
     d = dataclasses.asdict(cluster)
@@ -38,5 +52,15 @@ def enrich_cluster(cluster: PrecedentCluster, case_meta: dict) -> dict:
             ctx["legislative_foundation"] = "Constitutional articles cited — statutory Acts not captured for this case."
         else:
             ctx["legislative_foundation"] = "No legislative foundation data available."
+
+    # --- summary ---
+    sections = case_meta.get("sections", {})
+    caption = (sections.get("caption", {}).get("text") or "").strip()
+    body = (sections.get("body", {}).get("text") or "").strip()
+    if body or caption:
+        snippet = extract_legal_issue(body) if body else ""
+        d["summary"] = f"{caption}\n\n{snippet}".strip() if caption else snippet
+    else:
+        d["summary"] = None
 
     return d

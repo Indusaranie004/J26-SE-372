@@ -35,13 +35,12 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Componant B / 
-#Mocks
+# Component B
 component-b/data/
 component-b/tests/fixtures/
 *.jsonl
-.env
-
-#Large model/db files
 component-b/chroma_db/chroma.sqlite3
 component-b/models/anglebert_legal_finetuned/model.safetensors
+
+# Node
+node_modules/
