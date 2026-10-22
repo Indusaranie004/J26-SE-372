@@ -4,6 +4,7 @@ import sys
 import os
 import httpx
 from contextlib import asynccontextmanager
+from fastapi.middleware.cors import CORSMiddleware
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
@@ -38,6 +39,13 @@ async def lifespan(app: FastAPI):
     yield
 
 app = FastAPI(title="Component B — Retrieval", version="0.1.0", lifespan=lifespan)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class RetrieveRequest(BaseModel):
     query: str
