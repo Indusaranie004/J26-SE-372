@@ -12,6 +12,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 # TODO : add COLLECTION_BGE_M3_FINETUNED, CHECKPOINT_PATH to config imports
+from config import (TOP_K, CORPUS_PATH, NEO4J_USE_MOCK, DENSE_MODE,COLLECTION_GENERIC, COLLECTION_BGEM3_FINETUNED, BGE_FT_CKPT)
 from config import TOP_K, CORPUS_PATH, COLLECTION_GENERIC, NEO4J_USE_MOCK
 from retrieval.seed.bm25_retriever import BM25Retriever
 from retrieval.seed.dense_retriever import DenseRetriever
@@ -32,10 +33,11 @@ async def lifespan(app: FastAPI):
         corpus = fetch_corpus_from_api()
     bm25 = BM25Retriever(corpus)
     # TODO : replace with mode="finetuned", collection_name=COLLECTION_BGE_M3_FINETUNED, checkpoint_path=CHECKPOINT_PATH
-    dense = DenseRetriever(
-        mode="generic",
-        collection_name=COLLECTION_GENERIC,
-    )
+    if DENSE_MODE == "finetuned":
+        dense = DenseRetriever(mode="finetuned", checkpoint_path=BGE_FT_CKPT,
+        collection_name=COLLECTION_BGEM3_FINETUNED)
+    else:
+        dense = DenseRetriever(mode="generic", collection_name=COLLECTION_GENERIC)
     yield
 
 app = FastAPI(title="Component B — Retrieval", version="0.1.0", lifespan=lifespan)
@@ -67,7 +69,7 @@ def _get_case_meta(case_id: str) -> dict:
 @app.post("/retrieve")
 def retrieve(req: RetrieveRequest):
     #Retrieval
-    b, d = retrieve_concurrent(req.query, bm25, dense, req.top_k)
+    b, d = retrieve_concurrent(req.query, bm25, dense, 100)
     h = rrf_merge(b, d)
     #Graph Expansion
     seed_ids = [item[0] for item in h[:req.top_k]]

@@ -14,5 +14,6 @@ CORPUS_PATH                    = os.getenv("CORPUS_PATH",                       
 GT1_PATH                       = os.getenv("GT1_PATH",                            "data/mock_gt1.json")
 ANGLEBERT_CKPT                 = os.getenv("ANGLEBERT_CKPT",                      "")
 BGE_FT_CKPT                    = os.getenv("BGE_FT_CKPT",                         "")
+DENSE_MODE                     = os.getenv("DENSE_MODE",                          "finetuned")
 
 NEO4J_USE_MOCK = os.getenv("NEO4J_USE_MOCK", "false").lower() != "false"
