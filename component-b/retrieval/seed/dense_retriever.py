@@ -3,7 +3,7 @@ from typing import List, Dict, Tuple
 
 import chromadb
 from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, models
 
 from huggingface_hub import login
 from config import HF_TOKEN
@@ -15,9 +15,9 @@ class DenseRetriever:
 
     Modes
     -----
-    "generic"   – BAAI/bge-m3 base weights → legal_bge_m3_generic          (rows 2 & 5)
-    "finetuned" – checkpoint at checkpoint_path → named collection           (rows 3, 4, 6)
-                  Row 3: ANGLEBERT_CKPT  → COLLECTION_ANGLEBERT_FINETUNED
+    "generic"   – BAAI/bge-m3 base weights → legal_bge_m3_generic          (rows 2 & 4)
+    "finetuned" – checkpoint at checkpoint_path → named collection           (rows 3a, 3b, 6)
+                  Row 3: ANGLEBERT_CKPT  → COLLECTION_ANGLEBERT_FINETUNED     (rows 3b, 5)
                   Row 4: BGE_FT_CKPT     → COLLECTION_BGEM3_FINETUNED
     """
 
@@ -45,8 +45,15 @@ class DenseRetriever:
 
         # Load base BGE-M3 weights, or a fine-tuned checkpoint if provided
         model_source = checkpoint_path if mode == "finetuned" else "BAAI/bge-m3"
-        self.model   = SentenceTransformer(model_source)
-        self.model.max_seq_length = 1024  #Override default 512 for BGE-M3 (For 97% cases caption + header + first body paragraph fully captured in embeddings)
+        if "bge-m3" in model_source.lower():
+            # BGE-M3 (generic and fine-tuned) uses CLS pooling, matching how the fine-tuned checkpoint was trained (last_hidden_state[:, 0])
+            word = models.Transformer(model_source)
+            word.max_seq_length = min(1024, word.tokenizer.model_max_length)  #Override default 512 for BGE-M3 (For 97% cases caption + header + first body paragraph fully captured in embeddings)
+            pool = models.Pooling(word.get_word_embedding_dimension(), pooling_mode="cls")
+            self.model = SentenceTransformer(modules=[word, pool], device="cpu")
+        else:
+            self.model   = SentenceTransformer(model_source, device="cpu")
+            self.model.max_seq_length = min(1024, self.model.tokenizer.model_max_length)  #Override default 512 for BGE-M3 (For 97% cases caption + header + first body paragraph fully captured in embeddings)
 
         # Connect to ChromaDB on disk (persistent across runs)
         self.client = chromadb.PersistentClient(

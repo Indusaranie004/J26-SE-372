@@ -36,7 +36,6 @@ Thumbs.db
 .vscode/
 
 # Component B
-component-b/data/
 component-b/tests/fixtures/
 *.jsonl
 component-b/chroma_db/chroma.sqlite3

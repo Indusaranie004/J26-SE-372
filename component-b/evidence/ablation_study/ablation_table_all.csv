@@ -1,0 +1,8 @@
+Row,R@5,R@10,P@5,P@10,MRR
+1  Sparse-only (BM25) [Luan et al.],0.825,0.95,0.17,0.1,0.72
+"2  Dense-only, generic BGE-M3",0.375,0.475,0.08,0.05,0.3409
+"3a Dense-only, AnglE-BERT (FT) [Jayawardena et al.]",0.475,0.525,0.1,0.055,0.4342
+"3b Dense-only, BGE-M3 (FT)",0.475,0.575,0.1,0.06,0.4096
+"4  Hybrid, generic BGE-M3 + RRF [Arulanandam & De Silva]",0.675,0.725,0.14,0.075,0.5045
+"5b Hybrid, AnglE-BERT (FT) + RRF [supplementary]",0.725,0.825,0.15,0.085,0.5087
+"5  Hybrid, BGE-M3 (FT) + RRF [PROPOSED]",0.675,0.775,0.14,0.08,0.634
