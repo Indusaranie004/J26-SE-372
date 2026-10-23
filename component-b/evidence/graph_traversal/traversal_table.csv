@@ -1,0 +1,5 @@
+Category,Seeds,Triplets found / total,Micro recall,Macro recall
+Judicial Treatment,7,9/9,1.0,1.0
+Legislative Foundation,19,36/36,1.0,1.0
+Litigation History,9,10/10,1.0,1.0
+Overall,20,55/55,1.0,1.0

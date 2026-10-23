@@ -30,7 +30,7 @@ for e in json.load(open(GT2_IN, encoding="utf-8")):
     c = e["seed_id"]
     if c not in cases: continue                      # keep all 20 seeds (oracle seeds)
     x = e["expected"]
-    gt2.append({**e, "split": "expert", "expected": {
+    gt2.append({**e, "expected": {   # keeps the original split
         "litigation_history":     [l for l in x["litigation_history"]     if (c, "Litigation", lit(l)) in ok],
         "legislative_foundation": [a for a in x["legislative_foundation"] if (c, "Legislation", act(a)) in ok],
         "judicial_treatment":     [j for j in x["judicial_treatment"]     if (c, "Judicial Treatment", j["cited_name"]) in ok]}})
