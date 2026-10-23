@@ -1,5 +1,6 @@
 # component-d/main.py
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware 
 from pydantic import BaseModel
 from issue_spotting.decomposer import decompose_query
 from issue_spotting.models import IssueTreeResponse
@@ -9,6 +10,15 @@ app = FastAPI(
     title="Component D - Issue Spotter & Argument Map",
     version="0.1.0",
     description="Legal Issue Spotting, Argument Map Generation & Citation Strength Prediction for Sri Lankan Law"
+)
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],  # Vite dev server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ==============================================================================

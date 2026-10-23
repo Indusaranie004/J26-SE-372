@@ -13,6 +13,13 @@ const NAV_ITEMS = [
     label: 'Find Legal Precedents',
     component: 'search',
   },
+
+  // COMPONENT D
+  {
+    id: 'issue-spotter',
+    label: 'Legal Issue Spotter',
+    component: 'issue-spotter',
+  },
   // Add more items here, e.g.:
   // { id: 'analytics', label: 'Analytics', component: 'analytics' },
 ];
