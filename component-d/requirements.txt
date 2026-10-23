@@ -3,3 +3,8 @@ uvicorn
 groq
 pydantic
 python-dotenv
+xgboost
+pandas
+scikit-learn
+joblib
+shap
