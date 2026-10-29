@@ -1,0 +1,855 @@
+[
+  {
+    "query": "police detention beyond 24 hours without producing before magistrate Sri Lanka",
+    "relevant_ids": [
+      "2016-07-22-SC-FR-527-2011"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "unlawful arrest and detention by police violating Article 13 fundamental rights",
+    "relevant_ids": [
+      "2016-07-22-SC-FR-527-2011"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "police assault during arrest Article 11 cruel treatment fundamental rights application",
+    "relevant_ids": [
+      "2019-02-22-SC-FR-198-2011"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "CID officer abduction and torture of civilian Articles 11 13 Constitution",
+    "relevant_ids": [
+      "2019-02-22-SC-FR-198-2011"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "death in police custody state liability fundamental rights violation",
+    "relevant_ids": [
+      "2019-12-17-SC-FR-577-2010"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "custodial violence and torture Article 11 Supreme Court Sri Lanka",
+    "relevant_ids": [
+      "2019-12-17-SC-FR-577-2010",
+      "2018-10-08-SC-FR-859-2009"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "prison death and fundamental rights of detainee family Sri Lanka",
+    "relevant_ids": [
+      "2019-05-23-SC-FR-660-2012-Part-II"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "time bar Article 126(2) one month limitation fundamental rights application",
+    "relevant_ids": [
+      "2017-02-01-SC-FR-45-2016",
+      "2019-02-22-SC-FR-244-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "arbitrary transfer of public servant violating right to livelihood Article 14(1)(g)",
+    "relevant_ids": [
+      "2019-10-25-SC-FR-137-2011"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public officer transfer as victimisation equality rights Article 12(1) Sri Lanka",
+    "relevant_ids": [
+      "2019-10-25-SC-FR-137-2011",
+      "2019-09-02-SC-FR-15-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "police officer demotion after disciplinary inquiry disproportionate penalty Article 12(1)",
+    "relevant_ids": [
+      "2017-08-04-SC-FR-12-2012"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "irrational disciplinary penalty against police officer equality violation",
+    "relevant_ids": [
+      "2017-08-04-SC-FR-12-2012"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "senior public officer removed without inquiry natural justice violation",
+    "relevant_ids": [
+      "2018-03-26-SC-FR-120-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "PSC failure to implement Administrative Appeals Tribunal order fundamental rights",
+    "relevant_ids": [
+      "2017-02-28-SC-FR-383-2008"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "discriminatory promotion bypassing seniority and merit in public service",
+    "relevant_ids": [
+      "2019-06-07-SC-FR-275-2013",
+      "2019-06-12-SC-FR-677-2012"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public service promotion scheme not implemented violation of equal rights",
+    "relevant_ids": [
+      "2020-07-16-SC-FR-29-2018"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "army officer denied promotion compared to batch mates Article 12(1)",
+    "relevant_ids": [
+      "2020-02-20-SC-FR-291-2016"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "Sri Lanka Army discriminatory promotion equality fundamental rights",
+    "relevant_ids": [
+      "2020-02-20-SC-FR-291-2016"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "promotion to Senior Superintendent of Police denied arbitrarily Article 12(1)",
+    "relevant_ids": [
+      "2020-06-09-SC-FR-520-2009"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "Sri Lanka Customs Assistant Superintendent appointment discrimination",
+    "relevant_ids": [
+      "2020-05-19-SC-FR-181-2016"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "school admission denied child Article 12(1) equality national school",
+    "relevant_ids": [
+      "2018-05-30-SC-FR-201-2017",
+      "2018-11-29-SC-FR-24-2018"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "Grade 1 admission arbitrary denial constitutional right to equality Sri Lanka",
+    "relevant_ids": [
+      "2019-05-28-SC-FR-30-2018",
+      "2021-05-07-SC-FR-185-2018"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "school admissions criteria constitutional challenge equality rights child",
+    "relevant_ids": [
+      "2018-10-31-SC-FR-412-2016"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "journalist arrested freedom of expression Article 14(1)(a) fundamental rights",
+    "relevant_ids": [
+      "2021-02-17-SC-FR-556-2008--SC-FR-557-2008"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "media freedom violations arrest of journalist Supreme Court Sri Lanka",
+    "relevant_ids": [
+      "2021-02-17-SC-FR-556-2008--SC-FR-557-2008"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "dissolution of parliament constitutional challenge fundamental rights application",
+    "relevant_ids": [
+      "2021-01-12-SC-RULE-1-2018"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "emergency regulations property forfeiture Article 12(1) violation",
+    "relevant_ids": [
+      "2017-07-27-SC-FR-15-2010"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "MBBS graduates unrecognised institution denied SLMC registration",
+    "relevant_ids": [
+      "2018-09-21-SC-APPEAL-184-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "SAITM medical degrees fundamental rights graduates recognition",
+    "relevant_ids": [
+      "2018-09-21-SC-APPEAL-184-2017",
+      "2019-07-30-SC-FR-54-2019"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "university lecturer interdicted without inquiry right to livelihood infringed",
+    "relevant_ids": [
+      "2020-07-20-SC-FR-288-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "government tender bid rejected arbitrarily Article 12(1) equal treatment",
+    "relevant_ids": [
+      "2019-12-02-SC-FR-147-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public procurement fundamental rights violation tender process Sri Lanka",
+    "relevant_ids": [
+      "2019-12-02-SC-FR-147-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "Sri Lanka Administrative Service Limited Competitive Examination irregularities",
+    "relevant_ids": [
+      "2019-03-05-SC-FR-502-2010"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "state employer bank recruitment discrimination Article 12(1) Sri Lanka",
+    "relevant_ids": [
+      "2017-03-03-SC-FR-164-2015---SC-FR-276-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public sector recruitment examination equality violation fundamental rights",
+    "relevant_ids": [
+      "2017-03-03-SC-FR-164-2015---SC-FR-276-2015",
+      "2019-03-05-SC-FR-502-2010"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "wrongful dismissal state corporation employee without domestic inquiry Article 12(1)",
+    "relevant_ids": [
+      "2017-01-20-SC-FR-57-2016"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "state corporation employment rights violation fundamental rights Sri Lanka",
+    "relevant_ids": [
+      "2017-01-20-SC-FR-57-2016"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "airline employees bonus non-payment industrial dispute arbitration IDA",
+    "relevant_ids": [
+      "2018-03-12-SC-APPEAL-79-2013"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "Monetary Board employee termination Labour Tribunal reinstatement",
+    "relevant_ids": [
+      "2020-09-21-SC-APPEAL-148-2012"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "plantation estate worker compulsory retirement age 55 without notice",
+    "relevant_ids": [
+      "2018-10-18-SC-APPEAL-164-2011--SC--aa19b8cc"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "plantation sector termination age of retirement labour law Sri Lanka",
+    "relevant_ids": [
+      "2018-10-18-SC-APPEAL-164-2011--SC--aa19b8cc"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "employer corporate name change employment obligations continue transfer",
+    "relevant_ids": [
+      "2017-09-19-SC-APPEAL-152-2014"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "contract of service vs contract for services employer-employee distinction",
+    "relevant_ids": [
+      "2017-06-28-SC-APPEAL-99-2010"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "writ of mandamus directing Minister to refer industrial dispute to arbitration",
+    "relevant_ids": [
+      "2018-08-31-SC-APPEAL-177-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "compulsory retirement public officer without pension rights natural justice",
+    "relevant_ids": [
+      "2019-04-18-SC-FR-273-2018"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "Labour Tribunal reinstatement back wages garment manufacturing sector Sri Lanka",
+    "relevant_ids": [
+      "2020-02-13-SC-APPEAL-138-2017",
+      "2020-06-09-SC-APPEAL-139-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "rei vindicatio action title declaration ejectment adverse possession claim",
+    "relevant_ids": [
+      "2016-09-19-SC-APPEAL-196-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "proof of title land dispute rei vindicatio Sri Lanka Supreme Court",
+    "relevant_ids": [
+      "2016-09-19-SC-APPEAL-196-2015"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "partition action dispute over survey plan lots all parties concede corpus",
+    "relevant_ids": [
+      "2016-11-10-SC-APPEAL-102-2011",
+      "2016-12-09-SC-APPEAL-92-2012"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "revocation of deed of gift gross ingratitude Sri Lanka civil law",
+    "relevant_ids": [
+      "2019-04-05-SC-APPEAL-31-2013"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "land acquisition government compensation Land Acquisition Act Section 2 notice",
+    "relevant_ids": [
+      "2017-09-13-SC-APPEAL-87A-2006"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "state land acquisition private owner public purpose compensation Sri Lanka",
+    "relevant_ids": [
+      "2017-09-13-SC-APPEAL-87A-2006"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "ejectment of tenant Rent Act landlord requires premises for own use",
+    "relevant_ids": [
+      "2017-12-07-SC-APPEAL-43-2012",
+      "2021-04-30-SC-APPEAL-17-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "recovery of state land State Lands Recovery of Possession Act Sri Lanka",
+    "relevant_ids": [
+      "2018-07-06-SC-APPEAL-31-2009-AND-S-22e612fc"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "temple land trustee ejectment action rights of religious institution Sri Lanka",
+    "relevant_ids": [
+      "2018-09-05-SC-APPEAL-76-2010"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "mortgage deed conditional transfer parol evidence rule interpretation",
+    "relevant_ids": [
+      "2017-03-14-SC-APPEAL-167-2010"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "bank overdraft recovery prescription period commencement acknowledgment of debt",
+    "relevant_ids": [
+      "2019-09-09-SC-APPEAL-196-2011"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "overdraft prescription and conditional acknowledgment bank debt Sri Lanka",
+    "relevant_ids": [
+      "2019-09-09-SC-APPEAL-196-2011"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "fire insurance claim refused policy conditions insurance company repudiation",
+    "relevant_ids": [
+      "2017-09-14-SC-CHC-APPEAL-18-2008"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "insurance policy repudiation insured's right to claim Sri Lanka",
+    "relevant_ids": [
+      "2017-09-14-SC-CHC-APPEAL-18-2008",
+      "2019-10-09-SC-APPEAL-134-2018"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "bank guarantee primary debtor defaults guarantor disputes obligation",
+    "relevant_ids": [
+      "2017-03-17-SC-CHC-APPEAL-18-2009"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "personal guarantee enforcement by bank against guarantors Commercial High Court",
+    "relevant_ids": [
+      "2017-07-27-SC-APPEAL-125-2015",
+      "2017-03-17-SC-CHC-APPEAL-18-2009"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "leasing company recover vehicle defaulting lessee guarantors Sri Lanka",
+    "relevant_ids": [
+      "2018-10-05-SC-APPEAL-147-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "arbitration award enforcement leave to appeal Arbitration Act No 11 of 1995",
+    "relevant_ids": [
+      "2021-01-25-SC-HC-LA-69-2018"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "debt settlement Debt Conciliation Ordinance enforcement of settlement",
+    "relevant_ids": [
+      "2018-11-12-SC-APPEAL-29-2009"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "company director fiduciary duty breach corporate dispute Sri Lanka",
+    "relevant_ids": [
+      "2018-07-05-SC-CHC-APPEAL-8-2005"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "criminal accused indicted without proper arraignment Section 196 CCPA Sri Lanka",
+    "relevant_ids": [
+      "2020-01-22-SC-APPEAL-115-2014"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "arraignment procedural safeguards right to fair trial criminal Sri Lanka",
+    "relevant_ids": [
+      "2020-01-22-SC-APPEAL-115-2014"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "contempt of court proceedings Supreme Court Article 105(3) Constitution",
+    "relevant_ids": [
+      "2021-01-12-SC-RULE-1-2018"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public health service officer appointment removal Article 12(1) equality",
+    "relevant_ids": [
+      "2018-03-26-SC-FR-120-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "equality in senior police rank promotions Article 12(1) Sri Lanka",
+    "relevant_ids": [
+      "2020-06-09-SC-FR-520-2009"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "PSC non-implementation AAT order public servant rights violation",
+    "relevant_ids": [
+      "2017-02-28-SC-FR-383-2008"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "industrial dispute Labour Tribunal compensation unjust termination electricity board",
+    "relevant_ids": [
+      "2018-10-10-SC-APPEAL-202-2015"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "associate companies employee transfer continuity of service Sri Lanka labour law",
+    "relevant_ids": [
+      "2020-08-07-SC-APPEAL-52-2014"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "arbitration award leave to appeal Commercial High Court Sri Lanka",
+    "relevant_ids": [
+      "2021-01-25-SC-HC-LA-69-2018"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "commercial debt recovery judgment absent defendant Sri Lanka",
+    "relevant_ids": [
+      "2017-09-14-SC-APPEAL-61-2012"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "contempt of court punishment fine imprisonment Supreme Court Sri Lanka",
+    "relevant_ids": [
+      "2021-01-12-SC-RULE-1-2018"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "murder Trial at Bar multiple accused acquittal evidence standard Sri Lanka",
+    "relevant_ids": [
+      "2019-07-25-SC-APPEAL-90-2013"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "abatement of civil action after death of party substitution mandatory",
+    "relevant_ids": [
+      "2018-12-12-SC-APPEAL-95-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "notice of appeal requirements Section 755 Civil Procedure Code defect curable",
+    "relevant_ids": [
+      "2018-03-06-SC-APPEAL-96-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "free trade zone workers police dispersal protest fundamental rights Article 12",
+    "relevant_ids": [
+      "2019-04-05-SC-FR-265-2011"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+    "relevant_ids": [
+      "2019-04-05-SC-FR-265-2011"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "judicial officer adverse administrative action fundamental rights career",
+    "relevant_ids": [
+      "2020-06-18-SC-FR-222-2018"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "water pollution North Sri Lanka villagers environmental rights fundamental rights",
+    "relevant_ids": [
+      "2019-04-04-SC-FR-141-2015"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "public water source pollution injunction fundamental rights community",
+    "relevant_ids": [
+      "2019-04-04-SC-FR-141-2015"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "scientific department public service appointment rival candidates equality Article 12",
+    "relevant_ids": [
+      "2019-04-05-SC-FR-276-2016"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "health officer transfer victimisation North Central Province Article 12(1)",
+    "relevant_ids": [
+      "2019-09-02-SC-FR-15-2017"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "personal injury medical negligence state hospital Sri Lanka civil claim",
+    "relevant_ids": [
+      "2018-10-11-SC-APPEAL-152-2011"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "unjust termination Noratel International manufacturing employee Labour Tribunal",
+    "relevant_ids": [
+      "2020-02-13-SC-APPEAL-138-2017"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "Next Manufacturing worker reinstatement Labour Tribunal back wages",
+    "relevant_ids": [
+      "2020-06-09-SC-APPEAL-139-2017"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+    "relevant_ids": [
+      "2018-10-10-SC-APPEAL-202-2015"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "employees transferred between associated companies Labour Tribunal jurisdiction",
+    "relevant_ids": [
+      "2020-08-07-SC-APPEAL-52-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+    "relevant_ids": [
+      "2020-03-11-SC-APPEAL-151-2017"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "matrimonial home ownership dispute husband wife after separation",
+    "relevant_ids": [
+      "2018-06-07-SC-APPEAL-123-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "writ of mandamus derequisition property Co-operative Societies Act",
+    "relevant_ids": [
+      "2018-08-31-SC-APPEAL-177-2015"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "declaration of title right of way dispute District Court land registration",
+    "relevant_ids": [
+      "2020-12-18-SC-APPEAL-129-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+    "relevant_ids": [
+      "2019-04-05-SC-APPEAL-31-2013"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "maintenance action spouse matrimonial home desertion Sri Lanka",
+    "relevant_ids": [
+      "2020-03-11-SC-APPEAL-151-2017"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "commercial debt recovery enforcement bank guarantee Commercial High Court",
+    "relevant_ids": [
+      "2019-06-19-SC-APPEAL-43-2013"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "foreign company suing Sri Lankan defendant debt power of attorney",
+    "relevant_ids": [
+      "2017-06-02-SC-CHC-APPEAL-28-2008"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "advertising service contract unpaid invoices liability Sri Lanka",
+    "relevant_ids": [
+      "2017-03-14-SC-CHC-APPEAL-29-2011"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "money judgment recovery absent defendant commercial court Sri Lanka",
+    "relevant_ids": [
+      "2017-09-14-SC-APPEAL-61-2012"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+    "relevant_ids": [
+      "2019-07-25-SC-APPEAL-90-2013"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+    "relevant_ids": [
+      "2018-08-03-SC-APPEAL-163-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "illegal felling of trees conviction Forest Ordinance Section 40 Sri Lanka",
+    "relevant_ids": [
+      "2017-12-07-SC-APPEAL-43-2012"
+    ],
+    "intent": "In",
+    "split": "eval"
+  }
+]
