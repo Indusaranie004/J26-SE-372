@@ -1,0 +1,540 @@
+{
+  "document_type": "research_brief",
+  "title": "Business Permit Revocation - Legal Research Brief",
+  "legal_issue": "Whether a public authority is required to provide prior notice and an opportunity to respond before revoking a business permit where no immediate public safety emergency is identified.",
+  "relevant_facts": [
+    {
+      "claim_id": "CLAIM_001",
+      "statement": "The business held a valid operating permit.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 0
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_002",
+      "statement": "The public authority revoked the operating permit before its scheduled expiry date.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 1
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_003",
+      "statement": "The business received no prior notice before the revocation of the permit.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 2
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_004",
+      "statement": "The business was not provided an opportunity to respond prior to revocation.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 3
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_005",
+      "statement": "No immediate public safety emergency was identified in connection with the permit revocation.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 4
+        }
+      ]
+    }
+  ],
+  "applicable_legislation": [
+    {
+      "claim_id": "CLAIM_006",
+      "statement": "Under Section 10 of the Mock Fair Administrative Procedure Act, an authority is required to provide the affected party with a reasonable opportunity to be heard before revoking a permit, except where immediate action is necessary to prevent serious public danger.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "relevant_precedents": [
+    {
+      "claim_id": "CLAIM_007",
+      "statement": "The Supreme Court in Mock Business Association v. Public Authority held that a public authority must ordinarily provide reasonable notice and an opportunity to respond before revoking an existing permit, unless a legally justified emergency exception applies.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_008",
+      "statement": "The Court of Appeal in Mock Emergency Authority v. Permit Holder stated that immediate suspension of a permit may be justified without a prior hearing where credible evidence establishes an imminent and serious danger to public safety.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_009",
+      "statement": "The Supreme Court in Mock Traders Union v. Licensing Board previously stated that a licensing authority may revoke a business permit without a prior hearing whenever administratively appropriate.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "precedent_treatment": [
+    {
+      "claim_id": "CLAIM_010",
+      "statement": "MOCK_SC_001 was followed by MOCK_SC_004 on 2025-01-15 regarding general procedural fairness and prior notice requirements in permit revocation, and it remains good law.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_011",
+      "statement": "MOCK_CA_002 was distinguished by MOCK_SC_005 on 2023-02-10 with respect to non-emergency permit revocations, limiting its application to genuine emergencies.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_012",
+      "statement": "MOCK_SC_003 was expressly overruled by MOCK_SC_006 on 2024-06-01 regarding permit revocation without procedural safeguards and is no longer good law.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "legal_analysis": [
+    {
+      "claim_id": "CLAIM_013",
+      "statement": "The governing legal rule under Section 10 of MOCK_ACT_001 and MOCK_SC_001 requires public authorities to afford procedural fairness, specifically prior notice and an opportunity to be heard, before revoking an existing permit.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_014",
+      "statement": "The emergency exception permitting action without a hearing, recognized in MOCK_CA_002 and Section 10, is confined to situations involving imminent, serious danger to public safety.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_015",
+      "statement": "The earlier authority allowing permit revocation without hearing at administrative discretion (MOCK_SC_003) cannot be relied upon because it was overruled by MOCK_SC_006.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "claim_id": "CLAIM_016",
+      "statement": "The public authority was obligated under Section 10 of MOCK_ACT_001 and MOCK_SC_001 to provide reasonable notice and an opportunity to respond before revoking the permit.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_017",
+      "statement": "Because no immediate public safety emergency was identified, the statutory and common-law emergency exceptions do not apply to exempt the authority from procedural requirements.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 4
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        },
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "counterarguments": [
+    {
+      "claim_id": "CLAIM_018",
+      "statement": "An authority might argue under MOCK_SC_003 that revocation without a hearing is permissible whenever administratively appropriate, but this argument is invalid because MOCK_SC_003 was overruled.",
+      "support_status": "contested",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_019",
+      "statement": "An authority might invoke MOCK_CA_002 to justify action without prior notice, but that decision is distinguished and limited to situations of imminent and serious danger to public safety.",
+      "support_status": "contested",
+      "evidence_references": [
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "application_to_facts": [
+    {
+      "claim_id": "CLAIM_020",
+      "statement": "The public authority revoked the business's valid operating permit without prior notice or an opportunity to respond, contrary to the requirements of MOCK_SC_001 and Section 10 of MOCK_ACT_001.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 0
+        },
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 1
+        },
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 2
+        },
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 3
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        },
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_021",
+      "statement": "Because no immediate public safety emergency was identified, the authority cannot rely on the emergency exception articulated in MOCK_CA_002 or Section 10 of MOCK_ACT_001.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 4
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        },
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    {
+      "claim_id": "CLAIM_022",
+      "statement": "Based on the supplied authorities, prior notice and an opportunity to respond are legally required before a public authority revokes a business permit in non-emergency circumstances.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "legislation",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": "MOCK_ACT_001",
+          "legislation_name": "Mock Fair Administrative Procedure Act",
+          "section": "Section 10",
+          "fact_index": null
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    },
+    {
+      "claim_id": "CLAIM_023",
+      "statement": "In the absence of an immediate public safety emergency, the public authority's revocation of the business permit without prior notice or an opportunity to respond was non-compliant with governing legal standards.",
+      "support_status": "supported",
+      "evidence_references": [
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 2
+        },
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 3
+        },
+        {
+          "source_type": "case_fact",
+          "case_id": null,
+          "passage_id": null,
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": 4
+        },
+        {
+          "source_type": "case_passage",
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1",
+          "act_id": null,
+          "legislation_name": null,
+          "section": null,
+          "fact_index": null
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This research brief is constructed exclusively from fictional development test data and does not constitute real-world legal advice or an authoritative court filing.",
+    "The full judicial opinions of treating decisions MOCK_SC_004, MOCK_SC_005, and MOCK_SC_006 were not provided beyond summary judicial-treatment metadata.",
+    "The statutory text of Section 10 of the Mock Fair Administrative Procedure Act was provided only in MOCK_SC_001, without broader legislative provisions or surrounding statutory context."
+  ]
+}

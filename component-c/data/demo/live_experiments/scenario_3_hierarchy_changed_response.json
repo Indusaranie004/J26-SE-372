@@ -1,0 +1,74 @@
+{
+  "legal_issue": "Whether a public authority is required to provide prior notice and an opportunity to respond before revoking a business permit in the absence of an immediate public safety emergency.",
+  "relevant_facts": [
+    "A business held a valid operating permit.",
+    "A public authority revoked the permit before its expiry.",
+    "The business received no prior notice.",
+    "The business was not given an opportunity to respond.",
+    "No immediate public safety emergency was identified."
+  ],
+  "authorities": [
+    {
+      "case_id": "MOCK_SC_001",
+      "case_name": "Mock Business Association v. Public Authority",
+      "court": "Supreme Court",
+      "relevance_to_issue": "Directly establishes the requirement for reasonable notice and an opportunity to respond prior to permit revocation unless an emergency exception applies.",
+      "validity_status": "good_law",
+      "judicial_treatment_summary": "Followed by MOCK_SC_004 on 2025-01-15 regarding general procedural fairness in permit revocation.",
+      "authority_assessment": "Current and reliable good law affirming ordinary procedural fairness requirements in permit revocation proceedings.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_SC_001",
+          "passage_id": "P1"
+        }
+      ]
+    },
+    {
+      "case_id": "MOCK_CA_002",
+      "case_name": "Mock Emergency Authority v. Permit Holder",
+      "court": "Supreme Court",
+      "relevance_to_issue": "Addresses an emergency exception permitting immediate action without a prior hearing where imminent and serious danger to public safety is shown.",
+      "validity_status": "partially_invalidated",
+      "judicial_treatment_summary": "Distinguished by MOCK_SC_005 on 2023-02-10 for non-emergency permit revocations.",
+      "authority_assessment": "Remains potentially relevant for emergency circumstances, but distinguished and inapplicable to ordinary, non-emergency revocations.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_CA_002",
+          "passage_id": "P2"
+        }
+      ]
+    },
+    {
+      "case_id": "MOCK_SC_003",
+      "case_name": "Mock Traders Union v. Licensing Board",
+      "court": "Supreme Court",
+      "relevance_to_issue": "Previously permitted permit revocation without a prior hearing whenever administratively appropriate.",
+      "validity_status": "no_longer_good_law",
+      "judicial_treatment_summary": "Overruled by MOCK_SC_006 on 2024-06-01 regarding permit revocation without procedural safeguards.",
+      "authority_assessment": "No longer good law and safe to cite is false; cannot be relied upon as legal authority.",
+      "supporting_evidence": [
+        {
+          "case_id": "MOCK_SC_003",
+          "passage_id": "P3"
+        }
+      ]
+    }
+  ],
+  "authority_comparison": {
+    "hierarchy_considerations": "All three supplied precedents (MOCK_SC_001, MOCK_CA_002, and MOCK_SC_003) are identified as Supreme Court decisions. Court hierarchy alone does not distinguish their relative authority, so validity status, chronological development, and judicial treatment govern.",
+    "chronology_considerations": "The authorities span from 2010 (MOCK_SC_003) to 2018 (MOCK_CA_002) and 2022 (MOCK_SC_001). Subsequent judicial treatments occurred in 2023, 2024, and 2025, all prior to the reference date of 2026-10-12, establishing MOCK_SC_001 as the prevailing modern precedent.",
+    "judicial_treatment_considerations": "MOCK_SC_003 was overruled by MOCK_SC_006 in 2024, eliminating the proposition that revocation without procedural safeguards is permitted at administrative discretion. MOCK_CA_002 was distinguished by MOCK_SC_005 in 2023 from non-emergency decisions. MOCK_SC_001 was followed by MOCK_SC_004 in 2025, confirming the rule requiring notice and a hearing.",
+    "conflicts_or_distinctions": "MOCK_SC_003 directly conflicted with MOCK_SC_001 but has been overruled. MOCK_CA_002 creates a narrow distinction for imminent public safety dangers, which is consistent with the emergency exception recognized in MOCK_SC_001 and Section 10 of Mock Fair Administrative Procedure Act."
+  },
+  "cross_case_analysis": "Across the supplied precedents, procedural requirements for permit revocation have evolved from discretionary unnotified revocation (MOCK_SC_003) to a mandatory rule of procedural fairness (MOCK_SC_001). MOCK_SC_003 has been formally overruled by MOCK_SC_006, extinguishing the legal proposition that an authority may revoke permits without a prior hearing based solely on administrative appropriateness. MOCK_SC_001 stands as good law, followed by MOCK_SC_004, establishing that a public authority must ordinarily provide reasonable notice and an opportunity to respond before revoking a permit. This standard is reinforced by Section 10 of the Mock Fair Administrative Procedure Act (MOCK_ACT_001), which requires a reasonable opportunity to be heard unless immediate action is necessary to prevent serious public danger. MOCK_CA_002 recognizes an emergency exception where credible evidence establishes an imminent danger, but this was expressly distinguished from ordinary non-emergency decisions by MOCK_SC_005.",
+  "legislation_considered": [
+    "Mock Fair Administrative Procedure Act (MOCK_ACT_001), Section 10"
+  ],
+  "application": "Applying the combined legal authorities to the facts, the business held a valid operating permit that was revoked before expiry without prior notice or an opportunity to respond. Under MOCK_SC_001 and Section 10 of MOCK_ACT_001, prior notice and a reasonable opportunity to be heard are mandatory absent an emergency. The facts explicitly establish that no immediate public safety emergency was identified. Therefore, the emergency exception outlined in MOCK_CA_002 and Section 10 does not apply. Because the discretionary revocation rule in MOCK_SC_003 is overruled, the public authority acted contrary to the established procedural fairness requirements.",
+  "conclusion": "Based on the supplied authorities, prior notice and an opportunity to respond are legally required before a public authority revokes a business permit where no emergency exception exists. Because the analysis is based solely on fictional development test data, it does not constitute real legal advice.",
+  "limitations_or_insufficient_evidence": [
+    "The dataset represents fictional development test data and cannot be applied as real-world legal authority.",
+    "Full judicial reasoning and full statutory texts for Section 10 in MOCK_CA_002 and MOCK_SC_003 were not supplied.",
+    "Detailed jurisdiction-specific binding precedent rules beyond supplied metadata levels are not provided."
+  ]
+}

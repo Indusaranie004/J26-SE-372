@@ -1,0 +1,7 @@
+Seed retriever,Judicial,Legislation,Litigation,Overall micro,Overall macro
+1  Sparse-only (BM25) [Luan et al.],0.6667,0.9667,0.6667,0.9032,0.8542
+"3a Dense-only, AnglE-BERT (FT) [Jayawardena et al.]",0.3333,0.65,0.0,0.6774,0.4688
+"4  Hybrid, generic BGE-M3 + RRF [Arulanandam & De Silva]",0.6667,1.0,0.3333,0.9032,0.8125
+"5b Hybrid, AnglE-BERT (FT) + RRF [supplementary]",0.6667,0.8,0.6667,0.8387,0.75
+"5  Hybrid, BGE-M3 (FT) + RRF [PROPOSED]",1.0,0.9667,1.0,0.9677,0.9792
+Oracle seeds (upper bound),1.0,1.0,1.0,1.0,1.0

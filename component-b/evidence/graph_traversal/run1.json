@@ -1,0 +1,1704 @@
+{
+  "gt1_path": "data/gt1_expert.json",
+  "gt2_path": "data/gt2_expert.json",
+  "split": "eval",
+  "k": 5,
+  "n_queries": 13,
+  "rows": {
+    "1  Sparse-only (BM25) [Luan et al.]": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 0.6667,
+          "micro_recall": 0.8,
+          "seeds": 3,
+          "found": 4,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 0.9667,
+          "micro_recall": 0.9565,
+          "seeds": 10,
+          "found": 22,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 0.6667,
+          "micro_recall": 0.6667,
+          "seeds": 3,
+          "found": 2,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 0.8542,
+          "micro_recall": 0.9032,
+          "seeds": 11,
+          "found": 28,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2021-05-21-SC-APPEAL-125-2016",
+            "2017-11-22-SC-APPEAL-110-2014",
+            "2020-12-18-SC-APPEAL-210-2015",
+            "2018-10-02-SC-APPEAL-54A-2008"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-morgappa-v-casie-chetty"
+              ]
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-WP-HCCA-GAM-143-2008"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2020-09-21-SC-APPEAL-148-2012",
+            "2020-06-09-SC-APPEAL-139-2017",
+            "2019-12-19-SC-APPEAL-106-2014"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2020-08-07-SC-APPEAL-52-2014",
+            "2018-07-05-SC-CHC-APPEAL-8-2005",
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2019-12-19-SC-APPEAL-106-2014",
+            "2020-06-09-SC-APPEAL-139-2017"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2019-09-09-SC-APPEAL-196-2011",
+            "2017-03-17-SC-CHC-APPEAL-18-2009",
+            "2020-09-15-SC-APPEAL-4-2015",
+            "2020-07-23-SC-FR-442-2019",
+            "2021-05-20-SC-APPEAL-120-2014"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.6666666666666666,
+              "found": 2,
+              "total": 3,
+              "missed": [
+                "act-evidence-ordinance-unknown"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2018-06-07-SC-APPEAL-123-2014",
+            "2020-03-11-SC-APPEAL-151-2017",
+            "2018-10-12-SC-FR-402-2016",
+            "2021-05-20-SC-APPEAL-120-2014",
+            "2021-04-30-SC-FR-242-2010"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2020-09-11-SC-APPEAL-65-2016",
+            "2018-10-08-SC-FR-859-2009",
+            "2017-01-24-SC-APPEAL-172-2012",
+            "2017-08-04-SC-FR-12-2012"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2020-10-20-SC-APPEAL-32-2020",
+            "2019-06-07-SC-APPEAL-86-2010",
+            "2020-01-22-SC-APPEAL-115-2014",
+            "2018-10-11-SC-TAB-2A---D-2017",
+            "2019-07-25-SC-SPL-LA-290-2008"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-10-11-SC-APPEAL-152-2011",
+            "2019-05-23-SC-FR-660-2012-Part-II",
+            "2021-05-21-SC-FR-157-2014--SC-FR-1-ef50da0d",
+            "2019-10-30-SC-FR-192-2014--SC-FR-193-2014",
+            "2020-07-29-SC-APPEAL-59A-2006"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015",
+            "2018-09-05-SC-FR-191-2017",
+            "2019-04-18-SC-FR-273-2018",
+            "2021-02-17-SC-FR-556-2008--SC-FR-557-2008",
+            "2019-04-05-SC-FR-265-2011"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2020-02-18-SC-APPEAL-174-2014",
+            "2019-04-05-SC-APPEAL-31-2013",
+            "2019-06-21-SC-HC-CALA-47-2016",
+            "2019-12-19-SC-APPEAL-221-2012",
+            "2021-04-30-SC-APPEAL-17-2015"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2019-04-05-SC-FR-265-2011",
+            "2017-01-20-SC-FR-57-2016",
+            "2020-07-16-SC-FR-29-2018",
+            "2018-03-12-SC-APPEAL-79-2013",
+            "2020-10-02-SC-APPEAL-228-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2019-04-05-SC-FR-276-2016",
+            "2020-07-16-SC-FR-29-2018",
+            "2019-02-18-SC-FR-21-2015",
+            "2017-03-03-SC-FR-164-2015---SC-FR-276-2015",
+            "2021-03-29-SC-FR-180-2014"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2019-06-19-SC-APPEAL-43-2013",
+            "2017-09-13-SC-APPEAL-87A-2006",
+            "2019-02-18-SC-APPEAL-15-2019--SC-A-b88262a3",
+            "2020-09-21-SC-APPEAL-148-2012"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    },
+    "3a Dense-only, AnglE-BERT (FT) [Jayawardena et al.]": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 0.3333,
+          "micro_recall": 0.6,
+          "seeds": 3,
+          "found": 3,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 0.65,
+          "micro_recall": 0.7826,
+          "seeds": 10,
+          "found": 18,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 0.0,
+          "micro_recall": 0.0,
+          "seeds": 3,
+          "found": 0,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 0.4688,
+          "micro_recall": 0.6774,
+          "seeds": 11,
+          "found": 21,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2019-10-31-SC-APPEAL-158-2011",
+            "2018-06-14-SC-APPEAL-63-2016",
+            "2017-09-13-SC-APPEAL-87A-2006",
+            "2018-04-02-SC-APPEAL-4-2016",
+            "2021-03-12-SC-FR-101-2014"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-morgappa-v-casie-chetty"
+              ]
+            },
+            "legislative_foundation": {
+              "recall": 0.5,
+              "found": 1,
+              "total": 2,
+              "missed": [
+                "act-prescription-ordinance-unknown"
+              ]
+            },
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-WP-HCCA-GAM-143-2008"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2017-01-19-SC-SPL-LA-231-2015",
+            "2018-10-10-SC-APPEAL-202-2015",
+            "2018-07-19-SC-APPEAL-50-2016",
+            "2018-10-18-SC-APPEAL-164-2011--SC--aa19b8cc",
+            "2020-09-17-SC-APPEAL-118-2013"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2017-01-19-SC-SPL-LA-231-2015",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2018-03-12-SC-APPEAL-79-2013",
+            "2018-07-05-SC-CHC-APPEAL-8-2005"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-biso-manika-vs-cyril"
+              ]
+            },
+            "legislative_foundation": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "act-workmen-act-unknown"
+              ]
+            },
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-CA 175-2009"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2017-06-02-SC-CHC-APPEAL-28-2008",
+            "2018-12-03-SC-APPEAL-137-2015",
+            "2019-10-09-SC-APPEAL-134-2018",
+            "2021-05-31-SC-CHC-APPEAL-5-2011",
+            "2019-11-28-SC-CHC-APPEAL-19-2007"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2020-03-11-SC-APPEAL-151-2017",
+            "2018-02-19-SC-APPEAL-121-2010",
+            "2019-07-25-SC-APPEAL-88-2016",
+            "2021-04-30-SC-APPEAL-17-2015",
+            "2018-09-07-SC-HC-CALA-134-2016"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2018-10-08-SC-FR-859-2009",
+            "2019-02-22-SC-FR-198-2011",
+            "2019-05-23-SC-FR-660-2012-Part-II",
+            "2019-10-09-SC-APPEAL-134-2018"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2018-10-11-SC-TAB-2A---D-2017",
+            "2020-01-22-SC-APPEAL-115-2014",
+            "2018-03-06-SC-APPEAL-96-2017",
+            "2019-06-07-SC-APPEAL-86-2010",
+            "2018-12-12-SC-APPEAL-95-2015"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-03-26-SC-FR-120-2017",
+            "2021-02-24-SC-APPEAL-193-2015",
+            "2018-08-03-SC-APPEAL-27-2011",
+            "2017-03-17-SC-CHC-APPEAL-18-2009",
+            "2019-03-07-SC-CHC-APPEAL-22-2011"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015",
+            "2018-06-11-SC-FR-661-2012",
+            "2019-12-18-SC-FR-75-2012",
+            "2018-09-05-SC-FR-191-2017",
+            "2021-04-30-SC-FR-242-2010"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2017-03-14-SC-APPEAL-167-2010",
+            "2018-06-14-SC-APPEAL-63-2016",
+            "2018-12-12-SC-CHC-APPEAL-53-2012",
+            "2021-05-20-SC-APPEAL-120-2014",
+            "2020-12-14-SC-APPEAL-151-2016"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-SP-HCCA-GA-0030-2006"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2020-12-11-SC-FR-256-2017",
+            "2020-08-07-SC-APPEAL-52-2014",
+            "2017-01-20-SC-FR-57-2016",
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2018-09-05-SC-FR-191-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 2,
+              "missed": [
+                "act-criminal-procedure-act-unknown",
+                "act-police-ordinance-unknown"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2018-09-07-SC-FR-338-2012",
+            "2017-08-04-SC-FR-12-2012",
+            "2021-04-01-SC-FR-591-2008",
+            "2019-09-02-SC-FR-15-2017",
+            "2019-10-25-SC-FR-137-2011"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "act-human-rights-commission-act-1996"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2017-03-14-SC-APPEAL-167-2010",
+            "2020-09-11-SC-APPEAL-65-2016",
+            "2021-02-24-SC-APPEAL-193-2015",
+            "2019-04-05-SC-APPEAL-31-2013"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    },
+    "4  Hybrid, generic BGE-M3 + RRF [Arulanandam & De Silva]": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 0.6667,
+          "micro_recall": 0.8,
+          "seeds": 3,
+          "found": 4,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 10,
+          "found": 23,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 0.3333,
+          "micro_recall": 0.3333,
+          "seeds": 3,
+          "found": 1,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 0.8125,
+          "micro_recall": 0.9032,
+          "seeds": 11,
+          "found": 28,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2021-03-22-SC-APPEAL-163-2019",
+            "2017-02-09-SC-APPEAL-59-2014",
+            "2021-03-12-SC-FR-101-2014",
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2021-05-21-SC-APPEAL-125-2016"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-morgappa-v-casie-chetty"
+              ]
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-WP-HCCA-GAM-143-2008"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2020-09-21-SC-APPEAL-148-2012",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2018-10-10-SC-APPEAL-202-2015",
+            "2020-09-17-SC-SPL-LA-159-2017",
+            "2020-10-02-SC-APPEAL-228-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2020-08-07-SC-APPEAL-52-2014",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2017-06-28-SC-APPEAL-99-2010",
+            "2019-12-19-SC-APPEAL-106-2014",
+            "2020-10-02-SC-APPEAL-228-2017"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2018-12-03-SC-APPEAL-137-2015",
+            "2019-09-09-SC-APPEAL-196-2011",
+            "2017-03-17-SC-CHC-APPEAL-18-2009",
+            "2017-01-20-SC-FR-57-2016",
+            "2021-03-03-SC-SPL-LA-27-2012"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2018-06-07-SC-APPEAL-123-2014",
+            "2020-03-11-SC-APPEAL-151-2017",
+            "2021-04-30-SC-APPEAL-17-2015",
+            "2020-12-11-SC-FR-256-2017",
+            "2020-10-02-SC-APPEAL-228-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-10-08-SC-FR-859-2009",
+            "2020-09-11-SC-APPEAL-65-2016",
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2017-08-04-SC-FR-12-2012",
+            "2017-01-24-SC-APPEAL-172-2012"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2018-10-11-SC-TAB-2A---D-2017",
+            "2020-01-22-SC-APPEAL-115-2014",
+            "2019-07-25-SC-SPL-LA-290-2008",
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2020-10-20-SC-APPEAL-32-2020"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-10-11-SC-APPEAL-152-2011",
+            "2018-09-21-SC-APPEAL-184-2017",
+            "2019-02-22-SC-FR-198-2011",
+            "2019-04-05-SC-FR-265-2011",
+            "2020-07-29-SC-APPEAL-59A-2006"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015",
+            "2021-02-17-SC-FR-556-2008--SC-FR-557-2008",
+            "2019-04-18-SC-FR-273-2018",
+            "2018-12-13-SC-FR-351-2018",
+            "2018-09-05-SC-FR-191-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2020-02-18-SC-APPEAL-174-2014",
+            "2020-07-29-SC-APPEAL-59A-2006",
+            "2021-05-31-SC-CHC-APPEAL-5-2011",
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2017-06-28-SC-APPEAL-99-2010"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-SP-HCCA-GA-0030-2006"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2018-03-12-SC-APPEAL-79-2013",
+            "2018-12-13-SC-FR-351-2018",
+            "2019-04-05-SC-FR-265-2011",
+            "2020-07-16-SC-FR-29-2018",
+            "2020-07-23-SC-FR-400-2019"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2019-02-18-SC-FR-21-2015",
+            "2021-03-29-SC-FR-180-2014",
+            "2018-09-07-SC-FR-338-2012",
+            "2019-04-05-SC-FR-276-2016",
+            "2019-06-07-SC-FR-275-2013"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2017-09-13-SC-APPEAL-87A-2006",
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2018-02-19-SC-APPEAL-121-2010",
+            "2020-07-29-SC-APPEAL-59A-2006",
+            "2021-03-22-SC-APPEAL-163-2019"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    },
+    "5b Hybrid, AnglE-BERT (FT) + RRF [supplementary]": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 0.6667,
+          "micro_recall": 0.8,
+          "seeds": 3,
+          "found": 4,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 0.8,
+          "micro_recall": 0.8696,
+          "seeds": 10,
+          "found": 20,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 0.6667,
+          "micro_recall": 0.6667,
+          "seeds": 3,
+          "found": 2,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 0.75,
+          "micro_recall": 0.8387,
+          "seeds": 11,
+          "found": 26,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2018-10-02-SC-APPEAL-54A-2008",
+            "2017-02-09-SC-APPEAL-59-2014",
+            "2021-03-12-SC-FR-101-2014",
+            "2018-06-01-SC-FR-452-2008"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-morgappa-v-casie-chetty"
+              ]
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "stub-ca-WP-HCCA-GAM-143-2008"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2017-01-19-SC-SPL-LA-231-2015",
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2018-10-10-SC-APPEAL-202-2015",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2018-07-19-SC-APPEAL-50-2016"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2018-07-05-SC-CHC-APPEAL-8-2005",
+            "2017-09-19-SC-APPEAL-152-2014",
+            "2020-08-07-SC-APPEAL-52-2014",
+            "2020-06-09-SC-APPEAL-139-2017"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2017-03-17-SC-CHC-APPEAL-18-2009",
+            "2018-12-03-SC-APPEAL-137-2015",
+            "2017-06-02-SC-CHC-APPEAL-28-2008",
+            "2021-05-31-SC-CHC-APPEAL-5-2011",
+            "2019-09-09-SC-APPEAL-196-2011"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2020-03-11-SC-APPEAL-151-2017",
+            "2021-04-30-SC-APPEAL-17-2015",
+            "2018-10-12-SC-FR-402-2016",
+            "2019-04-04-SC-FR-141-2015",
+            "2019-04-05-SC-APPEAL-31-2013"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2018-10-08-SC-FR-859-2009",
+            "2019-10-09-SC-APPEAL-134-2018",
+            "2018-12-12-SC-CHC-APPEAL-53-2012",
+            "2020-09-11-SC-APPEAL-65-2016"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2018-10-11-SC-TAB-2A---D-2017",
+            "2020-01-22-SC-APPEAL-115-2014",
+            "2019-06-07-SC-APPEAL-86-2010",
+            "2020-10-20-SC-APPEAL-32-2020",
+            "2019-07-25-SC-SPL-LA-290-2008"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-03-26-SC-FR-120-2017",
+            "2018-10-11-SC-APPEAL-152-2011",
+            "2019-09-02-SC-FR-15-2017",
+            "2018-09-21-SC-APPEAL-184-2017",
+            "2017-09-19-SC-APPEAL-152-2014"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015",
+            "2018-09-05-SC-FR-191-2017",
+            "2019-04-18-SC-FR-273-2018",
+            "2019-06-12-SC-FR-677-2012",
+            "2021-04-30-SC-FR-242-2010"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2021-05-20-SC-APPEAL-120-2014",
+            "2019-06-21-SC-HC-CALA-47-2016",
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2018-12-12-SC-CHC-APPEAL-53-2012",
+            "2019-04-05-SC-APPEAL-31-2013"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2017-01-20-SC-FR-57-2016",
+            "2020-07-16-SC-FR-29-2018",
+            "2020-12-11-SC-FR-256-2017",
+            "2018-03-12-SC-APPEAL-79-2013",
+            "2019-04-04-SC-FR-141-2015"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 2,
+              "missed": [
+                "act-criminal-procedure-act-unknown",
+                "act-police-ordinance-unknown"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2018-09-07-SC-FR-338-2012",
+            "2021-04-01-SC-FR-591-2008",
+            "2019-06-07-SC-FR-275-2013",
+            "2019-04-18-SC-FR-273-2018",
+            "2020-07-16-SC-FR-29-2018"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.0,
+              "found": 0,
+              "total": 1,
+              "missed": [
+                "act-human-rights-commission-act-1996"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2017-09-13-SC-APPEAL-87A-2006",
+            "2019-07-30-SC-FR-444-2012",
+            "2018-02-19-SC-APPEAL-121-2010",
+            "2017-12-08-SC-APPEAL-103-2005"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    },
+    "5  Hybrid, BGE-M3 (FT) + RRF [PROPOSED]": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 3,
+          "found": 5,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 0.9667,
+          "micro_recall": 0.9565,
+          "seeds": 10,
+          "found": 22,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 3,
+          "found": 3,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 0.9792,
+          "micro_recall": 0.9677,
+          "seeds": 11,
+          "found": 30,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2020-10-16-SC-APPEAL-125-2018",
+            "2020-12-18-SC-APPEAL-129-2014",
+            "2016-09-19-SC-APPEAL-196-2015",
+            "2018-04-02-SC-APPEAL-4-2016",
+            "2017-09-13-SC-APPEAL-87A-2006"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2018-10-10-SC-APPEAL-202-2015",
+            "2019-12-19-SC-APPEAL-106-2014",
+            "2020-06-09-SC-APPEAL-139-2017",
+            "2020-09-17-SC-APPEAL-118-2013",
+            "2020-02-13-SC-APPEAL-138-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2020-08-07-SC-APPEAL-52-2014",
+            "2020-06-09-SC-APPEAL-139-2017",
+            "2019-12-19-SC-APPEAL-106-2014",
+            "2020-02-13-SC-APPEAL-138-2017",
+            "2018-10-18-SC-APPEAL-164-2011--SC--aa19b8cc"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2021-05-20-SC-CHC-APPEAL-11-2014",
+            "2017-03-17-SC-CHC-APPEAL-18-2009",
+            "2018-07-06-SC-APPEAL-31-2009-AND-S-22e612fc",
+            "2021-03-03-SC-SPL-LA-27-2012",
+            "2020-12-18-SC-APPEAL-58-2016"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 0.6666666666666666,
+              "found": 2,
+              "total": 3,
+              "missed": [
+                "act-prescription-ordinance-unknown"
+              ]
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2020-03-11-SC-APPEAL-151-2017",
+            "2019-04-05-SC-APPEAL-31-2013",
+            "2018-06-07-SC-APPEAL-123-2014",
+            "2020-02-13-SC-APPEAL-138-2017",
+            "2018-08-31-SC-APPEAL-177-2015"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-08-03-SC-APPEAL-163-2014",
+            "2017-08-04-SC-FR-12-2012",
+            "2018-11-27-SC-FR-514-2010",
+            "2016-07-22-SC-FR-527-2011",
+            "2019-10-09-SC-APPEAL-134-2018"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2018-10-11-SC-TAB-2A---D-2017",
+            "2019-06-07-SC-APPEAL-86-2010",
+            "2019-07-25-SC-APPEAL-90-2013",
+            "2020-10-20-SC-APPEAL-32-2020",
+            "2019-07-25-SC-SPL-LA-290-2008"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-10-11-SC-APPEAL-152-2011",
+            "2018-09-21-SC-APPEAL-184-2017",
+            "2020-07-29-SC-APPEAL-59A-2006",
+            "2019-06-21-SC-HC-CALA-47-2016",
+            "2019-11-01-SC-FR-113-2017"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015",
+            "2018-09-05-SC-FR-191-2017",
+            "2019-04-18-SC-FR-273-2018",
+            "2018-07-18-SC-FR-241-2014",
+            "2016-07-22-SC-FR-527-2011"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2019-04-05-SC-APPEAL-31-2013",
+            "2019-06-21-SC-HC-CALA-47-2016",
+            "2018-07-06-SC-APPEAL-31-2009-AND-S-22e612fc",
+            "2018-04-02-SC-APPEAL-4-2016",
+            "2020-10-16-SC-APPEAL-125-2018"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2018-10-18-SC-APPEAL-164-2011--SC--aa19b8cc",
+            "2021-02-11-SC-APPEAL-9-2010",
+            "2018-07-06-SC-APPEAL-31-2009-AND-S-22e612fc",
+            "2019-04-05-SC-FR-265-2011",
+            "2019-12-19-SC-APPEAL-106-2014"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2019-04-05-SC-FR-276-2016",
+            "2018-09-07-SC-FR-338-2012",
+            "2019-05-28-SC-FR-30-2018",
+            "2020-06-18-SC-FR-222-2018",
+            "2018-05-30-SC-FR-201-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2018-08-31-SC-APPEAL-177-2015",
+            "2019-02-18-SC-APPEAL-15-2019--SC-A-b88262a3",
+            "2017-09-13-SC-APPEAL-87A-2006",
+            "2019-06-19-SC-APPEAL-43-2013",
+            "2018-09-21-SC-APPEAL-184-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    },
+    "Oracle seeds (upper bound)": {
+      "summary": {
+        "judicial_treatment": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 3,
+          "found": 5,
+          "triplets": 5
+        },
+        "legislative_foundation": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 10,
+          "found": 23,
+          "triplets": 23
+        },
+        "litigation_history": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 3,
+          "found": 3,
+          "triplets": 3
+        },
+        "overall": {
+          "macro_recall": 1.0,
+          "micro_recall": 1.0,
+          "seeds": 11,
+          "found": 31,
+          "triplets": 31
+        }
+      },
+      "per_query": [
+        {
+          "seed_id": "declaration of title right of way dispute District Court land registration",
+          "seeds": [
+            "2020-12-18-SC-APPEAL-129-2014"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+          "seeds": [
+            "2018-10-10-SC-APPEAL-202-2015"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "employees transferred between associated companies Labour Tribunal jurisdiction",
+          "seeds": [
+            "2020-08-07-SC-APPEAL-52-2014"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            },
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "foreign company suing Sri Lankan defendant debt power of attorney",
+          "seeds": [
+            "2017-06-02-SC-CHC-APPEAL-28-2008"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+          "seeds": [
+            "2020-03-11-SC-APPEAL-151-2017"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+          "seeds": [
+            "2018-08-03-SC-APPEAL-163-2014"
+          ],
+          "scores": {
+            "judicial_treatment": {
+              "recall": 1.0,
+              "found": 3,
+              "total": 3,
+              "missed": []
+            },
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+          "seeds": [
+            "2019-04-25-SC-TAB-1-2016",
+            "2018-10-11-SC-TAB-2A---D-2017"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "personal injury medical negligence state hospital Sri Lanka civil claim",
+          "seeds": [
+            "2018-10-11-SC-APPEAL-152-2011"
+          ],
+          "scores": {}
+        },
+        {
+          "seed_id": "public water source pollution injunction fundamental rights community",
+          "seeds": [
+            "2019-04-04-SC-FR-141-2015"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 6,
+              "total": 6,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+          "seeds": [
+            "2019-04-05-SC-APPEAL-31-2013"
+          ],
+          "scores": {
+            "litigation_history": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+          "seeds": [
+            "2019-04-05-SC-FR-265-2011"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "scientific department public service appointment rival candidates equality Article 12",
+          "seeds": [
+            "2019-04-05-SC-FR-276-2016"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 1,
+              "total": 1,
+              "missed": []
+            }
+          }
+        },
+        {
+          "seed_id": "writ of mandamus derequisition property Co-operative Societies Act",
+          "seeds": [
+            "2018-08-31-SC-APPEAL-177-2015"
+          ],
+          "scores": {
+            "legislative_foundation": {
+              "recall": 1.0,
+              "found": 2,
+              "total": 2,
+              "missed": []
+            }
+          }
+        }
+      ]
+    }
+  }
+}

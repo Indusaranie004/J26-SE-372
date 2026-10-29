@@ -1,0 +1,752 @@
+[
+  {
+    "seed_id": "2016-09-19-SC-APPEAL-196-2015",
+    "split": "train",
+    "gt1_queries": [
+      "rei vindicatio action title declaration ejectment adverse possession claim",
+      "proof of title land dispute rei vindicatio Sri Lanka Supreme Court"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "CP/HCCA/KANDY/97/2011(FA)",
+          "court": "HC",
+          "place": "Kandy",
+          "matched_ids": [
+            "stub-ca-CP-HCCA-KANDY-97-201"
+          ]
+        },
+        {
+          "case_num": "L/21801/05",
+          "court": "DC",
+          "place": "Kandy",
+          "matched_ids": [
+            "stub-dc-DC Kandy Case No:-L-"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Rent Act",
+          "year": null,
+          "section": null,
+          "matched_ids": [
+            "act-rent-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Prescription Ordinance",
+          "year": null,
+          "section": "3",
+          "matched_ids": [
+            "act-prescription-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2017-06-02-SC-CHC-APPEAL-28-2008",
+    "split": "eval",
+    "gt1_queries": [
+      "foreign company suing Sri Lankan defendant debt power of attorney"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Prescription Ordinance",
+          "year": null,
+          "section": "12, 8",
+          "matched_ids": [
+            "act-prescription-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Evidence Ordinance",
+          "year": null,
+          "section": "65, 65(1) and (7)",
+          "matched_ids": [
+            "act-evidence-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Civil Procedure Code",
+          "year": null,
+          "section": "25(b)",
+          "matched_ids": [
+            "act-civil-procedure-code-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2018-03-06-SC-APPEAL-96-2017",
+    "split": "train",
+    "gt1_queries": [
+      "notice of appeal requirements Section 755 Civil Procedure Code defect curable"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "WP/HCCA/COL/120/11",
+          "court": "HC",
+          "place": "Colombo",
+          "matched_ids": [
+            "stub-ca-WP-HCCA-COL-120-11"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Civil Procedure Code",
+          "year": null,
+          "section": "755, 755(2)(b), 770",
+          "matched_ids": [
+            "act-civil-procedure-code-unknown",
+            "act-the-civil-procedure-code-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2018-06-07-SC-APPEAL-123-2014",
+    "split": "eval",
+    "gt1_queries": [
+      "matrimonial home ownership dispute husband wife after separation"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "WP/HCCA/MT/134/10/F",
+          "court": "HC",
+          "place": "Mount Lavinia",
+          "matched_ids": [
+            "stub-ca-WP-HCCA-MT-134-10"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Marriage Registration Ordinance",
+          "year": 1907,
+          "section": "19",
+          "matched_ids": [
+            "act-marriage-registration-ordinanc-1907",
+            "act-registration-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "LANG v. LANG",
+          "evidence": "This divergence of views was addressed by the Privy Council in LANG vs. LANG [1954 3 AER 571].which was an Appeal from the High Court of Australia.",
+          "matched_ids": [
+            "stub-lang-vs-lang"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2018-08-03-SC-APPEAL-163-2014",
+    "split": "eval",
+    "gt1_queries": [
+      "motor traffic accident negligent driving grievous hurt pedestrian Section 329"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Motor Traffic Act",
+          "year": null,
+          "section": "149(1), 161(1)A(iv)",
+          "matched_ids": [
+            "act-motor-traffic-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Penal Code",
+          "year": null,
+          "section": "329",
+          "matched_ids": [
+            "act-penal-code-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Regina v. Shulman",
+          "evidence": "in Andrews v DPP [1937] AC 576 and later by Lord Mackay of Clashfern LC in Regina V Shulman, Regina V Prentice, Regina V Adomako; Regina V Hollowa [1995] 1 AC 171, [1994] UKHL 6, [1994] 3 WLR 288, [1994] 3 All ER 79 the circumstances in which negligence has to be considered may make an elaborate and rather rigid directions inappropriate.",
+          "matched_ids": [
+            "stub-regina-v-shulman"
+          ]
+        },
+        {
+          "cited_name": "Regina v. Prentice",
+          "evidence": "in Andrews v DPP [1937] AC 576 and later by Lord Mackay of Clashfern LC in Regina V Shulman, Regina V Prentice, Regina V Adomako; Regina V Hollowa [1995] 1 AC 171, [1994] UKHL 6, [1994] 3 WLR 288, [1994] 3 All ER 79 the circumstances in which negligence has to be considered may make an elaborate and rather rigid directions inappropriate.",
+          "matched_ids": [
+            "stub-regina-v-prentice"
+          ]
+        },
+        {
+          "cited_name": "Regina v. Adomako",
+          "evidence": "in Andrews v DPP [1937] AC 576 and later by Lord Mackay of Clashfern LC in Regina V Shulman, Regina V Prentice, Regina V Adomako; Regina V Hollowa [1995] 1 AC 171, [1994] UKHL 6, [1994] 3 WLR 288, [1994] 3 All ER 79 the circumstances in which negligence has to be considered may make an elaborate and rather rigid directions inappropriate.",
+          "matched_ids": [
+            "stub-regina-v-adomako"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2018-08-31-SC-APPEAL-177-2015",
+    "split": "both",
+    "gt1_queries": [
+      "writ of mandamus directing Minister to refer industrial dispute to arbitration",
+      "writ of mandamus derequisition property Co-operative Societies Act"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Co-operative Societies (Special Provisions) Act",
+          "year": 1970,
+          "section": null,
+          "matched_ids": [
+            "act-co-operative-societies-act-1970",
+            "act-cooperative-societies-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Rent Act",
+          "year": 1972,
+          "section": null,
+          "matched_ids": [
+            "act-rent-act-unknown",
+            "act-the-rent-act-1972"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2018-10-10-SC-APPEAL-202-2015",
+    "split": "both",
+    "gt1_queries": [
+      "industrial dispute Labour Tribunal compensation unjust termination electricity board",
+      "electricity board foreman unjust termination reinstatement Labour Tribunal"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Industrial Disputes Act",
+          "year": 1950,
+          "section": null,
+          "matched_ids": [
+            "act-disputes-act-1950",
+            "act-industrial-disputes-act-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2018-10-11-SC-APPEAL-152-2011",
+    "split": "eval",
+    "gt1_queries": [
+      "personal injury medical negligence state hospital Sri Lanka civil claim"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-02-22-SC-FR-244-2017",
+    "split": "train",
+    "gt1_queries": [
+      "time bar Article 126(2) one month limitation fundamental rights application"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Human Rights Commission Act",
+          "year": 1996,
+          "section": "13(1), 14, 15(1)",
+          "matched_ids": [
+            "act-human-rights-commission-act-1996"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Manoranjan v. Chandrasiri S.C.F.R",
+          "evidence": "in the case of Manoranjan Vs Chandrasiri S.C.F.R. 261/2013 - S.C.M. 11.09.2014. The facts of the said case are vastly different to the case before us and can be distinguished.",
+          "matched_ids": [
+            "stub-manoranjan-vs-chandrasiri-s-c-f-r"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2019-04-04-SC-FR-141-2015",
+    "split": "eval",
+    "gt1_queries": [
+      "water pollution North Sri Lanka villagers environmental rights fundamental rights",
+      "public water source pollution injunction fundamental rights community"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "National Environmental Act",
+          "year": 1980,
+          "section": null,
+          "matched_ids": [
+            "act-national-environmental-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Evidence Ordinance",
+          "year": null,
+          "section": "57",
+          "matched_ids": [
+            "act-evidence-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Interpretation Ordinance",
+          "year": null,
+          "section": "2",
+          "matched_ids": [
+            "act-interpretation-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Board of Investment of Sri Lanka Law",
+          "year": 1978,
+          "section": null,
+          "matched_ids": [
+            "act-sri-lanka-law-1978"
+          ]
+        },
+        {
+          "act_name": "Ceylon Electricity Board Act",
+          "year": 1969,
+          "section": null,
+          "matched_ids": [
+            "act-ceylon-electricity-board-act-1969"
+          ]
+        },
+        {
+          "act_name": "National Water Supply and Drainage Board Law",
+          "year": 1974,
+          "section": null,
+          "matched_ids": [
+            "act-drainage-board-law-1974"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-04-05-SC-APPEAL-31-2013",
+    "split": "both",
+    "gt1_queries": [
+      "revocation of deed of gift gross ingratitude Sri Lanka civil law",
+      "revocation gift inter vivos ingratitude civil law Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "SP/HCCA/GA/0030/2006 (F)",
+          "court": "HC",
+          "place": "Galle",
+          "matched_ids": [
+            "stub-ca-SP-HCCA-GA-0030-2006"
+          ]
+        }
+      ],
+      "legislative_foundation": [],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-04-05-SC-FR-265-2011",
+    "split": "eval",
+    "gt1_queries": [
+      "free trade zone workers police dispersal protest fundamental rights Article 12",
+      "right to assemble free trade zone workers constitutional rights Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Code of Criminal Procedure Act",
+          "year": 1979,
+          "section": "23(1), 95, 95(1)",
+          "matched_ids": [
+            "act-criminal-procedure-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Police Ordinance",
+          "year": 1865,
+          "section": "77",
+          "matched_ids": [
+            "act-police-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-04-05-SC-FR-276-2016",
+    "split": "eval",
+    "gt1_queries": [
+      "scientific department public service appointment rival candidates equality Article 12"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Human Rights Commission Act",
+          "year": 1996,
+          "section": "13, 13(1)",
+          "matched_ids": [
+            "act-human-rights-commission-act-1996"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-07-25-SC-APPEAL-90-2013",
+    "split": "both",
+    "gt1_queries": [
+      "murder Trial at Bar multiple accused acquittal evidence standard Sri Lanka",
+      "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Poisons Opium and Dangerous Drugs Ordinance",
+          "year": null,
+          "section": null,
+          "matched_ids": [
+            "act-dangerous-drugs-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Code of Criminal Procedure Act",
+          "year": 1979,
+          "section": "431",
+          "matched_ids": [
+            "act-criminal-procedure-act-1979"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2019-09-09-SC-APPEAL-196-2011",
+    "split": "train",
+    "gt1_queries": [
+      "bank overdraft recovery prescription period commencement acknowledgment of debt",
+      "overdraft prescription and conditional acknowledgment bank debt Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "CP/HCCA/Kandy/157/2009",
+          "court": "HC",
+          "place": "Kandy",
+          "matched_ids": [
+            "stub-ca-CP-HCCA-Kandy-157-20"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Prescription Ordinance",
+          "year": null,
+          "section": "5, 6, 7, 12",
+          "matched_ids": [
+            "act-prescription-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Parrs Banking Company Ltd v. Yates (1898) 2 QB 460",
+          "evidence": "In the said judgement reference was made to certain English authorities as well as the Paget\u2019s Law of Banking (9th Edition), where the author questioned the applicability of the last drawn theory (enunciated in Parrs Banking Company Ltd Vs Yates (1898) 2 QB 460) and whether it is any longer good law, in respect of continuing guarantees.",
+          "matched_ids": [
+            "stub-parrs-banking-company-ltd-vs-yates"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2020-01-22-SC-APPEAL-115-2014",
+    "split": "train",
+    "gt1_queries": [
+      "criminal accused indicted without proper arraignment Section 196 CCPA Sri Lanka",
+      "arraignment procedural safeguards right to fair trial criminal Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "CA 02/2008",
+          "court": "CA",
+          "place": null,
+          "matched_ids": [
+            "stub-ca-CA 02-2008"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Code of Criminal Procedure Act",
+          "year": 1979,
+          "section": "196, 436",
+          "matched_ids": [
+            "act-code-criminal-procedure-act-unknown",
+            "act-criminal-procedure-act-1979"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2020-03-11-SC-APPEAL-151-2017",
+    "split": "eval",
+    "gt1_queries": [
+      "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+      "maintenance action spouse matrimonial home desertion Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Maintenance Act",
+          "year": 1999,
+          "section": "11 and 12",
+          "matched_ids": [
+            "act-maintenance-act-1999",
+            "act-the-maintenance-act-1999"
+          ]
+        },
+        {
+          "act_name": "Evidence Ordinance",
+          "year": null,
+          "section": "102 and 103",
+          "matched_ids": [
+            "act-evidence-ordinance-unknown"
+          ]
+        },
+        {
+          "act_name": "Code of Criminal Procedure Act",
+          "year": 1979,
+          "section": null,
+          "matched_ids": [
+            "act-criminal-procedure-act-1979"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2020-06-18-SC-FR-222-2018",
+    "split": "eval",
+    "gt1_queries": [
+      "judicial officer adverse administrative action fundamental rights career"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [],
+      "judicial_treatment": []
+    }
+  },
+  {
+    "seed_id": "2020-08-07-SC-APPEAL-52-2014",
+    "split": "both",
+    "gt1_queries": [
+      "associate companies employee transfer continuity of service Sri Lanka labour law",
+      "employees transferred between associated companies Labour Tribunal jurisdiction"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "CA 175/2009",
+          "court": "CA",
+          "place": null,
+          "matched_ids": [
+            "stub-ca-CA 175-2009"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Termination of Employment of Workmen (Special Provisions) Act",
+          "year": 1971,
+          "section": "2(1)",
+          "matched_ids": [
+            "act-workmen-act-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Biso Manika v. Cyril de Alwis [1982]1 SLR 368",
+          "evidence": "It is observed that the Court of Appeal distinguished the facts of the instant case viz-a-viz the leading case on time lapse and delay, Biso Manika Vs Cyril de Alwis [1982]1 SLR 368 and held that the facts and circumstances of this case, did not justify giving the Appellant the benefit of the objection raised, as there had been an inordinate delay.",
+          "matched_ids": [
+            "stub-biso-manika-vs-cyril"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2020-12-18-SC-APPEAL-129-2014",
+    "split": "eval",
+    "gt1_queries": [
+      "declaration of title right of way dispute District Court land registration"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "WP/HCCA/GAM/143/2008(F)",
+          "court": "HC",
+          "place": "Gampaha",
+          "matched_ids": [
+            "stub-ca-WP-HCCA-GAM-143-2008"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Civil Procedure Code",
+          "year": null,
+          "section": "41",
+          "matched_ids": [
+            "act-civil-procedure-code-unknown"
+          ]
+        },
+        {
+          "act_name": "Prescription Ordinance",
+          "year": null,
+          "section": null,
+          "matched_ids": [
+            "act-prescription-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Morgappa v. Casie Chetty 17 N L R 31",
+          "evidence": "\u201d Our courts articulated a similar view in Morgappa V Casie Chetty 17 N L R 31, Hendrick V Saranelis (1940) 17 C L W 87, Marasinghe V Samarasinghe 73 N L R 433.",
+          "matched_ids": [
+            "stub-morgappa-v-casie-chetty"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2021-02-17-SC-FR-556-2008--SC-FR-557-2008",
+    "split": "train",
+    "gt1_queries": [
+      "journalist arrested freedom of expression Article 14(1)(a) fundamental rights",
+      "media freedom violations arrest of journalist Supreme Court Sri Lanka"
+    ],
+    "expected": {
+      "litigation_history": [],
+      "legislative_foundation": [
+        {
+          "act_name": "Sri Lanka Rupavahini Corporation Act",
+          "year": 1982,
+          "section": null,
+          "matched_ids": [
+            "act-sri-lanka-rupavahini-corporati-1982"
+          ]
+        }
+      ],
+      "judicial_treatment": [
+        {
+          "cited_name": "Chandrasena v. Kulatunga 2 SLR 327",
+          "evidence": "The Attorney General SC FR 351/2018-356/2018, SC FR 358/2018-361/2018 decided on 13th December 2018, listing out a number of cases where the broader approach was adopted (Chandrasena v. Kulatunga and Others (1996) 2 SLR 327, Premawathie v. Fowzie and Others (1998) 2 SLR 373, Pinnawala v.",
+          "matched_ids": [
+            "stub-chandrasena-v-kulatunga-and-others"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "seed_id": "2021-04-30-SC-APPEAL-17-2015",
+    "split": "train",
+    "gt1_queries": [
+      "ejectment of tenant Rent Act landlord requires premises for own use"
+    ],
+    "expected": {
+      "litigation_history": [
+        {
+          "case_num": "WP/HCCA/COL/257/2008/F",
+          "court": "HC",
+          "place": "Colombo",
+          "matched_ids": [
+            "stub-ca-WP-HCCA-COL-257-2008"
+          ]
+        }
+      ],
+      "legislative_foundation": [
+        {
+          "act_name": "Rent Act",
+          "year": 1972,
+          "section": "22, 22(2)(bb)(ii), 22(3) and 22(6), 22(6), 22(7)",
+          "matched_ids": [
+            "act-rent-act-1972",
+            "act-the-rent-act-unknown"
+          ]
+        },
+        {
+          "act_name": "Civil Procedure Code",
+          "year": null,
+          "section": "150",
+          "matched_ids": [
+            "act-civil-procedure-code-unknown"
+          ]
+        },
+        {
+          "act_name": "Evidence Ordinance",
+          "year": null,
+          "section": null,
+          "matched_ids": [
+            "act-evidence-ordinance-unknown"
+          ]
+        }
+      ],
+      "judicial_treatment": []
+    }
+  }
+]

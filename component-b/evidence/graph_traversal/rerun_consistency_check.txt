@@ -1,0 +1,1 @@
+Consistent: all metrics agree to 3 decimal places (max difference 0.0000) (2026-10-23 08:36, traversal)
