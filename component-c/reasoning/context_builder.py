@@ -360,7 +360,7 @@ def build_reasoning_context(request: ReasoningRequest) -> str:
                 if treatment.evidence:
 
                     lines.append(
-                        "Treatment Evidence: "
+                        "Treatment Evidence / Locator: "
                         + json.dumps(
                             treatment.evidence,
                             ensure_ascii=False
@@ -369,7 +369,8 @@ def build_reasoning_context(request: ReasoningRequest) -> str:
 
                 else:
                     lines.append(
-                        "Treatment Evidence: Not supplied"
+                        "Treatment Evidence / Locator: "
+                        "Not supplied"
                     )
 
         else:
@@ -388,7 +389,18 @@ def build_reasoning_context(request: ReasoningRequest) -> str:
             for step in precedent.litigation_history:
 
                 lines.append(
-                    f"Court: {display_value(step.court)}"
+                    f"Related Case ID: "
+                    f"{display_value(step.related_case_id)}"
+                )
+
+                lines.append(
+                    f"Graph Hops: "
+                    f"{display_value(step.hops)}"
+                )
+
+                lines.append(
+                    f"Court: "
+                    f"{display_value(step.court)}"
                 )
 
                 lines.append(
@@ -397,11 +409,13 @@ def build_reasoning_context(request: ReasoningRequest) -> str:
                 )
 
                 lines.append(
-                    f"Place: {display_value(step.place)}"
+                    f"Place: "
+                    f"{display_value(step.place)}"
                 )
 
                 lines.append(
-                    f"Source: {display_value(step.source)}"
+                    f"Source: "
+                    f"{display_value(step.source)}"
                 )
 
         else:

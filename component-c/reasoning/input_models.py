@@ -59,10 +59,31 @@ class ValidityAssessment(BaseModel):
 
 # litigation history across different court levels
 class LitigationStep(BaseModel):
-    court: str
+    """
+    Litigation-history information associated
+    with a precedent.
+
+    Full court metadata may be supplied later.
+
+    Component B PP1 currently returns only a
+    related case ID and graph-hop distance,
+    therefore missing information remains None.
+    """
+
+    court: str | None = None
+
     case_number: str | None = None
+
     place: str | None = None
+
     source: str | None = None
+
+    related_case_id: str | None = None
+
+    hops: int | None = Field(
+        default=None,
+        ge=1
+    )
 
 # one retrieved legal precedent
 class Precedent(BaseModel):
