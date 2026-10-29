@@ -20,4 +20,4 @@ class IssueTreeResponse(BaseModel):
     main_research_question: str = Field(..., description="Overarching research question for the whole case")
     global_missing_facts: List[str] = Field(default_factory=list, description="High-level missing facts for the sidebar")
     urgent: Optional[dict] = Field(None, description="Time-sensitive alerts (e.g., auction deadlines) for the red banner")
-    issues: List[SubIssue] = Field(..., min_length=2, description="Top-level legal issues")
+    issues: List[SubIssue] = Field(..., min_length=1, description="Top-level legal issues")

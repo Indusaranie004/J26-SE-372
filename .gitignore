@@ -35,6 +35,11 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Generated Data
+training_data.csv
+
+# XGBoost
+*.pkl
 # Component B
 component-b/tests/fixtures/
 *.jsonl

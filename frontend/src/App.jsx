@@ -1,22 +1,25 @@
 import { useState, useEffect } from 'react';
-import Navbar       from './components/Navbar.jsx';
-import SearchBar    from './components/SearchBar.jsx';
-import ClusterList  from './components/ClusterList.jsx';
-import DetailPanel  from './components/DetailPanel.jsx';
-import CHIPS        from './config/chips.js';
+import Navbar from './components/Navbar.jsx';
+import SearchBar from './components/SearchBar.jsx';
+import ClusterList from './components/ClusterList.jsx';
+import DetailPanel from './components/DetailPanel.jsx';
+import CHIPS from './config/chips.js';
 import { retrievePrecedents } from './api/retrieve.js';
+
+// Import Component D modules
+import IssueSpotter from './components/component-d/IssueSpotter.jsx';
 
 // Auto-select the first chip on load
 const DEFAULT_CHIP = CHIPS[0];
 
 export default function App() {
-  const [activeNav,    setActiveNav]    = useState('search');
-  const [query,        setQuery]        = useState(DEFAULT_CHIP.query);
+  const [activeNav, setActiveNav] = useState('search');
+  const [query, setQuery] = useState(DEFAULT_CHIP.query);
   const [activeChipId, setActiveChipId] = useState(DEFAULT_CHIP.id);
-  const [clusters,     setClusters]     = useState([]);
-  const [activeId,     setActiveId]     = useState(null);
-  const [loading,      setLoading]      = useState(false);
-  const [error,        setError]        = useState(null);
+  const [clusters, setClusters] = useState([]);
+  const [activeId, setActiveId] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   // Load first chip's mock data on mount
   useEffect(() => {
@@ -72,11 +75,14 @@ export default function App() {
     <div className="app">
       <Navbar activeNav={activeNav} onNavClick={setActiveNav} />
 
-      {error && (
-        <div className="error-banner">
-          ⚠ {error}
-        </div>
-      )}
+      {/* ✅ ONLY SHOW COMPONENT B WHEN 'search' IS ACTIVE */}
+      {activeNav === 'search' && (
+        <>
+        { error && (
+          <div className="error-banner">
+            ⚠ {error}
+          </div>
+        )}
 
       <SearchBar
         query={query}
@@ -102,14 +108,20 @@ export default function App() {
           className="chat-fab"
           title="Chat"
           aria-label="Open chat"
-          onClick={() => {/* wire up chat panel here */}}
+          onClick={() => {/* wire up chat panel here */ }}
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
           </svg>
         </button>
       </div>
+      </>
+      )}
+      {/* COMPONENT D: Only renders when 'issue-spotter' is active */}
+      {activeNav === 'issue-spotter' && (
+        <IssueSpotter />
+      )}
     </div>
   );
 }
