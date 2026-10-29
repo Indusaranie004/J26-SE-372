@@ -1,0 +1,354 @@
+{
+  "gt2_path": "data/gt2_expert.json",
+  "split": "all",
+  "summary": {
+    "judicial_treatment": {
+      "macro_recall": 1.0,
+      "micro_recall": 1.0,
+      "seeds": 7,
+      "found": 9,
+      "triplets": 9
+    },
+    "legislative_foundation": {
+      "macro_recall": 1.0,
+      "micro_recall": 1.0,
+      "seeds": 19,
+      "found": 36,
+      "triplets": 36
+    },
+    "litigation_history": {
+      "macro_recall": 1.0,
+      "micro_recall": 1.0,
+      "seeds": 9,
+      "found": 10,
+      "triplets": 10
+    },
+    "overall": {
+      "macro_recall": 1.0,
+      "micro_recall": 1.0,
+      "seeds": 20,
+      "found": 55,
+      "triplets": 55
+    }
+  },
+  "per_seed": [
+    {
+      "seed_id": "2016-09-19-SC-APPEAL-196-2015",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2017-06-02-SC-CHC-APPEAL-28-2008",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 3,
+          "total": 3,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-03-06-SC-APPEAL-96-2017",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-06-07-SC-APPEAL-123-2014",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-08-03-SC-APPEAL-163-2014",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 3,
+          "total": 3,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-08-31-SC-APPEAL-177-2015",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-10-10-SC-APPEAL-202-2015",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2018-10-11-SC-APPEAL-152-2011",
+      "scores": {}
+    },
+    {
+      "seed_id": "2019-02-22-SC-FR-244-2017",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-04-04-SC-FR-141-2015",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 6,
+          "total": 6,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-04-05-SC-APPEAL-31-2013",
+      "scores": {
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-04-05-SC-FR-265-2011",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-04-05-SC-FR-276-2016",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-07-25-SC-APPEAL-90-2013",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2019-09-09-SC-APPEAL-196-2011",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2020-01-22-SC-APPEAL-115-2014",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2020-03-11-SC-APPEAL-151-2017",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 3,
+          "total": 3,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2020-06-18-SC-FR-222-2018",
+      "scores": {}
+    },
+    {
+      "seed_id": "2020-08-07-SC-APPEAL-52-2014",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2020-12-18-SC-APPEAL-129-2014",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 2,
+          "total": 2,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2021-02-17-SC-FR-556-2008--SC-FR-557-2008",
+      "scores": {
+        "judicial_treatment": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        },
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    },
+    {
+      "seed_id": "2021-04-30-SC-APPEAL-17-2015",
+      "scores": {
+        "legislative_foundation": {
+          "recall": 1.0,
+          "found": 3,
+          "total": 3,
+          "missed": []
+        },
+        "litigation_history": {
+          "recall": 1.0,
+          "found": 1,
+          "total": 1,
+          "missed": []
+        }
+      }
+    }
+  ]
+}

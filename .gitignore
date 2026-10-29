@@ -5,6 +5,10 @@
 
 # Corpus (too large; regenerated)
 component-a/corpus/cases/*.json
+component-a/corpus/stubs/*.json
+component-a/corpus/cases.db
+component-a/model/treatment_classifier.zip
+component-a/model/treatment_classifier/
 
 # Databases
 *.db
@@ -15,6 +19,8 @@ component-a/corpus/cases/*.json
 *.bin
 *.pt
 *.ckpt
+*.safetensors
+model/treatment_classifier/
 
 # Python
 __pycache__/
@@ -28,3 +34,17 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# Generated Data
+training_data.csv
+
+# XGBoost
+*.pkl
+# Component B
+component-b/tests/fixtures/
+*.jsonl
+component-b/chroma_db/chroma.sqlite3
+component-b/models/anglebert_legal_finetuned/model.safetensors
+
+# Node
+node_modules/

@@ -1,0 +1,163 @@
+[
+  {
+    "query": "motor traffic accident negligent driving grievous hurt pedestrian Section 329",
+    "relevant_ids": [
+      "2018-08-03-SC-APPEAL-163-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "declaration of title right of way dispute District Court land registration",
+    "relevant_ids": [
+      "2020-12-18-SC-APPEAL-129-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "employees transferred between associated companies Labour Tribunal jurisdiction",
+    "relevant_ids": [
+      "2020-08-07-SC-APPEAL-52-2014"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "bank overdraft recovery prescription period commencement acknowledgment of debt",
+    "relevant_ids": [
+      "2019-09-09-SC-APPEAL-196-2011"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "time bar Article 126(2) one month limitation fundamental rights application",
+    "relevant_ids": [
+      "2019-02-22-SC-FR-244-2017"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "journalist arrested freedom of expression Article 14(1)(a) fundamental rights",
+    "relevant_ids": [
+      "2021-02-17-SC-FR-556-2008--SC-FR-557-2008"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "revocation gift inter vivos ingratitude civil law Sri Lanka",
+    "relevant_ids": [
+      "2019-04-05-SC-APPEAL-31-2013"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "proof of title land dispute rei vindicatio Sri Lanka Supreme Court",
+    "relevant_ids": [
+      "2016-09-19-SC-APPEAL-196-2015"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "arraignment procedural safeguards right to fair trial criminal Sri Lanka",
+    "relevant_ids": [
+      "2020-01-22-SC-APPEAL-115-2014"
+    ],
+    "intent": "In",
+    "split": "train"
+  },
+  {
+    "query": "notice of appeal requirements Section 755 Civil Procedure Code defect curable",
+    "relevant_ids": [
+      "2018-03-06-SC-APPEAL-96-2017"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "ejectment of tenant Rent Act landlord requires premises for own use",
+    "relevant_ids": [
+      "2021-04-30-SC-APPEAL-17-2015"
+    ],
+    "intent": "PC",
+    "split": "train"
+  },
+  {
+    "query": "public water source pollution injunction fundamental rights community",
+    "relevant_ids": [
+      "2019-04-04-SC-FR-141-2015"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "right to assemble free trade zone workers constitutional rights Sri Lanka",
+    "relevant_ids": [
+      "2019-04-05-SC-FR-265-2011"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "maintenance obligation spouse left matrimonial home Maintenance Act Sri Lanka",
+    "relevant_ids": [
+      "2020-03-11-SC-APPEAL-151-2017"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "writ of mandamus derequisition property Co-operative Societies Act",
+    "relevant_ids": [
+      "2018-08-31-SC-APPEAL-177-2015"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "murder conviction appeal multiple accused High Court Trial at Bar Sri Lanka",
+    "relevant_ids": [
+      "2019-04-25-SC-TAB-1-2016",
+      "2018-10-11-SC-TAB-2A---D-2017"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "foreign company suing Sri Lankan defendant debt power of attorney",
+    "relevant_ids": [
+      "2017-06-02-SC-CHC-APPEAL-28-2008"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "personal injury medical negligence state hospital Sri Lanka civil claim",
+    "relevant_ids": [
+      "2018-10-11-SC-APPEAL-152-2011"
+    ],
+    "intent": "In",
+    "split": "eval"
+  },
+  {
+    "query": "scientific department public service appointment rival candidates equality Article 12",
+    "relevant_ids": [
+      "2019-04-05-SC-FR-276-2016"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  },
+  {
+    "query": "electricity board foreman unjust termination reinstatement Labour Tribunal",
+    "relevant_ids": [
+      "2018-10-10-SC-APPEAL-202-2015"
+    ],
+    "intent": "PC",
+    "split": "eval"
+  }
+]
